@@ -1,0 +1,52 @@
+// empty
+section.main-banner{
+  margin: 2em 0;
+  a{
+    color: $color-white;
+  }
+  &>div{
+    @extend .col-md-15;
+  }
+  &>div>div{
+    position: relative;
+  }
+  a.main-link .title-ribbons{
+    span{
+      padding: 0 0.4em;
+    }
+    /*position: absolute;*/
+    /*top: 2em;*/
+  }
+  .ribbon-secondary{
+    background-color: $color-orange;
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5em;
+    @include font($family: 'condensed', $weight: 'bold');
+  }
+  .ribbon-primary{
+    background-color: $color-black;
+    display: inline-block;
+    margin: 0;
+    font-size: 2em;
+    br{
+      display: none;
+    }
+    @include font($family: 'condensed', $weight: 'bold');
+  }
+  img{
+    width: 100%;
+  }
+  .caption{
+    color: $color-black;
+  }
+  a.additional-link{
+    background: $color-white;
+    color: $color-orange;
+    display: inline-block;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+  }
+  @extend .row;
+}

@@ -1,48 +1,21 @@
-<footer class="foot-wrapper container">
-<strong>OFFICES:<br/><br/></strong>
-
-  <div class="footer-content">
-    <strong class="address">Praqma A/S
-      <br/>PraqmaPlex</strong>
-    <br/>Allerød Stationsvej 4
-    <br/>DK-3450 Allerød
-    <br/>Denmark
-    <br/>
-    <br/>+45 36 77 27 62
-    <br/>info@praqma.net
+<footer class="site-footer">
+  <h2>Offices</h2>
+  <div class="directions">
+    {% for f in site.data.footer %}
+      <div class="direction">
+        <div class="title">
+          {{ f.title }}
+        </div>
+        {{ f.caption }}
+        {% if f.phone or f.email %}
+          <div class="addition">
+            <div class="phone">{{ f.phone }}</div>
+            <div class="email">{{ f.email }}</div>
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
-
-  <div class="footer-content">
-    <strong class="address">Copenhagen</strong>
-    <br/>Borgergade 24B, 2. sal
-    <br/>1300 København K
-    <br/>Denmark
-    <br/>
-    <br/>+45 42 71 17 78
-    <br/>info@praqma.net
-  </div>
-
-  <div class="footer-content">
-    <strong class="address">Aarhus</strong>
-    <br/>Nørre Alle 22, 1. sal
-    <br/>8000 Aarhus C
-    <br/>Denmark
-    <br/>
-  </div>
-
-  <div class="footer-content">
-    <strong class="address">Norway A/S</strong>
-    <br/>Oslo, Norway
-    <br/>
-    <br/>+47 48676360
-  </div>
-
-  <div class="footer-content">
-    <strong class="address">Sweden AB</strong>
-    <br/>Gustav Adolfs Torg 10A
-    <br/>Malmö 211 39
-    <br/>Sweden
-    <br/>
-  </div>
-
 </footer>
+<script src="{{ site.url }}/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="{{ site.url }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>

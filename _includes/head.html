@@ -1,23 +1,12 @@
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="/css/pygment_trac.css" media="screen" />
+  <title>{{ site.title }}: {% if page.title %}{{ page.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-<script src ="/javascripts/jquery-1.11.1.js"></script>
-<script src ="/javascripts/bootstrap.js"></script>
-<script src="/assets/flexslider/modernizr.js"></script>
-
-
-<link rel="stylesheet" href="/assets/flexslider/flexslider.css" type="text/css" media="screen" />           <!--flexslider style-sheet-->
-<link rel='stylesheet' type='text/css' href='/assets/css/bootstrap.css'>
-<link rel='stylesheet' type='text/css' href='/css/praqma-styles.css'>
-
-
-  <title>{{site.title}}</title>
-  </head>
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>

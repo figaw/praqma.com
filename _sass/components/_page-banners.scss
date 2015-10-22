@@ -1,0 +1,11 @@
+section.page-banners{
+  @extend .row;
+  article{
+    a>img{
+      margin: 0;
+      text-align: left;
+      width: 100%;
+    }
+    @extend .col-md-5;
+  }
+}

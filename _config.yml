@@ -1,8 +1,21 @@
 # Site settings
-title: Praqma-Continuous Delivery Company
-highlighter: pygments
-exclude: [README.md]
-timezone: Europe/Copenhagen
-url: http://blogs.praqma.com
+title: Praqma
+email: info@praqma.net
+logo: /images/logo.png
+description: The Continuous Delivery Company
+slogan: — In Praqma we strive to change the world…
+#baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://illus0r.github.io/praqma" # the base hostname & protocol for your site
+
+# Build settings
 markdown: kramdown
-permalink:  none
+
+sass:
+  #sass_dir: bower_components/bootstrap-sass/assets/stylesheets
+
+defaults:
+  -
+    scope:
+      path: "" # any file
+    values:
+      layout: page

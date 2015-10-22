@@ -1,0 +1,22 @@
+@mixin font($family: 'base', $weight: 'normal'){
+  @if $family == 'base'{
+    @if $weight == 'normal'{
+      font-weight: 400;
+    }
+    @if $weight == 'bold'{
+      font-weight: 700;
+    }
+  }
+  @if $family == 'condensed'{
+    font-family: $font-family-condensed;
+    @if $weight == 'normal'{
+      font-weight: 300;
+    }
+    @if $weight == 'bold'{
+      font-weight: 700;
+    }
+  }
+  @if $family == 'decorative'{
+    font-family: $font-family-decorative;
+  }
+}
