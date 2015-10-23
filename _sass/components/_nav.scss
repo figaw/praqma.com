@@ -1,5 +1,20 @@
+.navbar-header{
+  margin-top: 15px;
+}
 .navbar-brand{
+  padding-left: 0;
+  padding-top: 0;
   img{
-    height: 100%;
+    height: 48px;
+    width: 48px;
   } 
+  @extend .visible-xs;
+}
+.navbar-text{
+  font-size: 1.3em;
+  margin: 0 0;
+  @extend .visible-xs;
+}
+.navbar-toggle{
+  margin-right: 0;
 }

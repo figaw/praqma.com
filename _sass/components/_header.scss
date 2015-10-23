@@ -1,3 +1,7 @@
+.site-header{
+  @extend .hidden-xs;
+}
 .description{
   font-family: $font-family-decorative;
+  letter-spacing: 0.1em;
 }
