@@ -1,7 +1,14 @@
 // fonts
-$font-family-base: "Open Sans", Helvetica, sans-serif;
-$font-family-condensed: 'Open Sans Condensed', $font-family-base;
+
+/*$font-family-base: "Open Sans", Helvetica, sans-serif;*/
+/*$font-family-condensed: 'Open Sans Condensed', $font-family-base;*/
+/*$font-family-decorative: "Indie Flower", $font-family-base;*/
+$font-family-base: "Roboto", Helvetica, sans-serif;
+$font-family-condensed: "Roboto Condensed", $font-family-base;
 $font-family-decorative: "Indie Flower", $font-family-base;
+
+//$font-family-header: $font-family-condensed;
+$font-family-ribbon: "Ubuntu Condensed", $font-family-base;
 
 
 // colors
@@ -13,9 +20,9 @@ $color-gray: #e5e4e2;
 $color-gray-text: #959492;
 
 
-
-
 // overriding bootstrap
+
 $grid-columns: 15;
 $thumbnail-border: transparent;
 $thumbnail-padding: 0;
+$headings-font-family: $font-family-condensed;

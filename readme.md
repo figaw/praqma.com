@@ -8,14 +8,3 @@ Helpers
 ```
 jekyll build --config "_config.yml,_config.dev.yml" --watch
 ```
-
-Fonts
----
-Base font is set for body. For customizations you can use ```font``` mixin.
-```
-@include font();
-@include font($weight: 'bold');
-@include font($family: 'condensed');
-@include font($family: 'condensed', $weight: 'bold');
-@include font($family: 'decorative');
-```

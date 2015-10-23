@@ -23,7 +23,7 @@ section.main-banner{
     display: inline-block;
     margin: 0;
     font-size: 1.5em;
-    @include font($family: 'condensed', $weight: 'bold');
+    font-family: $font-family-ribbon;
   }
   .ribbon-primary{
     background-color: $color-black;
@@ -33,7 +33,7 @@ section.main-banner{
     br{
       display: none;
     }
-    @include font($family: 'condensed', $weight: 'bold');
+    font-family: $font-family-ribbon;
   }
   img{
     width: 100%;
@@ -47,7 +47,7 @@ section.main-banner{
     background: $color-white;
     color: $color-orange;
     display: inline-block;
-    @include font($weight: 'bold');
+    font-weight: bold;
     /*position: absolute;*/
     /*bottom: 0;*/
     /*right: 0;*/

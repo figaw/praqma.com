@@ -1,8 +1,13 @@
-//TODO join
+//TODO join all fonts to one @import
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);*/
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);*/
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+
+// to edit vars go to _sass/helpers/_variables.scss 
 
 body{
   font-family: $font-family-base;
