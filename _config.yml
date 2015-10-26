@@ -4,8 +4,7 @@ email: info@praqma.net
 logo: /images/logo.png
 description: The Continuous Delivery Company
 slogan: — In Praqma we strive to change the world…
-#baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://illus0r.github.io/praqma" # the base hostname & protocol for your site
+url: http://praqma.com
 
 # Build settings
 markdown: kramdown
