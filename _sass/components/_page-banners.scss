@@ -1,10 +1,14 @@
 section.page-banners{
   @extend .row;
   article{
+    margin-bottom: 2em;
+    h3{
+      margin: 10px 0 5px;
+    }
     a>img{
       margin: 0;
       text-align: left;
-      width: 100%;
+      width: 70%;
     }
     @extend .col-md-5;
   }

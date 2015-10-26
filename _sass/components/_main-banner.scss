@@ -1,6 +1,6 @@
 // empty
 section.main-banner{
-  margin-top: 2em;
+  /*margin-top: 2em;*/
   margin-bottom: 2em;
   a{
     color: $color-white;
@@ -15,8 +15,8 @@ section.main-banner{
     span{
       padding: 0 0.4em;
     }
-    /*position: absolute;*/
-    /*top: 2em;*/
+    position: absolute;
+    top: 1.5em;
   }
   .ribbon-secondary{
     background-color: $color-orange;

@@ -1,25 +1,27 @@
 {% assign pages = site.pages | sort: "nav-weight" %}
 <nav class="main-menu">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="brand-logo" href="{{ site.url }}"><img src="{{ site.logo }}" alt="{{ site:description | prepend: ' — ' | prepend: site.title }}"></a>
-      <p class="brand-text">{{ site.title }}<span class="description">{{ site.description }}</span></p>
+    <div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand-logo" href="{{ site.url }}"><img src="{{ site.logo }}" alt="{{ site:description | prepend: ' — ' | prepend: site.title }}"></a>
+        <p class="brand-text">{{ site.title }}<span class="description">{{ site.description }}</span></p>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="main-menu-collapse">
+        <ul class="nav navbar-nav">
+          {% for p in pages %}
+            {% if p.title %}
+              <li{% if p.url == page.url %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div><!-- /.navbar-collapse -->
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="main-menu-collapse">
-      <ul class="nav navbar-nav">
-        {% for p in pages %}
-          {% if p.title %}
-            <li{% if p.url == page.url %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div><!-- /.navbar-collapse -->
 </nav>

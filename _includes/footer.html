@@ -1,20 +1,22 @@
 <footer class="site-footer">
-  <h2>Offices</h2>
-  <div class="directions">
-    {% for f in site.data.footer %}
-      <div class="direction">
-        <div class="title">
-          {{ f.title }}
-        </div>
-        {{ f.caption }}
-        {% if f.phone or f.email %}
-          <div class="addition">
-            <div class="phone">{{ f.phone }}</div>
-            <div class="email">{{ f.email }}</div>
+  <div>
+    <h2>Offices</h2>
+    <div class="directions">
+      {% for f in site.data.footer %}
+        <div class="direction">
+          <div class="title">
+            {{ f.title }}
           </div>
-        {% endif %}
-      </div>
-    {% endfor %}
+          {{ f.caption }}
+          {% if f.phone or f.email %}
+            <div class="addition">
+              <div class="phone">{{ f.phone }}</div>
+              <div class="email">{{ f.email }}</div>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </footer>
 <script src="{{ site.url }}/bower_components/jquery/dist/jquery.min.js"></script>

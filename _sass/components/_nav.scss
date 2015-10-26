@@ -30,13 +30,14 @@
   }
 }
 #main-menu-collapse{
-  ul{
-    margin: 0 auto;
+  & > ul{
+    margin: 1em auto 0;
     float: none;
     text-align: center;
     li{
       float: none;
       display: inline-block;
+      text-transform: uppercase;
     }
   }
 }
