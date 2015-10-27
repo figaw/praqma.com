@@ -5,6 +5,7 @@
   @extend .navbar-default;
   @media (min-width: $screen-sm-min) {
     margin-top: 3px;
+    min-height: 47px;
   }
   /*.menu-links{*/
     /*@extend .collapse;*/
@@ -51,7 +52,7 @@
       }
     }
     @media (min-width: $screen-sm-min) {
-      margin-top: 5px;
+      margin-top: 9px;
     }
   }
 }

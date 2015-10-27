@@ -27,6 +27,8 @@ section.main-banner{
     margin: 0;
     font-size: 1.5em;
     font-family: $font-family-ribbon;
+    font-weight: bold;
+    letter-spacing: 0.05em;
     @media (min-width: $screen-sm-min) {
       font-size: 1.6em;
     }
@@ -55,15 +57,32 @@ section.main-banner{
     color: $color-black;
     display: block;
     margin: 0.5em 0;
+    @media (min-width: $screen-sm-min) {
+      position: absolute;
+      top: 54%;
+      left: 50%;
+      width: 36%;
+      padding: 0.5em 1em;
+      color: $color-white;
+      background: rgba($color-orange, 0.7);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+  }
+  &:hover .caption{
+      opacity: 1;
   }
   a.additional-link{
     background: $color-white;
     color: $color-orange;
     display: inline-block;
     font-weight: bold;
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*right: 0;*/
+    @media (min-width: $screen-sm-min) {
+      padding: 0.5em 1em;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
   }
   @extend .row;
 }
