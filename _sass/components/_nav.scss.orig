@@ -45,8 +45,13 @@
       text-transform: uppercase;
       @media (min-width: $screen-sm-min) {
         a {
+<<<<<<< HEAD
+          padding-top:    10px;
+          padding-bottom: 10px;
+=======
           padding-top:    6px;
           padding-bottom: 6px;
+>>>>>>> 7d0dc6f
         }
       }
     }

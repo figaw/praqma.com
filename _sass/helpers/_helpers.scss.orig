@@ -1,0 +1,15 @@
+html:after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10000px;
+<<<<<<< HEAD
+  background: url(../images/tmp-bg.png) 50% -27px no-repeat;
+=======
+  /*background: url(../images/tmp-bg.png) 51% 0 no-repeat;*/
+>>>>>>> 7d0dc6f
+  pointer-events: none;
+  opacity: 0.4;
+}

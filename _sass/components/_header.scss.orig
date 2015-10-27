@@ -8,9 +8,12 @@
   .description{
     font-size: 0.8em;
     margin-top: 27px;
+<<<<<<< HEAD
+=======
     @media (min-width: $screen-sm-min) {
       line-height: 1.6;
     }
+>>>>>>> 7d0dc6f
   }
 }
 .description{
