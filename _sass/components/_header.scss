@@ -1,6 +1,14 @@
 .site-header{
+  margin-top: 20px;
   text-align: center;
   @extend .hidden-xs;
+  .logo img{
+    width: 70px;
+  }
+  .description{
+    font-size: 0.8em;
+    margin-top: 27px;
+  }
 }
 .description{
   font-family: $font-family-decorative;

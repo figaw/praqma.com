@@ -1,15 +1,14 @@
 .slogan>div{
-  color: $color-white;
+  animation: marquee 30s linear infinite;
   background: $color-black;
-  line-height: 1.65em;
+  color: $color-white;
   font-size: 1.5em;
   letter-spacing: 0.05em;
-  @extend .hidden-xs;
-
+  line-height: 1.65em;
+  /*margin-top: 20px;*/
   overflow: hidden;
   white-space: nowrap;
-  /*box-sizing: border-box;*/
-  animation: marquee 30s linear infinite;
+  @extend .hidden-xs;
   &:hover{
     animation-play-state: paused;
   }

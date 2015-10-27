@@ -1,6 +1,11 @@
 .main-menu{
+  margin-top: 10px;
+  margin-bottom: 0;
   @extend .navbar;
   @extend .navbar-default;
+  @media (min-width: $screen-sm-min) {
+    margin-top: 3px;
+  }
   /*.menu-links{*/
     /*@extend .collapse;*/
     /*@extend .navbar-collapse;*/
@@ -38,6 +43,15 @@
       float: none;
       display: inline-block;
       text-transform: uppercase;
+      @media (min-width: $screen-sm-min) {
+        a {
+          padding-top:    10px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+    @media (min-width: $screen-sm-min) {
+      margin-top: 5px;
     }
   }
 }

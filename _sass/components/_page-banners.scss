@@ -9,7 +9,11 @@ section.page-banners{
       margin: 0;
       text-align: left;
       width: 70%;
+      @media (min-width: $screen-sm-min) {
+        width: 100%;
+      }
     }
     @extend .col-md-5;
+    @extend .col-sm-5;
   }
 }

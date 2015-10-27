@@ -10,12 +10,12 @@ main-banners:
    ribbon-white-link:     /training/
 
 page-banners:
- - image:         /images/page-banner-conf.png
-   link:          http://www.code-conf.com
-   header:        SAMPLE
-   caption:       This text should appear under the picture and stay visible
-                  even on small screens. The text is expected to be roughly 
-                  the length of a tweet. 
+ #- image:         /images/page-banner-conf.png
+   #link:          http://www.code-conf.com
+   #header:        SAMPLE
+   #caption:       This text should appear under the picture and stay visible
+                  #even on small screens. The text is expected to be roughly 
+                  #the length of a tweet. 
 
  - image:         /images/page-banner-news.png
    link:          /news/some-page.html

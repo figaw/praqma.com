@@ -1,3 +1,7 @@
 header.site-header, nav.main-menu, main, footer.site-footer>div, .slogan{
   @extend .container;
 }
+
+main[role='main']{
+  margin-top: 20px;
+}
