@@ -3,6 +3,7 @@ layout: post
 title:  LinkChecker - Jekyll flavor
 tags:   [Jekyll, Jenkins, Linkchecker, Warnings plugin]
 author: Lars Kruse
+categories: blog
 ---
 
 This parser is designed to parse the CSV output from LinkChecker

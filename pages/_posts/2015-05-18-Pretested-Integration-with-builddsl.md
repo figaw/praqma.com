@@ -3,6 +3,7 @@ layout: post
 title: Pretested integration with buildDSL
 tags: [Jenkins, Pretested, buildDSL]
 author: Mike Long
+categories: blog
 ---
 
 The pretested integration plugin does not currently support jobDSL.  However,

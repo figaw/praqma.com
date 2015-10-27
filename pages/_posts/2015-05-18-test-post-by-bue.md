@@ -3,6 +3,7 @@ layout: post
 title: Bues Test Post
 tags: [Gijeli, Wiki, MarkDown, Ruby]
 author: Bue Petersen
+categories: blog
 ---
 
 # Title Closer
