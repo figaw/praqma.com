@@ -15,6 +15,7 @@ categories: blog
 
 * learn how edit and add content
 * learn how to serve it as a webpage
+<!--break-->
 
 
 Work flow of presentation:

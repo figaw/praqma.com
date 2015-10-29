@@ -11,7 +11,7 @@ The pretested integration plugin does not currently support jobDSL.  However,
 we can still utilize a [configure block](https://github.com/jenkinsci/job-dsl-plugin/wiki/The-Configure-Block)
 that will generate the requirece xml to setup the plugin.  Here is an example
 from Novelda:
-
+<!--break-->
 
 ~~~ groovy
 

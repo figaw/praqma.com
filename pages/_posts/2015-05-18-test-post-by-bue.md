@@ -7,16 +7,10 @@ author: Bue Petersen
 categories: blog
 ---
 
-# Title Closer
-
-
-## subtitle
-
-![incremental development](/images/praqma_1.png){: .img-sm-right}
-
 The text beside small image will go hereThe text beside small image will go hereThe text beside small image will go hereThe text beside small image will go hereThe text beside small image will go here
 The text beside small image will go hereThe text beside small image will go hereThe text beside small image will go here
 The text beside small image will go hereThe text beside small image will go hereThe text beside small image will go hereThe text beside small image will go here
+<!--break-->
 
 ![incremental development](/images/praqma_1.png){: .img-sm-left}
 

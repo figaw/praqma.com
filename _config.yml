@@ -19,3 +19,9 @@ defaults:
       path: "" # any file
     values:
       layout: page
+  #-
+    #scope:
+      #layout: tag-page
+    #values:
+      ##permalink: /blog/:name/
+      #title: hello #why works to all pages?

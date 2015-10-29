@@ -8,7 +8,7 @@ categories: blog
 ---
 
 __Jekyll is a Ruby gem that renders [MarkDown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) to static html pages. Jekyll is the stand-alone engine that drives GitHub pages. By installing Jekyll you can effectively have an equivalent to GitHub pages anywhere.__
-
+<!--break-->
 
 GiJeLi is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid
 

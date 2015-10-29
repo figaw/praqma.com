@@ -3,12 +3,21 @@ layout: default
 ---
 
 <div class="tag-page">
-  <h1>{{ page.tag }}</h1>
+  <h1>{% if page.title %}{{ page.title }}{% else %}{{ page.tag }}{% endif %}</h1>
   
-  {% for post in site.tags[page.tag] %}
-    <article>
-      {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}"><img src="{{ post.avatar }}" alt="{{ post.title }}">{{ post.title }}</a>
-    </article>
+  {% for post in site.posts %}
+    {% if post.tags contains page.tag or page.tag == "Newest" %}
+      <article>
+        {{ post.date | date: "%B %d, %Y" }}: 
+        <a href="{{ post.url }}">
+          <img src="{{ post.avatar }}" alt="{{ post.title }}">{{ post.title }}
+        </a>
+        {{ post.content | split:'<!--break-->' | first }}
+        {% if post.content contains '<!--break-->' %}
+          <a href="{{ post.url }}">Read more…</a>
+        {% endif %}
+      </article>
+    {% endif %}
   {% endfor %}
 
   {% include taglist.html %}

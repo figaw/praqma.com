@@ -3,7 +3,8 @@
 
   {% include head.html %}
 
-  <body>
+  {% comment %}<body{% if page.layout %} class="{{ page.layout }}"{% endif %}>{% endcomment %}
+  <body{% if page.layout %} class="{{ page.layout }}"{% endif %}>
     {% include header.html %}
     {% include nav.html %}
     {% include slogan.html %}

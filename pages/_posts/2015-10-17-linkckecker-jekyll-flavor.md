@@ -11,6 +11,7 @@ This parser is designed to parse the CSV output from LinkChecker
 It assumes that the source of the web, that is being parsed is
 available in the `_site` folder of the workspace. `_site` is the Jekyll
 default, but it can be overridden.
+<!--break-->
 
 
 __Example:__
