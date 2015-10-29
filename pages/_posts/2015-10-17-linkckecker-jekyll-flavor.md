@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  LinkChecker - Jekyll flavor
-tags:   [Jekyll, Jenkins, Linkchecker, Warnings plugin]
+tags:   [Featured, Jekyll, Jenkins, Linkchecker, Warnings plugin]
+avatar: /images/blog/placeholder.png
 author: Lars Kruse
 categories: blog
 ---

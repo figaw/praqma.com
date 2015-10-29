@@ -1,0 +1,6 @@
+<h1>Search</h1>
+{% for t in site.pages %}
+  {% if t.layout == "tag-page" %}
+  <a href="{{ t.url }}">{{ t.tag }}</a>
+  {% endif %}
+{% endfor %}

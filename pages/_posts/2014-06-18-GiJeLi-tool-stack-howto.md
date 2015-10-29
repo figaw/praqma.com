@@ -1,7 +1,8 @@
 ---
 layout: post
 title: GiJeLi setup
-tags: [Gijeli, Wiki, MarkDown, Ruby]
+tags: [Featured, Gijeli, Wiki, MarkDown, Ruby]
+avatar: /images/blog/placeholder.png
 author: Lars Kruse
 categories: blog
 ---

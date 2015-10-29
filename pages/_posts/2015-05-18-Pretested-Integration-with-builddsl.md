@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Pretested integration with buildDSL
-tags: [Jenkins, Pretested, buildDSL]
+tags: [Featured, Jenkins, Pretested, buildDSL]
+avatar: /images/blog/placeholder.png
 author: Mike Long
 categories: blog
 ---

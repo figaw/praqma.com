@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="tag-page">
+  <h1>{{ page.tag }}</h1>
+  
+  {% for post in site.tags[page.tag] %}
+    <article>
+      {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}"><img src="{{ post.avatar }}" alt="{{ post.title }}">{{ post.title }}</a>
+    </article>
+  {% endfor %}
+
+  {% include taglist.html %}
+  
+</div>
