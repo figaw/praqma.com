@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div>
+  <aside>
+    {% include search.html %}
+  </aside>
   <main role="main">
     {{ content }}
   </main>
-  <aside>
-    {% include tag-list.html %}
-  </aside>
 </div>

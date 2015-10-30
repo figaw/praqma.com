@@ -33,3 +33,4 @@ defaults:
       #permalink: /blog/:name/
       #title: hello #why works to all pages?
       categories: [tag-page, blog]
+      layout: tag-page

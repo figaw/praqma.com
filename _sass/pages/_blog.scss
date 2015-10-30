@@ -4,10 +4,12 @@ body.blog{
   }
   main[role="main"]{
     @extend .col-md-10;
+    @extend .col-md-pull-5;
   }
   aside{
     @extend .col-md-5;
-    .tag-list{
+    @extend .col-md-push-10;
+    .search{
       font-family: $font-family-condensed;
       a{
         display: block;
@@ -15,6 +17,16 @@ body.blog{
         text-transform: uppercase;
         &:hover, &.active{
           color: $color-orange;
+        }
+      }
+      form{
+        @extend .form-group;
+        input{
+          @extend .form-control;
+        }
+        button{
+          @extend .btn;
+          @extend .btn-default;
         }
       }
     }
