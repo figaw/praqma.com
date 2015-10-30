@@ -3,15 +3,14 @@
 
   {% include head.html %}
 
-  {% comment %}<body{% if page.layout %} class="{{ page.layout }}"{% endif %}>{% endcomment %}
-  <body{% if page.layout %} class="{{ page.layout }}"{% endif %}>
+  <body{% if page.categories %} class="default {{ page.categories | join: ' ' }}"{% endif %}>
     {% include header.html %}
     {% include nav.html %}
     {% include slogan.html %}
 
-    <main role="main">
+    <div class="main-area">
       {{ content }}
-    </main>
+    </div>
 
     {% include footer.html %}
 

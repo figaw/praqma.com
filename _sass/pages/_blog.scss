@@ -1,0 +1,22 @@
+body.blog{
+  .main-area>div{
+    @extend .row;
+  }
+  main[role="main"]{
+    @extend .col-md-10;
+  }
+  aside{
+    @extend .col-md-5;
+    .tag-list{
+      font-family: $font-family-condensed;
+      a{
+        display: block;
+        color: $color-black;
+        text-transform: uppercase;
+        &:hover, &.active{
+          color: $color-orange;
+        }
+      }
+    }
+  }
+}

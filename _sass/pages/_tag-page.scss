@@ -1,9 +1,11 @@
-.tag-page{
-  article{
-    margin-bottom: 2em;
-  }
-  img{
-    width: 100px;
-    display: block;
+body.tag-page{
+  main[role='main']{
+    article{
+      margin-bottom: 2em;
+    }
+    img{
+      width: 100px;
+      display: block;
+    }
   }
 }

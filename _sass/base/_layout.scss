@@ -1,7 +1,7 @@
-header.site-header, nav.main-menu, main, footer.site-footer>div, .slogan{
+header.site-header, nav.main-menu, .main-area, footer.site-footer>div, .slogan{
   @extend .container;
 }
 
-main[role='main']{
+.main-area{
   margin-top: 20px;
 }
