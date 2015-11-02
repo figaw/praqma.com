@@ -1,10 +1,8 @@
 ---
-layout: post
 title: LinkChecker - Dockerized
 tags: [Linkchecker, Gijeli, Jekyll, Jenkins]
 avatar: /images/blog/placeholder.png
 author: Waqar Ali Zaidi
-categories: blog
 ---
 
 The reason of dockerizing linkchecker is to facilitate Praqma's [Gijeli set-up](/pages/blog/GiJeLi-tool-stack-howto.html) to produce report for web projects. There are other docker images of linkchecker out there but we find them lacking behind to entertain _stable automated builds._

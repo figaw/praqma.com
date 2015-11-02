@@ -20,7 +20,7 @@ layout: blog
           <!--{{ post.date | date: "%B %d, %Y" }}-->
         <!--</div>-->
         <div class="content">
-          {{ post.content | split:'<!--break-->' | first }}
+          {{ post.content | split:'<!--break-->' | first | markdownify }}
         </div>
         {% if post.content contains '<!--break-->' %}
           <div class="readmore">

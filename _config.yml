@@ -15,6 +15,9 @@ sass:
 permalink: /:categories/:title/
 
 collections:
+  tag-pages:
+    output: true
+    permalink: /blog/:path/
   training:
     output: true
     permalink: /training/:path/
@@ -33,11 +36,11 @@ defaults:
       layout: post
   -
     scope:
-      path: pages/tags
+      type: tag-pages
     values:
       categories: [tag-page, blog] #it goes into body classes and impacts on styles
       #categories: tag-page
-      permalink: /blog/:basename/
+      #permalink: pretty
       layout: tag-page
   #-
     #scope:
