@@ -1,11 +1,12 @@
 ---
-layout: post
 title:  LinkChecker - Jekyll flavor
 tags:   [Featured, Jekyll, Jenkins, Linkchecker, Warnings plugin]
 avatar: /images/blog/placeholder.png
 author: Lars Kruse
-categories: blog
 ---
+
+{{ page.categories }}  
+{{ page.layout }}
 
 This parser is designed to parse the CSV output from LinkChecker
 It assumes that the source of the web, that is being parsed is

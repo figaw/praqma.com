@@ -3,6 +3,9 @@ layout: blog
 ---
 
 <h1>{% if page.title %}{{ page.title }}{% else %}{{ page.tag }}{% endif %}</h1>
+
+{{ content }}
+
 {% for post in site.posts %}
   {% if post.tags contains page.tag or page.tag == "Newest" %}
     <article>

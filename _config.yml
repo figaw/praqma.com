@@ -5,13 +5,19 @@ logo: /images/logo.png
 description: The Continuous Delivery Company
 slogan: — In Praqma we strive to change the world…
 url: http://praqma.com
-permalink: none
 
 # Build settings
 markdown: kramdown
 
 sass:
   #sass_dir: bower_components/bootstrap-sass/assets/stylesheets
+
+permalink: none
+
+collections:
+  training:
+    output: true
+    permalink: /training/:path/
 
 defaults:
   -
@@ -21,16 +27,20 @@ defaults:
       layout: page
   -
     scope:
-      type: post
+      type: posts
     values:
-      #permalink: /blog/:name/
-      #title: hello #why works to all pages?
       categories: blog
+      layout: post
   -
     scope:
       path: pages/tags
     values:
-      #permalink: /blog/:name/
-      #title: hello #why works to all pages?
       categories: [tag-page, blog]
       layout: tag-page
+  -
+    scope:
+      #path: pages/training
+      path: ""
+      type: training
+    values:
+      layout: page

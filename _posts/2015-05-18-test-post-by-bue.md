@@ -1,10 +1,8 @@
 ---
-layout: post
 title: Bues Test Post
 tags: [Gijeli, Wiki, MarkDown, Ruby]
 avatar: /images/blog/placeholder.png
 author: Bue Petersen
-categories: blog
 ---
 
 The text beside small image will go hereThe text beside small image will go hereThe text beside small image will go hereThe text beside small image will go hereThe text beside small image will go here

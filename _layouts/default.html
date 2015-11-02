@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body{% if page.categories %} class="default {{ page.categories | join: ' ' }}"{% endif %}>
+  <body{% if page.categories %} class="{{ page.categories | join: ' ' }}"{% endif %}>
     {% include header.html %}
     {% include nav.html %}
     {% include slogan.html %}
