@@ -6,7 +6,7 @@ section.main-banner{
     color: $color-white;
   }
   &>div{
-    @extend .col-md-15;
+    @extend .col-md-60;
   }
   &>div>div{
     position: relative;

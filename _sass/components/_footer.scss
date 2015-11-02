@@ -13,8 +13,8 @@ footer{
     margin-top: 2em;
     padding-top: 2em;
     border-top: 1px solid darken($color-gray, 5%);
-    @extend .col-md-3;
-    @extend .col-sm-3;
+    @extend .col-md-12;
+    @extend .col-sm-12;
     @media (min-width: $screen-sm-min) {
       margin-top: 1em;
       padding-top: 0;

@@ -3,12 +3,12 @@ body.blog{
     @extend .row;
   }
   main[role="main"]{
-    @extend .col-md-10;
-    @extend .col-md-pull-5;
+    @extend .col-md-45;
+    @extend .col-md-pull-15;
   }
   aside{
-    @extend .col-md-5;
-    @extend .col-md-push-10;
+    @extend .col-md-15;
+    @extend .col-md-push-45;
     .search{
       font-family: $font-family-condensed;
       a{

@@ -11,10 +11,10 @@ $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* any style customization must be before the bootstrap import */
 @import "helpers/variables";
-@import "base/typography";
 @import "base/layout";
 @import "helpers/mixins";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "base/typography";
 @import "components/main-banner";
 @import "components/page-banners";
 @import "components/slogan";

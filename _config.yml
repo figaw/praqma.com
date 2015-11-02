@@ -12,7 +12,7 @@ markdown: kramdown
 sass:
   #sass_dir: bower_components/bootstrap-sass/assets/stylesheets
 
-permalink: none
+permalink: /:categories/:title/
 
 collections:
   training:
@@ -35,12 +35,15 @@ defaults:
     scope:
       path: pages/tags
     values:
-      categories: [tag-page, blog]
+      categories: [tag-page, blog] #it goes into body classes and impacts on styles
+      #categories: tag-page
+      permalink: /blog/:basename/
       layout: tag-page
-  -
-    scope:
-      #path: pages/training
-      path: ""
-      type: training
-    values:
-      layout: page
+  #-
+    #scope:
+      ##path: pages/training
+      #path: ""
+      #type: training
+    #values:
+      #layout: page
+      #already a default for all
