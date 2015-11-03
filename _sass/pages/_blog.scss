@@ -13,13 +13,14 @@ body.blog{
     section{
       font-family: $font-family-condensed;
       border-top: 10px solid $color-black;
-      /*margin-top: 30px;*/
+      margin-top: 5px;
+      margin-bottom: 20px;
       font-size: 1.2em;
       h2{
         font-size: 1.4em;
         text-transform: uppercase;
         font-weight: bold;
-        margin: 0.6em 0 0.2em;
+        margin: 0.6em 0 0.6em;
       }
     }
     .search{
@@ -51,7 +52,8 @@ input.gsc-input,
 .gsc-input-box,
 .gsc-input-box-hover,
 .gsc-input-box-focus,
-.gsc-search-button {
+.gsc-search-button,
+.gsc-selected-option-container{
     box-sizing: content-box; 
     line-height: normal;
 }
@@ -62,4 +64,11 @@ input.gsc-input,
   padding: 6px 7px;
   background-color: $color-black;
   border-radius: 0;
+  &:hover{
+    background-color: $color-black;
+    opacity: 0.7;
+  }
+}
+.gscb_a{
+  vertical-align: middle;
 }

@@ -4,13 +4,17 @@ body.tag-page{
       margin-bottom: 2em;
       font-size: 1.1em;
       & > a{
-        @extend .col-md-20;
         img{
-          width: 100%;
+          margin-bottom: 1em;
+          @extend .col-md-20;
+          @extend .col-sm-20;
+          @extend .col-xs-60;
+          /*width: 100%;*/
         }
       }
       section{
         @extend .col-md-40;
+        @extend .col-sm-40;
       }
       h2{
         margin: 0;
