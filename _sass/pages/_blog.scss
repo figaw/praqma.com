@@ -7,28 +7,59 @@ body.blog{
     @extend .col-md-pull-15;
   }
   aside{
+    letter-spacing: $font-letter-spacing;
     @extend .col-md-15;
     @extend .col-md-push-45;
-    .search{
+    section{
       font-family: $font-family-condensed;
+      border-top: 10px solid $color-black;
+      /*margin-top: 30px;*/
+      font-size: 1.2em;
+      h2{
+        font-size: 1.4em;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0.6em 0 0.2em;
+      }
+    }
+    .search{
       a{
         display: block;
         color: $color-black;
-        text-transform: uppercase;
         &:hover, &.active{
           color: $color-orange;
         }
       }
       form{
-        @extend .form-group;
-        input{
-          @extend .form-control;
-        }
-        button{
-          @extend .btn;
-          @extend .btn-default;
-        }
+        margin-top: 0.5em;
+        /*@extend .form-group;*/
+        /*input{*/
+          /*@extend .form-control;*/
+        /*}*/
+        /*button{*/
+          /*@extend .btn;*/
+          /*@extend .btn-default;*/
+        /*}*/
       }
     }
   }
+}
+
+resolving google search and bootstrap conflict
+
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button {
+    box-sizing: content-box; 
+    line-height: normal;
+}
+.gsc-control-cse.gsc-control-cse-en{
+  padding: 0;
+}
+.gsc-search-button input[type='image']{
+  padding: 6px 7px;
+  background-color: $color-black;
+  border-radius: 0;
 }

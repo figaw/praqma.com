@@ -16,7 +16,7 @@ body.tag-page{
         margin: 0;
         font-size: 1.5em;
         font-weight: bold;
-        letter-spacing: 0.05em;
+        letter-spacing: $font-letter-spacing;
         text-transform: uppercase;
         a{
           color: $color-black;
@@ -31,7 +31,7 @@ body.tag-page{
         margin: 0.2em 0 0.4em;
       }
       .content{
-        margin-top: 0.4em;
+        margin-top: 10px;
       }
       .readmore{
         display: block;

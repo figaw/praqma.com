@@ -1,6 +1,6 @@
 Navigation
 ---
-All pages with *title* in frontmatter go to menu. They are sorted by *nav-weight* from frontmatter (small values go first).
+All pages and tag-pages with *nav-weight* in frontmatter go to menu. They are sorted by *nav-weight* from frontmatter (small values go first).
 
 Helpers
 ---

@@ -28,7 +28,7 @@ section.main-banner{
     font-size: 1.5em;
     font-family: $font-family-ribbon;
     font-weight: bold;
-    letter-spacing: 0.05em;
+    letter-spacing: $font-letter-spacing;
     @media (min-width: $screen-sm-min) {
       font-size: 1.6em;
     }
