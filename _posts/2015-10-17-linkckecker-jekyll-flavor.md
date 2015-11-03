@@ -1,7 +1,7 @@
 ---
 title:  LinkChecker - Jekyll flavor
 tags:   [Featured, Jekyll, Jenkins, Linkchecker, Warnings plugin]
-avatar: /images/blog/placeholder.png
+avatar: /images/blog/broken-link.4x3.png
 author: Lars Kruse
 ---
 

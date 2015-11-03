@@ -1,7 +1,7 @@
 ---
 title: LinkChecker - Dockerized
 tags: [Linkchecker, Gijeli, Jekyll, Jenkins]
-avatar: /images/blog/placeholder.png
+avatar: /images/blog/docker-linkchecker.4x3.png
 author: Waqar Ali Zaidi
 ---
 
