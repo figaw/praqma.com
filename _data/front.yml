@@ -6,7 +6,7 @@ main-banners:
             size (140 chars) text.
    ribbon-orange-caption: 2 DAYS COURSE
    ribbon-black-caption: MASTERING
-   ribbon-black-caption2: 
+   ribbon-black-caption2: GIT
    ribbon-white-caption:  VIEW ALL COURSES
    ribbon-white-link:     /training/
 
