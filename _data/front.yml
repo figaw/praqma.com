@@ -5,8 +5,7 @@ main-banners:
             when the mouse hover over it. It should contain a twitter
             size (140 chars) text.
    ribbon-orange-caption: 2 DAYS COURSE
-   ribbon-black-caption: MASTERING
-   ribbon-black-caption2: GIT
+   ribbon-black-caption: MASTERING <br>GIT
    ribbon-white-caption:  VIEW ALL COURSES
    ribbon-white-link:     /training/
 

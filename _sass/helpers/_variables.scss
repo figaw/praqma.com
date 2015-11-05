@@ -45,3 +45,5 @@ $container-lg:                 $container-large-desktop !default;
 
 $link-color:            $color-orange;
 $link-hover-color:      darken($link-color, 15%) !default;
+$input-border-radius: 0;
+$input-border: $color-black;

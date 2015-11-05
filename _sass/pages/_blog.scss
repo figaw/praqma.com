@@ -10,12 +10,24 @@ body.blog{
     letter-spacing: $font-letter-spacing;
     @extend .col-md-15;
     @extend .col-md-push-45;
+    & > div{
+      @extend .row;
+    }
     section{
       font-family: $font-family-condensed;
-      border-top: 10px solid $color-black;
-      margin-top: 5px;
-      margin-bottom: 20px;
+      margin-bottom: 60px;
       font-size: 1.2em;
+      @extend .col-sm-30;
+      @extend .col-md-60;
+      @extend .col-lg-60;
+      @media (min-width: $screen-md-min) {
+        margin-top: 5px;
+        &:before{
+          content: " ";
+          display: block;
+          border-top: 10px solid $color-black;
+        }
+      }
       h2{
         font-size: 1.4em;
         text-transform: uppercase;
@@ -31,22 +43,43 @@ body.blog{
           color: $color-orange;
         }
       }
+    }
+    .newsletter{
       form{
         margin-top: 0.5em;
-        /*@extend .form-group;*/
-        /*input{*/
-          /*@extend .form-control;*/
-        /*}*/
-        /*button{*/
-          /*@extend .btn;*/
-          /*@extend .btn-default;*/
-        /*}*/
+        @extend .form-group;
+        input{
+          margin-bottom: 10px;
+          @extend .form-control;
+        }
+        button, button:hover, button:active{
+          float: right;
+          border-radius: 0;
+          text-transform: uppercase;
+          font-size: 1.3;
+          font-weight: bold;
+          letter-spacing: $font-letter-spacing;
+          color: $color-orange;
+          background: $color-black;
+          padding: 0.5em 1.6em 0.35em;
+          border: none;
+          box-shadow: none;
+          @extend .btn;
+          @extend .btn-default;
+          &:active{
+            background: $color-orange;
+            color: $color-black;
+          }
+          &:hover{
+            opacity: 0.7;
+          }
+        }
       }
     }
   }
 }
 
-resolving google search and bootstrap conflict
+// resolving google search and bootstrap conflict
 
 input.gsc-input,
 .gsc-input-box,
@@ -59,11 +92,13 @@ input.gsc-input,
 }
 .gsc-control-cse.gsc-control-cse-en{
   padding: 0;
+  margin-top: 0.5em;
 }
 .gsc-search-button input[type='image']{
   padding: 6px 7px;
   background-color: $color-black;
   border-radius: 0;
+  margin: 0;
   &:hover{
     background-color: $color-black;
     opacity: 0.7;

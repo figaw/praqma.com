@@ -4,7 +4,10 @@ layout: default
 
 <div class="blog">
   <aside>
-    {% include search.html %}
+    <div>
+      {% include search.html %}
+      {% include newsletter.html %}
+    </div>
   </aside>
   <main role="main">
     {{ content }}

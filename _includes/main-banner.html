@@ -5,8 +5,10 @@
       <a class="main-link" href="{{ mb.link }}">
         <span class="title-ribbons">
           <span class="ribbon-secondary">{{ mb.ribbon-orange-caption }}</span><br/>
-          <span class="ribbon-primary">{{ mb.ribbon-black-caption }}</span><br/>
-          <span class="ribbon-primary">{{ mb.ribbon-black-caption2 }}</span>
+          {% assign black-ribbon-parts =  mb.ribbon-black-caption | split: "<br>" %}
+          {% for t in black-ribbon-parts %}
+            <span class="ribbon-primary">{{ t }}</span><br/>
+          {% endfor %}
         </span>
         <img src="{{ mb.image }}" alt="{{ ribbon-black-caption }}">
       </a>

@@ -6,21 +6,17 @@
       <a href="{{ t.url }}"{% if t.url == page.url %} class="active"{% endif %}>{{ t.tag }}</a>
     {% endif %}
   {% endfor %}
-  <form>
-    <!--<input type="text" placeholder="Other topics">-->
-    <!--<button type="submit">Submit</button>-->
-    <script>
-      (function() {
-        var cx = '007895344881986624734:escogkbkkxk';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-            '//cse.google.com/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
-    </script>
-    <gcse:search></gcse:search>
-  </form>
+  <script>
+    (function() {
+      var cx = '007895344881986624734:escogkbkkxk';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search></gcse:search>
 </section>
