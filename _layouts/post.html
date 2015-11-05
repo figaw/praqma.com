@@ -5,9 +5,35 @@ layout: blog
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+    <p>Tags: 
+    <!--show tags with a link-->
+    {% assign tags-without-link = "" | split: "|" %}
+    {% for t in page.tags %}
+      {% assign matched = 0 %}
+        {% for tp in site.tag-pages %}
+        {% assign tp.tag = tp.tag | uppercase %}
+        {% if tp.tag == t | uppercase %}
+          <span class="tag">
+            <a href="{{ tp.url }}">{{ t }}</a>
+          </span>
+          {% assign matched = 1 %}
+        {% endif %}
+      {% endfor %}
+      {% unless matched == 1 %}
+        {% assign tags-without-link = tags-without-link | push: t %}
+      {% endunless %}
+    {% endfor %}
+    <!--show the rest tags-->
+    {% for t in tags-without-link %}
+      <span class="tag no-link">{{ t }}</span>
+    {% endfor %}
+    </p>
   </header>
   <article class="post-content">
     {{ content }}
+    {% if page.avatar %}
+      <img class="post-avatar" src="{{ page.avatar }}" alt="page.title">
+    {% endif %}
   </article>
 </div>
