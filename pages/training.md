@@ -2,14 +2,8 @@
 title: Training
 permalink: /training/
 nav-weight: 20
+layout: training-index
 ---
-
-{{site.collections}}
-
-{% for t in site.training %}
-  <a href="{{ t.url }}">{{ t.title }}</a>
-{% endfor %}
-
 
 # TRAINING _by praqma_{: .highlight}
 

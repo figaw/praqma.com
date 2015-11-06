@@ -1,0 +1,12 @@
+.training-page{
+  @extend .col-md-45;
+  & > div{
+    @extend .row;
+  }
+  main[role="main"]{
+    @extend .col-md-40;
+  }
+  aside{
+    @extend .col-md-20;
+  }
+}

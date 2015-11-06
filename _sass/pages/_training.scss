@@ -1,0 +1,21 @@
+.training{
+  @extend .row;
+  nav{
+    @extend .col-md-15;
+    a{
+      /*@extend .col-md-30;*/
+      /*overflow: hidden;*/
+      img{
+        display: block;
+        width: 100px;
+      }
+      &.active img{
+        border: 5px $color-orange solid;
+        width: 90px;
+      }
+    }
+  }
+  aside{
+    /*@extend .col-md-15;*/
+  }
+}

@@ -42,11 +42,8 @@ defaults:
       #categories: tag-page
       #permalink: pretty
       layout: tag-page
-  #-
-    #scope:
-      ##path: pages/training
-      #path: ""
-      #type: training
-    #values:
-      #layout: page
-      #already a default for all
+  -
+    scope:
+      type: training
+    values:
+      layout: training-page
