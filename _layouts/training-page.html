@@ -5,6 +5,7 @@ layout: training
 <div class="training-page">
   <div>
     <main role="main">
+      <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
       {{ content }}
     </main>
     <aside>

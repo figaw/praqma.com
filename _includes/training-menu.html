@@ -1,9 +1,3 @@
-
 <nav class="training-menu">
-  {% for t in site.training %}
-    <a{% if t.url == page.url %} class="active"{% endif %} href="{{ t.url }}">
-      <img src="{{ t.avatar }}" alt="{{ t.title }}">
-      {{ t.title }}
-    </a>
-  {% endfor %}
+  {% for t in site.training %}<a{% if t.url == page.url %} class="active"{% endif %} href="{{ t.url }}"><span class="avatar"><img src="{{ t.avatar }}" alt="{{ t.title }}"></span><span class="caption">{{ t.title }}</span></a>{% endfor %}
 </nav>

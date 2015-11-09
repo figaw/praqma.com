@@ -15,6 +15,7 @@ avatar:   /images/training/docker.1x1.png
 This course is designed to help new and experienced systems administrators learn to use Docker to control the Docker daemon, security, Docker Machine, Swarm, and Compose.
 
 After completing this course, participants will be able to:
+
 * Understand containers
 * Run and manage containers
 * Build, manage, and distribute images

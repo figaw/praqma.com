@@ -2,20 +2,72 @@
   @extend .row;
   nav{
     @extend .col-md-15;
+    padding-top: 5px;
+    /*& > div{*/
+      /*@extend .row;*/
+    /*}*/
     a{
       /*@extend .col-md-30;*/
-      /*overflow: hidden;*/
-      img{
-        display: block;
-        width: 100px;
+      display: inline-block;
+      height: 40%;
+      margin-bottom: 4%;
+      width: 48%;
+      &:nth-child(odd){
+        margin-right: 4%;
       }
-      &.active img{
-        border: 5px $color-orange solid;
-        width: 90px;
+      /*overflow: hidden;*/
+      .caption{
+        margin-top: 3%;
+        line-height: 1.2em;
+        font-family: $font-family-condensed;
+        color: $color-black;
+        height: 3.6em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        display: block;
+      }
+      &.active .caption{
+        color: $color-orange;
+      }
+      .avatar{
+        padding: 5%;
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.24);
+        display: block;
+        /*height: 20%;*/
+        width: 100%;
+        text-align: center;
+        img{
+          width: 100%;
+        }
+      }
+      &.active .avatar{
+        box-shadow: 0px 0px 0px 2px $color-orange;
+      }
+      @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        display: inline-block;
+        height: 20%;
+        margin-bottom: 2%;
+        margin-right: 4%;
+        width: 22%;
+        &:nth-child(4){
+          margin-right: 0;
+        }
+        .caption{
+          margin-top: 5%;
+        }
+      }
+      @media (min-width: $screen-md-min) {
+        .caption{ 
+          font-size: 0.8em;
+        }
       }
     }
   }
   aside{
     /*@extend .col-md-15;*/
+    h3{
+      margin-top: 0;
+    }
   }
 }
