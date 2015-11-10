@@ -10,31 +10,6 @@ body.blog{
     letter-spacing: $font-letter-spacing;
     @extend .col-md-15;
     @extend .col-md-push-45;
-    & > div{
-      @extend .row;
-    }
-    section{
-      font-family: $font-family-condensed;
-      margin-bottom: 60px;
-      font-size: 1.2em;
-      @extend .col-sm-30;
-      @extend .col-md-60;
-      @extend .col-lg-60;
-      @media (min-width: $screen-md-min) {
-        margin-top: 5px;
-        &:before{
-          content: " ";
-          display: block;
-          border-top: 10px solid $color-black;
-        }
-      }
-      h2{
-        font-size: 1.4em;
-        text-transform: uppercase;
-        font-weight: bold;
-        margin: 0.6em 0 0.6em;
-      }
-    }
     .search{
       a{
         display: block;

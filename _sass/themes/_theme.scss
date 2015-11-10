@@ -1,3 +1,40 @@
 .logo img{
   width: 64px;
 }
+
+aside{
+  & > div{
+    @extend .row;
+  }
+  section{
+    @extend .col-sm-30;
+    @extend .col-md-60;
+    @extend .col-lg-60;
+    font-family: $font-family-condensed;
+    margin-bottom: 60px;
+    font-size: 1.2em;
+    @media (min-width: $screen-md-min) {
+      margin-top: 5px;
+      &:before{
+        content: " ";
+        display: block;
+        border-top: 10px solid $color-black;
+      }
+    }
+    h2{
+      font-size: 1.4em;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 0.6em 0 0.6em;
+    }
+    h3{
+      font-weight: bold;
+      font-size: 1.3em;
+      margin-bottom: 0;
+    }
+    /*h4{*/
+      /*margin-top: 1em;*/
+      /*margin-bottom: 0.2em;*/
+    /*}*/
+  }
+}

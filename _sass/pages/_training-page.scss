@@ -7,6 +7,9 @@
     @extend .col-md-40;
   }
   aside{
+    /*@extend .row;*/
     @extend .col-md-20;
+    /*section{*/
+    /*}*/
   }
 }
