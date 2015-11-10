@@ -8,5 +8,13 @@
   }
   aside{
     @extend .col-md-20;
+    .phone{
+      color: $color-orange;
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+    section{
+      margin-bottom: 0;
+    }
   }
 }

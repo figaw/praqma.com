@@ -21,20 +21,17 @@ aside{
         border-top: 10px solid $color-black;
       }
     }
+    h2,h3{
+      font-size: 1.2em;
+    }
     h2{
-      font-size: 1.4em;
       text-transform: uppercase;
       font-weight: bold;
       margin: 0.6em 0 0.6em;
     }
     h3{
       font-weight: bold;
-      font-size: 1.3em;
       margin-bottom: 0;
     }
-    /*h4{*/
-      /*margin-top: 1em;*/
-      /*margin-bottom: 0.2em;*/
-    /*}*/
   }
 }
