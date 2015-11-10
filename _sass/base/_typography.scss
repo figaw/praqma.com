@@ -13,8 +13,32 @@ body{
   font-family: $font-family-base;
 }
 
+h1,h2,h3{
+  font-weight: bold;
+}
 h1{
+  font-size: 1.7em;
+  letter-spacing: $font-letter-spacing;
+  margin-bottom: 1em;
   margin-top: 0;
-  margin-bottom: 0.7em;
   text-transform: uppercase;
+  .highlight{
+    color: $color-orange;
+    font-style: inherit;
+    font-weight: inherit;
+    text-transform: none;
+  }
+}
+h2{
+  font-size: 1.5em;
+  margin-top: 1.2em;
+  margin-bottom: 0;
+}
+
+p{
+  margin: 0.6em 0;
+  &.date{
+    color: $color-orange;
+    margin-top: 0;
+  }
 }
