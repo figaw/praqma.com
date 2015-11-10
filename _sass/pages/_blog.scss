@@ -62,8 +62,20 @@ input.gsc-input,
 .gsc-input-box-focus,
 .gsc-search-button,
 .gsc-selected-option-container{
-    box-sizing: content-box; 
-    line-height: normal;
+  box-sizing: content-box; 
+  line-height: normal;
+}
+.gsc-search-button,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus{
+  border-color: $color-black !important;
+}
+.cse input.gsc-input, input.gsc-input {
+  background:url(/images/search.png) 0 0 no-repeat !important;
+  &:focus{
+    background-image:none !important;
+  }
 }
 .gsc-control-cse.gsc-control-cse-en{
   padding: 0;

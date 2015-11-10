@@ -33,6 +33,7 @@ h2{
   font-size: 1.5em;
   margin-top: 1.2em;
   margin-bottom: 0;
+<<<<<<< HEAD
   &.subtitle{
     margin-bottom: 1em;
     margin-top: -0.8em;
@@ -43,11 +44,17 @@ h2{
 main[role="main"] p{
   font-size: 1.2em;
   font-family: $font-family-condensed;
+=======
+}
+
+p{
+>>>>>>> origin/master
   margin: 0.6em 0;
   &.date{
     color: $color-orange;
     margin-top: 0;
   }
+<<<<<<< HEAD
   &.highlight{
     color: $color-orange;
   }
@@ -56,4 +63,6 @@ main[role="main"] p{
     font-family: $font-family-condensed;
     margin: 1em 0;
   }
+=======
+>>>>>>> origin/master
 }
