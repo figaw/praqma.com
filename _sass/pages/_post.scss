@@ -1,6 +1,38 @@
+.post{
+  .meta{
+    /*margin-top: -1em;*/
+    margin-bottom: 0.5em;
+    .date{
+      color: $color-orange;
+      margin-bottom: 0;
+      margin-right: 0.4em;
+      text-transform: uppercase;
+    }
+    .tag{
+      background: $color-orange;
+      color: white;
+      font-size: 0.8em;
+      padding: 0 0.4em;
+      &.tag-no-link{
+        background: $color-gray;
+        color: $color-gray-text;
+      }
+      &.tag-link:hover{
+        opacity: 0.6;
+        text-decoration: none;
+      }
+    }
+  }
+}
 .post-content{
   img.post-avatar{
-    width: 100%;
     margin-top: 2em;
+    width: 100%;
+  }
+  *{
+    color: $color-gray-text;
+  }
+  p.caption{
+    color: $color-black;
   }
 }
