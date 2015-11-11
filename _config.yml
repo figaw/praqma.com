@@ -9,8 +9,9 @@ url: http://praqma.com
 # Build settings
 markdown: kramdown
 
-sass:
-  #sass_dir: bower_components/bootstrap-sass/assets/stylesheets
+#sass:
+  #sourcemap: :true
+style: debug
 
 permalink: /:categories/:title/
 

@@ -1,12 +1,12 @@
 .site-header{
-  margin-top: 20px;
+  margin-top: 17px;
   text-align: center;
   @extend .hidden-xs;
   .logo img{
-    width: 70px;
+    width: 88px;
   }
   .description{
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-top: 25px;
     @media (min-width: $screen-sm-min) {
       line-height: 1.6;

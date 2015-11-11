@@ -1,45 +1,49 @@
-.main-menu{
-  margin-top: 10px;
-  margin-bottom: 0;
+nav.main-menu{
   @extend .navbar;
   @extend .navbar-default;
+  margin-top: 10px;
+  margin-bottom: 0;
   @media (min-width: $screen-sm-min) {
-    margin-top: 3px;
-    min-height: 47px;
+    margin-top: 9px;
+    /*min-height: 47px;*/
   }
   /*.menu-links{*/
     /*@extend .collapse;*/
     /*@extend .navbar-collapse;*/
   /*}*/
+  & > div{
+    @extend .row;
+  }
 }
 .navbar-header{
+  @extend .col-xs-60;
+  @extend .visible-xs;
   margin-top: 15px;
 }
 .brand-logo{
+  @extend .visible-xs;
+  @extend .navbar-brand;
   padding-left: 0;
   padding-top: 0;
   img{
     height: 48px;
     width: 48px;
   } 
-  @extend .visible-xs;
-  @extend .navbar-brand;
 }
 .brand-text{
-  font-size: 1.3em;
-  margin: 2px 0 0;
   @extend .navbar-text;
   @extend .visible-xs;
+  font-size: 1.3em;
+  margin: 2px 0 0 60px;
   .description{
     display: block;
     font-size: 0.7em;
-    margin-left: 63px;
   }
 }
 #main-menu-collapse{
   & > ul{
-    margin: 1em auto 0;
     float: none;
+    margin: 1em auto 0;
     text-align: center;
     li{
       float: none;
@@ -47,17 +51,41 @@
       text-transform: uppercase;
       @media (min-width: $screen-sm-min) {
         a {
-          padding-top:    6px;
-          padding-bottom: 6px;
+          color: $color-white;
+          font-size: 1.3em;
+          font-weight: bold;
+          letter-spacing: $font-letter-spacing;
+          line-height: 33px;
+          font-family: $font-family-condensed;
+          padding: 0 15px;
+          transition: color $transition-time;
+          &:hover{
+            color: $color-orange;
+          }
+        }
+        &.active a{
+          color: $color-orange;
+          background: $color-black;
+          border-bottom: 10px solid $color-orange;
+          margin-bottom: -10px;
+        }
+      }
+      @media (min-width: $screen-md-min) {
+        a {
+          padding: 0 30px;
         }
       }
     }
     @media (min-width: $screen-sm-min) {
-      margin-top: 9px;
+      background: $color-black;
+      margin-top: 0px;
     }
   }
 }
 .navbar-toggle{
   margin-right: 0;
   margin-left: 10px;
+  &.collapsed:not(:hover){
+    background: none !important;
+  }
 }

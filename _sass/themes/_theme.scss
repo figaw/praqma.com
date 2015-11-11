@@ -14,7 +14,7 @@ aside{
     margin-bottom: 60px;
     font-size: 1.2em;
     @media (min-width: $screen-md-min) {
-      margin-top: 5px;
+      /*margin-top: 5px;*/
       &:before{
         content: " ";
         display: block;

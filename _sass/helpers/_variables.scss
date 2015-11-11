@@ -9,7 +9,6 @@ $font-family-decorative: "Indie Flower", $font-family-base;
 
 //$font-family-header: $font-family-condensed;
 $font-family-ribbon: "Ubuntu Condensed", $font-family-base;
-
 $font-letter-spacing: 0.05em;
 
 
@@ -21,6 +20,9 @@ $color-white: #fff;
 $color-gray: #e5e4e2;
 $color-gray-text: #959492;
 
+// animation
+$transition-time: 0.2s;
+
 
 // overriding bootstrap
 
@@ -30,6 +32,7 @@ $thumbnail-padding: 0;
 $headings-font-family: $font-family-condensed;
 $navbar-default-bg: white;
 $navbar-default-border: none;
+$navbar-height: auto;
 
 // need to define gutters before bootstrap is included
 $grid-gutter-width:         30px !default; 
