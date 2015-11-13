@@ -5,7 +5,7 @@ phone: +45 36772 762
 logo: /images/logo.png
 description: The Continuous Delivery Company
 slogan: — In Praqma we strive to change the world…
-url: http://praqma.com
+url: http://new.praqma.com #TODO replace with http://praqma.com
 
 # Build settings
 markdown: kramdown
