@@ -1,7 +1,7 @@
 footer{
   color: $color-gray-text;
   background: $color-gray;
-  padding: 2em 0px 4em; // padding for social buttons on mobile
+  padding: 2em 0px 6em; // padding for social buttons on mobile
   @media (min-width: $screen-xs-min) {
     padding-bottom: 2em;
   }
