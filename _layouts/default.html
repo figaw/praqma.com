@@ -4,6 +4,7 @@
   {% include head.html %}
 
   <body{% if page.categories %} class="{{ page.categories | join: ' ' }}"{% endif %}>
+    {% include widget-contacts.html %}
     {% include header.html %}
     {% include nav.html %}
     {% comment %}{% include slogan.html %}{% endcomment %}

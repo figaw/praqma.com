@@ -9,7 +9,9 @@ $font-family-decorative: "Indie Flower", $font-family-base;
 
 //$font-family-header: $font-family-condensed;
 $font-family-ribbon: "Ubuntu Condensed", $font-family-base;
+
 $font-letter-spacing: 0.05em;
+$transition-time: 0.2s;
 
 
 // colors
@@ -18,13 +20,7 @@ $color-orange: #FF9900;
 $color-black: #000;
 $color-white: #fff;
 $color-gray: #e5e4e2;
-$color-gray-text: #656565;
-
-// animation
-$transition-time: 0.2s;
-
-// animation
-$transition-time: 0.2s;
+$color-gray-text: #959492;
 
 
 // overriding bootstrap
@@ -35,21 +31,20 @@ $thumbnail-padding: 0;
 $headings-font-family: $font-family-condensed;
 $navbar-default-bg: white;
 $navbar-default-border: none;
-$navbar-height: auto;
-
-// need to define gutters before bootstrap is included
-$grid-gutter-width:         30px !default; 
-// Medium screen / desktop
-$container-desktop:            (940px + $grid-gutter-width) !default;
-//** For `$screen-md-min` and up.
-$container-md:                 $container-desktop !default;
-
-// Large screen / wide desktop
-$container-large-desktop:      (1120px + $grid-gutter-width) !default;
-//** For `$screen-lg-min` and up.
-$container-lg:                 $container-large-desktop !default;
 
 $link-color:            $color-orange;
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      darken($link-color, 15%);
 $input-border-radius: 0;
 $input-border: $color-black;
+
+// need to define gutters before bootstrap is included
+$grid-gutter-width:         30px; 
+// Medium screen / desktop
+$container-desktop:            (940px + $grid-gutter-width);
+//** For `$screen-md-min` and up.
+$container-md:                 $container-desktop;
+// Large screen / wide desktop
+/*$container-large-desktop:      (1120px + $grid-gutter-width);*/
+$container-large-desktop:      (960px + $grid-gutter-width);
+//** For `$screen-lg-min` and up.
+$container-lg:                 $container-large-desktop;
