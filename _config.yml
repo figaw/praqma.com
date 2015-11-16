@@ -23,6 +23,9 @@ collections:
   training:
     output: true
     permalink: /training/:path/
+  services:
+    output: true
+    permalink: /services/:path/
 
 defaults:
   -
@@ -44,8 +47,13 @@ defaults:
       #categories: tag-page
       #permalink: pretty
       layout: tag-page
-  -
-    scope:
-      type: training
-    values:
-      layout: training-page
+  #-
+    #scope:
+      #type: training
+    #values:
+      #layout: training-page
+  #-
+    #scope:
+      #type: services
+    #values:
+      #layout: service-page

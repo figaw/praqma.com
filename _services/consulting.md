@@ -1,7 +1,7 @@
 ---
 title:      Consulting
 caption:    Consulting, guidance and best practices
-avatar:     /images/services/sign-post-for-advice-and-guidance.jpg
+avatar:     /images/services/consulting.png
 nav-weight: 10
 ---
 

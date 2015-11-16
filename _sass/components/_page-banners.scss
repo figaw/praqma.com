@@ -1,9 +1,29 @@
 section.page-banners{
   @extend .row;
-  article{
+  /*margin-bottom: 2em;*/
+  /*margin-top: 1em;*/
+  @media (min-width: $screen-sm-min) {
     margin-bottom: 2em;
+  }
+  article{
+    @extend .col-md-20;
+    @extend .col-sm-20;
+    margin-bottom: 2em;
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: 0;
+    }
     h3{
+      letter-spacing: $font-letter-spacing;
       margin: 10px 0 5px;
+      text-transform: uppercase;
+      opacity: 0.8;
+      font-size: 1.7em;
+    }
+    .caption{
+      @media (min-width: $screen-sm-min) {
+        font-size: 0.9em;
+      }
+      opacity: 0.8;
     }
     a>img{
       margin: 0;
@@ -13,7 +33,8 @@ section.page-banners{
         width: 100%;
       }
     }
-    @extend .col-md-20;
-    @extend .col-sm-20;
+    p{
+      margin: 0;
+    }
   }
 }

@@ -1,7 +1,7 @@
 ---
 title:      Assessments
 caption:    Continuous Delivery Maturity Assessment
-avatar:     /images/services/cdmi-poster.jpg
+avatar:     /images/services/assessments.png
 nav-weight: 30
 ---
 

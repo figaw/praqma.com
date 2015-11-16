@@ -2,7 +2,7 @@
 <section class="main-banner">
   <div>
     <div>
-      <a class="main-link" href="{{ mb.link }}">
+      <a class="main-link" href="{{ mb.url }}">
         <span class="title-ribbons">
           <span class="ribbon-secondary">{{ mb.ribbon-orange-caption }}</span><br/>
           {% assign black-ribbon-parts =  mb.ribbon-black-caption | split: "<br>" %}
@@ -10,10 +10,10 @@
             <span class="ribbon-primary">{{ t }}</span><br/>
           {% endfor %}
         </span>
-        <img src="{{ mb.image }}" alt="{{ ribbon-black-caption }}">
+        <img src="{{ mb.avatar }}" alt="{{ ribbon-black-caption }}">
         <span class="caption">{{ mb.caption }}</span>
       </a>
-      <a class="additional-link" href=" {{ mb.ribbon-white-link }}">
+      <a class="additional-link" href=" {{ mb.ribbon-white-url }}">
         {{ mb.ribbon-white-caption }}
       </a>
     </div>

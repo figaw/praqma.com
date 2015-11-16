@@ -1,7 +1,7 @@
 ---
 title:      Tool specialists
 caption:    Can we fix it? Yes we can!
-avatar:     /images/services/cdmi-poster.jpg
+avatar:     /images/services/tools.png
 nav-weight: 60
 ---
 

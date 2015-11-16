@@ -1,37 +1,37 @@
 main-banners:
- - image:  /images/main-banner-mastering-git.png
-   link:    /training/git.html
+ - avatar:  /images/main-banner-mastering-git.png
+   url:    /training/git.html
    caption: This text should appear over the right half of the picture
             when the mouse hover over it. It should contain a twitter
             size (140 chars) text.
    ribbon-orange-caption: 2 DAYS COURSE
    ribbon-black-caption: MASTERING <br>GIT
    ribbon-white-caption:  VIEW ALL COURSES
-   ribbon-white-link:     /training/
+   ribbon-white-url:     /training/
 
 page-banners:
- #- image:         /images/page-banner-conf.png
-   #link:          http://www.code-conf.com
+ #- avatar:         /images/page-banner-conf.png
+   #url:          http://www.code-conf.com
    #header:        SAMPLE
    #caption:       This text should appear under the picture and stay visible
                   #even on small screens. The text is expected to be roughly
                   #the length of a tweet.
 
- - image:         /images/page-banner-news.png
-   link:          /news/some-page.html
+ - avatar:         /images/page-banner-news.png
+   url:          /news/some-page.html
    header:        NEWS
    caption:       Learn how Microsoft avoided “not invented here” syndrome and
                   adopted Git. Ethomson speaks at code-conf.
 
- - image:         /images/page-banner-features.png
-   link:          /news/some-page.html
+ - avatar:         /images/page-banner-features.png
+   url:          /news/some-page.html
    header:        FEATURES
    caption:       Our services, ranging from development of plain vanilla
                   software, over software verification and continuous delivery
                   assessment.
 
- - image:         /images/page-banner-features.png
-   link:          http://www.code-conf.com
+ - avatar:         /images/page-banner-features.png
+   url:          http://www.code-conf.com
    header:        CONFERENCE
    caption:       Our event are relevant to managers, software architects
                   developers, project managers, agile coaches and everyone

@@ -1,7 +1,7 @@
 ---
 title:      Conferences
 caption:    Continuous Delivery conferences and meetups
-avatar:     /images/services/conf.png
+avatar:     /images/services/training.png
 nav-weight: 80
 ---
 

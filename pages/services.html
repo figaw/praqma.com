@@ -1,0 +1,31 @@
+---
+title: Services
+permalink: /services/
+nav-weight: 10
+---
+
+{% assign index = 0 %}
+<section class="page-banners">
+  {% for s in site.services %}
+    {% assign mod = index | modulo:3 %}
+    {% if index != 0 %}
+      {% if mod == 0 %}
+        </section>
+        <section class="page-banners">
+      {% endif %}
+    {% endif %}
+    {% assign index = index | plus: 1 %}
+    <article>
+      <a href="{{ s.url }}">
+        <img src="{{ s.avatar }}" alt="{{ s.title }}">
+      </a>
+      <div class="caption">
+        <h3>{{ s.title }}</h3>
+        <p>
+          {% comment %}{{ s.content | split:'<!--break-->' | first | markdownify | strip_html }}{% endcomment %}
+          {{ s.caption }}
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</section>

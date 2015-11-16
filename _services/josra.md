@@ -1,7 +1,7 @@
 ---
 title:      Josra
 caption:    Joint Open Source Roadmap Alliance
-avatar:     /images/services/josra-logo_2x3.png
+avatar:     /images/services/josra.png
 nav-weight: 50
 ---
 

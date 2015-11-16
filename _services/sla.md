@@ -1,13 +1,12 @@
 ---
 title:      SLA
 caption:    Service Level Agreements
-avatar:     /images/services/it_network_support_services.jpg
+avatar:     /images/services/car.png
 nav-weight: 90
 ---
 
 ## Assess your current situation and lay a path into the future
 {: .subtitle}
-
 
 Many companies prioritize the ability to be able to have a stable budget over having one that varies. They simply do not want to be dependent on a tool that isn't supported.
 {: .caption}
