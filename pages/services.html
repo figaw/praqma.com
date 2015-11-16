@@ -4,9 +4,10 @@ permalink: /services/
 nav-weight: 10
 ---
 
+{% assign ss = site.services | sort: "nav-weight" %}
 {% assign index = 0 %}
 <section class="page-banners">
-  {% for s in site.services %}
+  {% for s in ss %}
     {% assign mod = index | modulo:3 %}
     {% if index != 0 %}
       {% if mod == 0 %}

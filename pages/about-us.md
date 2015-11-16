@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: About us
 permalink: /contact/
 nav-weight: 50
 ---
