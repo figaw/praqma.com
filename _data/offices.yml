@@ -1,0 +1,49 @@
+-
+  title: Praqma A/S
+  address: Allerød Stationsvej 4<br>
+           DK-3450 Allerød<br>
+           Denmark
+  phone: +45 36 77 27 62
+  vat:   DK30987225
+  email: info@praqma.com
+  map:   https://www.google.dk/maps/place/Praqma/@55.870465,12.354796,17z/data=!3m1!4b1!4m2!3m1!1s0x4652469262ff44e1:0xebbd99b8a7c92010?hl=en
+
+-
+  title: Copenhagen office
+  address:  Borgergade 24B, 2. sal<br>
+            1300 København K<br>
+            Denmark
+  phone: +45 42 71 17 78
+  vat:   DK30987225
+  email: info@praqma.com
+  map:   https://www.google.dk/maps/place/Borgergade+24,+1300+K%C3%B8benhavn+K/@55.6846493,12.5838984,17z/data=!3m1!4b1!4m2!3m1!1s0x46525318e0724d83:0x4221caf0554c6798?hl=en
+
+-
+  title: Aarhus office
+  address:  Nørre Alle 22, 1. sal<br>
+            8000 Aarhus C<br>
+            Denmark
+  vat:   DK36085220
+  email: info@praqma.com
+  map: https://www.google.dk/maps/place/N%C3%B8rregade+22,+8000+Aarhus+C/@56.161222,10.2076609,17z/data=!3m1!4b1!4m2!3m1!1s0x464c3f961248791f:0xedefc2b493925dd6?hl=en
+
+-
+  title: Praqma Norway A/S
+  address:  Tordenskioldsgate 3
+            0160 Oslo
+            Norway
+  phone:    +47 48676360
+  vat:    NO914758440
+  email:  info@praqma.com
+  map: https://www.google.dk/maps/place/Tordenskiolds+gate+3,+0160+Oslo,+Norway/@59.9131294,10.7341237,17z/data=!3m1!4b1!4m2!3m1!1s0x46416e7d8781deb5:0x3a44a012fc299fb7?hl=en
+
+
+-
+  title: Praqma Sweden AB
+  caption:  Ferkens gränd 3<br>
+            111 30 Stockholm<br>
+            Sweden
+  phone:
+  vat:   SE556976195901
+  email: info@praqma.com
+  map: https://www.google.dk/maps/place/Praqma+AB/@59.3241852,18.0743319,15z/data=!4m2!3m1!1s0x0:0x736fafcfc1db5c79
