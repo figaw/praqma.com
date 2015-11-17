@@ -36,6 +36,9 @@
         }
         .icons{
           margin-left: 10px;
+          i{
+            font-style: normal;
+          }
           a{
             color: $color-black;
             font-size: 3em;
