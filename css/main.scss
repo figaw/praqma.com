@@ -19,6 +19,7 @@ $fa-font-path: "/bower_components/components-font-awesome/fonts/";
 @import "base/typography";
 @import "components/main-banner";
 @import "components/page-banners";
+@import "pages/about";
 @import "components/slogan";
 @import "components/header";
 @import "components/nav";
@@ -30,8 +31,9 @@ $fa-font-path: "/bower_components/components-font-awesome/fonts/";
 @import "pages/blog";
 @import "pages/training";
 @import "pages/training-page";
+@import "pages/service-page";
 @import "pages/training-index";
 @import "themes/theme";
 
-/*@import "helpers/helpers";*/
+@import "helpers/helpers";
 

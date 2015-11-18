@@ -26,6 +26,9 @@ collections:
   services:
     output: true
     permalink: /services/:path/
+  about-pages:
+    output: true
+    permalink: /about/:path/
 
 defaults:
   -
@@ -47,13 +50,18 @@ defaults:
       #categories: tag-page
       #permalink: pretty
       layout: tag-page
+  -
+    scope:
+      type: training
+    values:
+      layout: training-page
+  -
+    scope:
+      type: services
+    values:
+      layout: service-page
   #-
     #scope:
-      #type: training
+      #type: about-pages
     #values:
-      #layout: training-page
-  #-
-    #scope:
-      #type: services
-    #values:
-      #layout: service-page
+      #layout: about-page

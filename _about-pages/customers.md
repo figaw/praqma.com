@@ -1,7 +1,7 @@
 ---
 title:      Partners
 caption:    We have some great partners
-avatar:     /images/about-us/customers.png
+avatar:     /images/about/customers.png
 nav-weight: 40
 ---
 

@@ -1,0 +1,14 @@
+<nav class="service-menu">
+  {% for s in site.services %}
+    <div class="menu-item{% if s.url == page.url %} active{% endif %}">
+      <a href="{{ s.url }}">
+        <h3>
+          {{ s.title }}
+        </h3>
+        <p>
+          {{ s.caption }}
+        </p>
+      </a>
+    </div>
+  {% endfor %}
+</nav>

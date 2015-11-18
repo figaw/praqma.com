@@ -1,0 +1,15 @@
+<nav class="about-menu">
+  {% for a in site.about-pages %}
+    <div class="menu-item">
+      <a href="{{ a.url }}">
+        <img src="{{ a.avatar }}" alt="{{ a.title }}">
+        <h3>
+          {{ a.title }}
+        </h3>
+        <p>
+          {{ a.caption }}
+        </p>
+      </a>
+    </div>
+  {% endfor %}
+</nav>

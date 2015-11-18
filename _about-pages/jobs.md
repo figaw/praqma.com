@@ -1,7 +1,7 @@
 ---
 title:      Jobs
 caption:    We're hiring - are you a CoDe:er at heart?
-avatar:     /images/about-us/jobs.png
+avatar:     /images/about/jobs.png
 nav-weight: 40
 ---
 

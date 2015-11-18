@@ -1,0 +1,29 @@
+.about-menu{
+  @extend .row;
+  margin-top: 40px;
+  .menu-item{
+    @extend .col-md-15;
+    text-align: center;
+    img{
+      width: 70%;
+      /*transition: opacity $transition-time;*/
+    }
+    a{
+      color: $color-black;
+      text-decoration: none;
+    }
+    h3{
+      letter-spacing: $font-letter-spacing;
+      text-transform: uppercase;
+    }
+    &:hover{
+      img{
+        opacity: 0.8;
+      }
+      h3{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
