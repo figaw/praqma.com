@@ -2,7 +2,12 @@
   @extend .row;
   margin-top: 40px;
   .menu-item{
-    @extend .col-md-15;
+    @extend .col-xs-30;
+    @extend .col-sm-15;
+    margin-bottom: 2em;
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: 0em;
+    }
     text-align: center;
     img{
       width: 70%;

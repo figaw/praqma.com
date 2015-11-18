@@ -19,7 +19,7 @@ permalink: /:categories/:title/
 collections:
   tag-pages:
     output: true
-    permalink: /blog/:path/
+    permalink: /blog/tag/:path/
   training:
     output: true
     permalink: /training/:path/
