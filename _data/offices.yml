@@ -6,7 +6,7 @@
   phone: +45 36 77 27 62
   vat:   DK30987225
   email: info@praqma.com
-  map:   https://www.google.dk/maps/place/Praqma/@55.870465,12.354796,17z/data=!3m1!4b1!4m2!3m1!1s0x4652469262ff44e1:0xebbd99b8a7c92010?hl=en
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.550493483829!2d12.354801315935156!3d55.870464980585034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652469262ff44e1%3A0xebbd99b8a7c92010!2sPraqma!5e0!3m2!1sen!2sdk!4v1447926612672" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 -
   title: Copenhagen office
@@ -16,7 +16,7 @@
   phone: +45 42 71 17 78
   vat:   DK30987225
   email: info@praqma.com
-  map:   https://www.google.dk/maps/place/Borgergade+24,+1300+K%C3%B8benhavn+K/@55.6846493,12.5838984,17z/data=!3m1!4b1!4m2!3m1!1s0x46525318e0724d83:0x4221caf0554c6798?hl=en
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.245360364433!2d12.583957360108208!3d55.684721860703526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525318e0724d83%3A0x4221caf0554c6798!2sBorgergade+24%2C+1300+K%C3%B8benhavn+K!5e0!3m2!1sen!2sdk!4v1447926256552" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 -
   title: Aarhus office
@@ -25,7 +25,7 @@
             Denmark
   vat:   DK36085220
   email: info@praqma.com
-  map: https://www.google.dk/maps/place/N%C3%B8rregade+22,+8000+Aarhus+C/@56.161222,10.2076609,17z/data=!3m1!4b1!4m2!3m1!1s0x464c3f961248791f:0xedefc2b493925dd6?hl=en
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.7618582542286!2d10.20766621594644!3d56.16122198066447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f961248791f%3A0xedefc2b493925dd6!2sN%C3%B8rregade+22%2C+8000+Aarhus+C!5e0!3m2!1sen!2sdk!4v1447926723412" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 -
   title: Praqma Norway A/S
@@ -35,7 +35,7 @@
   phone:    +47 48676360
   vat:    NO914758440
   email:  info@praqma.com
-  map: https://www.google.dk/maps/place/Tordenskiolds+gate+3,+0160+Oslo,+Norway/@59.9131294,10.7341237,17z/data=!3m1!4b1!4m2!3m1!1s0x46416e7d8781deb5:0x3a44a012fc299fb7?hl=en
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.145691907326!2d10.734129016095956!3d59.91312938186688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7d8781deb5%3A0x3a44a012fc299fb7!2sTordenskiolds+gate+3%2C+0160+Oslo%2C+Norway!5e0!3m2!1sen!2sdk!4v1447926780739" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 -
@@ -46,4 +46,4 @@
   phone:
   vat:   SE556976195901
   email: info@praqma.com
-  map: https://www.google.dk/maps/place/Praqma+AB/@59.3241852,18.0743319,15z/data=!4m2!3m1!1s0x0:0x736fafcfc1db5c79
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8142.100750277525!2d18.0743319!3d59.3241852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x736fafcfc1db5c79!2sPraqma+AB!5e0!3m2!1sru!2sdk!4v1447926822265" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
