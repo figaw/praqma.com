@@ -1,0 +1,15 @@
+.customers{
+  .customers-wrapper{
+    @extend .row;
+  }
+  .customer{
+    @extend .col-md-10;
+    @extend .col-xs-30;
+    &:nth-child(6n+1){
+      @extend .clearfix;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
