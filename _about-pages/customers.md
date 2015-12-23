@@ -8,35 +8,35 @@ customers:
   -
     name: Agnitio
     logo: /images/customers/agnitio.png
-    link: http://www.agnitio.com/
+    link: http://agnitio.com/
   -
     name: ATP
     logo: /images/customers/atp.jpg
-    link: http://www.atp.dk/
+    link: http://atp.dk/
   -
     name: Bankdata
     logo: /images/customers/bankdata.jpg
-    link: http://www.bankdata.dk/
+    link: http://bankdata.dk/
   -
     name: Brüel & Kjær
     logo: /images/customers/bruel-kjaer.png
-    link: http://www.bksv.dk/
+    link: http://bksv.dk/
   -
     name: Cryptera
     logo: /images/customers/cryptera.png
-    link: http://www.cryptera.com/
+    link: http://cryptera.com/
   -
     name: DFDS
     logo: /images/customers/dfds.jpg
-    link: http://www.dfdsseaways.dk/
+    link: http://dfdsseaways.dk/
   -
     name: DR
     logo: /images/customers/dr.png
-    link: http://www.dr.dk/
+    link: http://dr.dk/
   -
     name: DSV
     logo: /images/customers/dsv.jpg
-    link: http://www.dk.dsv.com/
+    link: http://dk.dsv.com/
   -
     name: Atmel
     logo: /images/customers/atmel.png
@@ -48,67 +48,167 @@ customers:
   -
     name: Asseco
     logo: /images/customers/asseco.png
-    link: http://www.asseco.com/
+    link: http://asseco.com/
   -
     name: YXLON
     logo: /images/customers/yxlon.png
-    link: http://www.yxlon.com/
+    link: http://yxlon.com/
   -
     name: Anoto
     logo: /images/customers/anoto.png
-    link: http://www.anoto.com/
+    link: http://anoto.com/
   -
     name: Kræftens Bekæmpelse
     logo: /images/customers/kaeftens-bekaempelse.png
-    link: https://www.cancer.dk/
+    link: https://cancer.dk/
   -
     name: Global Blue
     logo: /images/customers/global-blue.png
-    link: http://www.globalblue.com/
+    link: http://globalblue.com/
   -
     name: Folkekirkens Nødhjælp
     logo: /images/customers/folkekirkens-nodhjaelp.png
-    link: https://www.noedhjaelp.dk/
+    link: https://noedhjaelp.dk/
   -
     name: Volvo
     logo: /images/customers/volvo.png
-    link: http://www.volvo.com/
+    link: http://volvo.com/
   -
     name: Radiometer
     logo: /images/customers/radiometer.jpg
-    link: http://www.radiometer.com/
+    link: http://radiometer.com/
   -
     name: FL Smidth
     logo: /images/customers/fl-smidth.jpg
-    link: http://www.flsmidth.com/
+    link: http://flsmidth.com/
   -
     name: Genesys
     logo: /images/customers/genesys.jpg
-    link: http://www.genesys.com/
+    link: http://genesys.com/
   -
     name: Jaguar
     logo: /images/customers/jaguar.png
-    link: http://www.jaguar.co.uk/
+    link: http://jaguar.co.uk/
   -
     name: LandRover
     logo: /images/customers/landrover.png
-    link: http://www.landrover.co.uk/
+    link: http://landrover.co.uk/
   -
     name: Nets
     logo: /images/customers/nets.jpg
-    link: http://www.nets.eu/
+    link: http://nets.eu/
   -
     name: Schneider Electric
     logo: /images/customers/schneider-electric.png
-    link: http://www.schneider-electric.com/
+    link: http://schneider-electric.com/
   -
     name: SimCorp
     logo: /images/customers/simcorp.jpg
-    link: http://www.simcorp.com/
+    link: http://simcorp.com/
   -
     name: Sony Ericsson
     logo: /images/customers/sony-ericsson.png
-    link: http://www.sonymobile.com/
+    link: http://sonymobile.com/
+  -
+    name: UK2
+    logo: /images/customers/uk2.png
+    link: https://uk2.net/
+  -
+    name: Dansk Reklame Film
+    logo: /images/customers/dansk-reklame-film.png
+    link: http://drf.dk/
+  -
+    name: Nordea Bank
+    logo: /images/customers/nordea.png
+    link: http://nordea.dk/
+  -
+    name: Siemens
+    logo: /images/customers/siemens.png
+    link: http://siemens.com/
+  -
+    name: Link Factory
+    logo: /images/customers/link-factory.png
+    link: http://linkfactory.net/
+  -
+    name: PRQA
+    logo: /images/customers/prqa.png
+    link: http://programmingresearch.com/
+  -
+    name: SKAT
+    logo: /images/customers/skat.png
+    link: http://skat.dk/
+  -
+    name: Novo Nordisk
+    logo: /images/customers/novo-nordisk.png
+    link: http://novonordisk.com/
+  -
+    name: Visma
+    logo: /images/customers/visma.png
+    link: http://visma.dk/
+  -
+    name: Frequentis
+    logo: /images/customers/frequentis.png
+    link: http://frequentis.com/
+  -
+    name: Compart
+    logo: /images/customers/compart.png
+    link: https://compart.com
+  -
+    name: Politi
+    logo: /images/customers/politi.png
+    link: https://politi.dk
+  -
+    name: Bang Olusfen
+    logo: /images/customers/bang-olusfen.png
+    link: http://bang-olufsen.com/
+  -
+    name: Cirque
+    logo: /images/customers/cirque.png
+    link: http://cirque.dk/
+  -
+    name: Xethru
+    logo: /images/customers/xethru.png
+    link: https://xethru.com/
+  -
+    name: Foss
+    logo: /images/customers/foss.png
+    link: http://foss.dk/
+  -
+    name: Pelagicore
+    logo: /images/customers/pelagicore.png
+    link: http://pelagicore.com/
+  -
+    name: Danfoss
+    logo: /images/customers/danfoss.png
+    link: http://danfoss.dk/
+  -
+    name: Syntigo
+    logo: /images/customers/syntigo.png
+    link: http://www.syntigo.com/
+  -
+    name: Miljø- og Fødevareministeriet
+    logo: /images/customers/miljo-og-fodevareministeriet.png
+    link: http://mfvm.dk/
+  -
+    name: MAN
+    logo: /images/customers/man.png
+    link: http://entry.man.eu/
+  -
+    name: Codesealer
+    logo: /images/customers/codesealer.png
+    link: http://codesealer.com/
+  -
+    name: Clio Online
+    logo: /images/customers/clio-online.png
+    link: http://clioonline.dk/
+  -
+    name: Flexiant
+    logo: /images/customers/flexiant.png
+    link: https://flexiant.com/
+  -
+    name: DBC
+    logo: /images/customers/dbc.png
+    link: http://dbc.dk/
 ---
 
 bla ha ha.
@@ -120,7 +220,7 @@ At this point we will be listing our customers, you will find them in a yml file
     {% for c in page.customers %}
       <div class="customer">
         <div>
-          <a href="{{ c.link }}" target="_blank"><img src="{{ c.logo }}" alt="{{ c.name }}"></a>
+          <a href="{{ c.link }}" target="_blank" title="{{ c.name }}"><img src="{{ c.logo }}" alt="{{ c.name }}"></a>
         </div>
       </div>
     {% endfor %}
