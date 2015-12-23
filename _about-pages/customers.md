@@ -11,11 +11,11 @@ customers:
     link: http://agnitio.com/
   -
     name: ATP
-    logo: /images/customers/atp.jpg
+    logo: /images/customers/atp.png
     link: http://atp.dk/
   -
     name: Bankdata
-    logo: /images/customers/bankdata.jpg
+    logo: /images/customers/bankdata.png
     link: http://bankdata.dk/
   -
     name: Brüel & Kjær
@@ -27,7 +27,7 @@ customers:
     link: http://cryptera.com/
   -
     name: DFDS
-    logo: /images/customers/dfds.jpg
+    logo: /images/customers/dfds.png
     link: http://dfdsseaways.dk/
   -
     name: DR
@@ -35,7 +35,7 @@ customers:
     link: http://dr.dk/
   -
     name: DSV
-    logo: /images/customers/dsv.jpg
+    logo: /images/customers/dsv.png
     link: http://dk.dsv.com/
   -
     name: Atmel
@@ -75,15 +75,15 @@ customers:
     link: http://volvo.com/
   -
     name: Radiometer
-    logo: /images/customers/radiometer.jpg
+    logo: /images/customers/radiometer.png
     link: http://radiometer.com/
   -
     name: FL Smidth
-    logo: /images/customers/fl-smidth.jpg
+    logo: /images/customers/fl-smidth.png
     link: http://flsmidth.com/
   -
     name: Genesys
-    logo: /images/customers/genesys.jpg
+    logo: /images/customers/genesys.png
     link: http://genesys.com/
   -
     name: Jaguar
@@ -95,7 +95,7 @@ customers:
     link: http://landrover.co.uk/
   -
     name: Nets
-    logo: /images/customers/nets.jpg
+    logo: /images/customers/nets.png
     link: http://nets.eu/
   -
     name: Schneider Electric
@@ -103,7 +103,7 @@ customers:
     link: http://schneider-electric.com/
   -
     name: SimCorp
-    logo: /images/customers/simcorp.jpg
+    logo: /images/customers/simcorp.png
     link: http://simcorp.com/
   -
     name: Sony Ericsson
@@ -219,9 +219,7 @@ At this point we will be listing our customers, you will find them in a yml file
   <div class="customers-wrapper">
     {% for c in page.customers %}
       <div class="customer">
-        <div>
-          <a href="{{ c.link }}" target="_blank" title="{{ c.name }}"><img src="{{ c.logo }}" alt="{{ c.name }}"></a>
-        </div>
+        <a href="{{ c.link }}" target="_blank" title="{{ c.name }}"><img src="{{ c.logo }}" alt="{{ c.name }}"></a>
       </div>
     {% endfor %}
   </div>
