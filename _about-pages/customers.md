@@ -209,6 +209,18 @@ customers:
     name: DBC
     logo: /images/customers/dbc.png
     link: http://dbc.dk/
+  -
+    name: Visual Reporting
+    logo: /images/customers/visual-reporting.png
+    link: 
+  -
+    name: GrammaTech
+    logo: /images/customers/grammatech.png
+    link: http://grammatech.com/
+  -
+    name: MøllerGruppen
+    logo: /images/customers/moller-gruppen.png
+    link: http://www.moller.no/
 ---
 
 bla ha ha.
