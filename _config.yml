@@ -7,6 +7,13 @@ description: The Continuous Delivery Company
 slogan: — In Praqma we strive to change the world…
 url: http://new.praqma.com #TODO replace with http://praqma.com
 
+# Only use gems that are supported by github
+# the gems must be installed on your local system to support jekyll build/serve
+# Example
+#    $ gem install jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
+
 # Build settings
 markdown: kramdown
 

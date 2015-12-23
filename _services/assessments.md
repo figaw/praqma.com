@@ -1,6 +1,9 @@
 ---
 title:      Assessments
 caption:    Continuous Delivery Maturity Assessment
+redirect_from:
+  - /foo/
+  - /services/health/
 avatar:     /images/services/assessments.png
 nav-weight: 30
 ---
