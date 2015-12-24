@@ -67,6 +67,11 @@ defaults:
       type: services
     values:
       layout: service-page
+  -
+    scope:
+      type: about-pages
+    values:
+      layout: about-page
   #-
     #scope:
       #type: about-pages

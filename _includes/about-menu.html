@@ -1,6 +1,6 @@
 <nav class="about-menu">
   {% for a in site.about-pages %}
-    <div class="menu-item">
+    <div class="menu-item{% if a.url == page.url %} active{% endif %}">
       <a href="{{ a.url }}">
         <img src="{{ a.avatar }}" alt="{{ a.title }}">
         <h3>

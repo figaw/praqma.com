@@ -1,4 +1,4 @@
-.about-menu{
+.about-menu{ // for about index page
   @extend .row;
   margin-top: 40px;
   .menu-item{
@@ -32,3 +32,68 @@
   }
 }
 
+.about{
+  @extend .row;
+  nav.about-menu{ // overriding menu for about-pages
+    @extend .col-md-15;
+    margin-top: -9px;
+    margin-bottom: 20px; // for small screen
+    .menu-item{
+      @extend .col-xs-60;
+      @extend .col-sm-60;
+      @media (min-width: $screen-sm-min) {
+        margin-bottom: 5px;
+      }
+      text-align: left;
+      img{
+        width: 40px;
+        float: left;
+        margin-right: 10px;
+        /*transition: opacity $transition-time;*/
+      }
+      h3{
+        margin-top: 0.1em;
+        line-height: 40px;
+      }
+      p{
+        display: none;
+      }
+      &.active{
+        a{
+          color: $color-orange;
+        }
+      }
+    }
+    /*padding-top: 5px;*/
+    /*.menu-item{*/
+      /*&.active *, &:hover *{*/
+        /*[>border: 2px solid $color-orange;<]*/
+        /*color: $color-orange;*/
+        /*text-decoration: none;*/
+      /*}*/
+      /*&:hover h3{*/
+        /*text-decoration: underline;*/
+      /*}*/
+    /*}*/
+    /*h3{*/
+      /*margin-top: 0;*/
+    /*}*/
+    /*p{*/
+      /*margin-bottom: 1em;*/
+    /*}*/
+    /*a{*/
+      /*display: block;*/
+      /*color: $color-black;*/
+      /*transition: color $transition-time;*/
+    /*}*/
+  }
+}
+.about-page{
+  @extend .col-md-45;
+  /*& > div{*/
+    /*@extend .row;*/
+  /*}*/
+  /*main[role="main"]{*/
+    /*@extend .col-md-60;*/
+  /*}*/
+}

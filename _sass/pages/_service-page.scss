@@ -28,10 +28,10 @@
 }
 .service-page{
   @extend .col-md-45;
-  & > div{
-    @extend .row;
-  }
-  main[role="main"]{
-    @extend .col-md-60;
-  }
+  /*& > div{*/
+    /*@extend .row;*/
+  /*}*/
+  /*main[role="main"]{*/
+    /*@extend .col-md-60;*/
+  /*}*/
 }

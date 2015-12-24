@@ -231,7 +231,8 @@ At this point we will be listing our customers, you will find them in a yml file
   <div class="customers-wrapper">
     {% for c in page.customers %}
       <div class="customer">
-        <a href="{{ c.link }}" target="_blank" title="{{ c.name }}"><img src="{{ c.logo }}" alt="{{ c.name }}"></a>
+
+        <a {% if c.link %}href="{{ c.link }}" {% endif %}target="_blank" title="{{ c.name }}"><img src="{{ c.logo }}" alt="{{ c.name }}"></a>
       </div>
     {% endfor %}
   </div>

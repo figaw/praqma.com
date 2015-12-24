@@ -4,6 +4,8 @@
   {% include head.html %}
 
   <body{% if page.categories %} class="{{ page.categories | join: ' ' }}"{% endif %}>
+  {% comment %}<body{% if 1 or page.categories %} class="{{ page.categories | join: ' ' }} layout-{{ page.layout }}"{% endif %}>{% endcomment %}
+
     {% include widget-contacts.html %}
     {% include header.html %}
     {% include nav.html %}
