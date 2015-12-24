@@ -1,5 +1,8 @@
-.services{
+.layout-services{
   @extend .row;
+  main{
+    @extend .col-md-45;
+  }
   nav{
     @extend .col-md-15;
     padding-top: 5px;
@@ -25,13 +28,4 @@
       transition: color $transition-time;
     }
   }
-}
-.service-page{
-  @extend .col-md-45;
-  /*& > div{*/
-    /*@extend .row;*/
-  /*}*/
-  /*main[role="main"]{*/
-    /*@extend .col-md-60;*/
-  /*}*/
 }

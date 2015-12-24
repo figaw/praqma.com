@@ -1,3 +1,5 @@
+{% comment %}this menu is used on about page index and single about page.{% endcomment %}
+
 <nav class="about-menu">
   {% for a in site.about-pages %}
     <div class="menu-item{% if a.url == page.url %} active{% endif %}">

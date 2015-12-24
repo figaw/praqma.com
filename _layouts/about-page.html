@@ -1,16 +1,11 @@
 ---
 layout: default
-# this menu is used on about page index and single about page.
 ---
 
-<div class="about">
+<div class="layout-about-page">
   {% include about-menu.html %}
-  <div class="about-page">
-    <div>
-      <main role="main">
-        {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-        {{ content }}
-      </main>
-    </div>
-  </div>
+  <main role="main">
+    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+    {{ content }}
+  </main>
 </div>
