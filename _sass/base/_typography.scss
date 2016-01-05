@@ -13,15 +13,22 @@ body{
   font-family: $font-family-base;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
   font-weight: bold;
-}
-h1{
-  font-size: 1.7em;
   letter-spacing: $font-letter-spacing;
-  margin-bottom: 1em;
-  margin-top: 0;
   text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.369em;
+  margin-bottom: 0.8em;
+  margin-top: 0;
+}
+h2 {font-size: 1.777em;}
+h3 {font-size: 1.333em;}
+h4 {font-size: 1.0em;}
+
+h1{
   .highlight{
     color: $color-orange;
     font-style: inherit;
@@ -30,7 +37,6 @@ h1{
   }
 }
 h2{
-  font-size: 1.5em;
   margin-top: 1.2em;
   margin-bottom: 0;
   &.subtitle{

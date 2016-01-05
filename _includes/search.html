@@ -1,6 +1,6 @@
 {% assign tag-pages = site.tag-pages | sort: "tag-weight" | reverse %}
 <section class="search">
-  <h2>Search</h2>
+  <h3>Search</h3>
   {% for t in tag-pages %}
     {% if t.categories contains "tag-page" %}
       <a href="{{ t.url }}"{% if t.url == page.url %} class="active"{% endif %}>{{ t.tag }}</a>
