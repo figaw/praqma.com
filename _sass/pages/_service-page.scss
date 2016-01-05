@@ -2,9 +2,14 @@
   @extend .row;
   main{
     @extend .col-md-45;
+    @extend .col-md-push-15;
   }
-  nav{
+  nav.service-menu{
     @extend .col-md-15;
+    @extend .col-md-pull-45;
+    &>h2{
+      @extend .visible-xs;
+    }
     padding-top: 5px;
     .menu-item{
       &.active *, &:hover *{
@@ -17,7 +22,7 @@
       }
     }
     h3{
-      margin-top: 0;
+      margin: 0.5em 0 1.2em;
     }
     p{
       margin-bottom: 1em;
@@ -26,6 +31,12 @@
       display: block;
       color: $color-black;
       transition: color $transition-time;
+    }
+    img{
+      max-width: 50%;
+      @media (min-width: $screen-sm-min) {
+        max-width: 100%;
+      }
     }
   }
 }
