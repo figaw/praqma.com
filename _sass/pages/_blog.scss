@@ -1,7 +1,5 @@
-body.blog{
-  .main-area>div{
-    @extend .row;
-  }
+.layout-blog{
+  @extend .row;
   main[role="main"]{
     @extend .col-md-45;
     @extend .col-md-pull-15;
@@ -10,7 +8,7 @@ body.blog{
     letter-spacing: $font-letter-spacing;
     @extend .col-md-15;
     @extend .col-md-push-45;
-    .search{
+    #search{
       a{
         display: block;
         color: $color-black;

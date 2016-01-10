@@ -1,10 +1,18 @@
 {% assign tag-pages = site.tag-pages | sort: "tag-weight" | reverse %}
-<section class="search">
+<section id="search">
   <h3>Search</h3>
-  {% for t in tag-pages %}
-    {% if t.categories contains "tag-page" %}
-      <a href="{{ t.url }}"{% if t.url == page.url %} class="active"{% endif %}>{{ t.tag }}</a>
-    {% endif %}
+  {% assign tags = "" | split:"" %}
+  {% for p in site.posts %}
+    {% for t in p.tags %}
+      {% unless tags contains t %}
+        {% assign tags = tags | push:t %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+  {% assign tags = tags | sort %}
+  <a href="/blog/#Newest" class="active">Newest</a>
+  {% for t in tags %}
+    <a href="/blog/#{{ t }}" class="active">{{ t }}</a>
   {% endfor %}
   <script>
     (function() {
@@ -19,4 +27,6 @@
     })();
   </script>
   <gcse:search></gcse:search>
+  <script src="/javascripts/blog-filtering.js">
+  </script>
 </section>

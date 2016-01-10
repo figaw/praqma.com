@@ -1,49 +1,47 @@
-body.tag-page{
-  main[role='main']{
-    article{
-      margin-bottom: 2em;
-      font-size: 1.1em;
-      & > a{
-        img{
-          margin-bottom: 1em;
-          @extend .col-md-20;
-          @extend .col-sm-20;
-          @extend .col-xs-60;
-          /*width: 100%;*/
-        }
+.layout-tag-page{
+  article{
+    @extend .row;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+    & > a{
+      img{
+        margin-bottom: 1em;
+        @extend .col-md-20;
+        @extend .col-sm-20;
+        @extend .col-xs-60;
+        /*width: 100%;*/
       }
-      section{
-        @extend .col-md-40;
-        @extend .col-sm-40;
-      }
-      h2{
-        margin: 0;
-        font-size: 1.5em;
-        font-weight: bold;
-        letter-spacing: $font-letter-spacing;
-        text-transform: uppercase;
-        a{
+    }
+    section{
+      @extend .col-md-40;
+      @extend .col-sm-40;
+    }
+    h2{
+      margin: 0;
+      font-size: 1.5em;
+      font-weight: bold;
+      letter-spacing: $font-letter-spacing;
+      text-transform: uppercase;
+      a{
+        color: $color-black;
+        &:hover{
           color: $color-black;
-          &:hover{
-            color: $color-black;
-          }
         }
       }
-      .date{
-        opacity: 0.4;
-        font-size: 0.8em;
-        margin: 0.2em 0 0.4em;
+    }
+    .date{
+      opacity: 0.4;
+      font-size: 0.8em;
+      margin: 0.2em 0 0.4em;
+    }
+    .content{
+      margin-top: 10px;
+      *, .caption{
+        font-size: 1em;
       }
-      .content{
-        margin-top: 10px;
-        *{
-          font-size: 1em;
-        }
-      }
-      .readmore{
-        display: block;
-      }
-      @extend .row;
+    }
+    .readmore{
+      display: block;
     }
   }
 }
