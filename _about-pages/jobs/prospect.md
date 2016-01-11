@@ -1,0 +1,53 @@
+---
+title:      Praqma Prospect
+caption:    We’re hiring student and junior CoDe’ers!
+avatar:     /images/about/jobs.png
+nav-weight: 40
+---
+
+## We’re hiring student and junior CoDe’ers. Join Praqma, become a prospect and earn your wings!
+{: .subtitle}
+
+This message goes out to The New Power Generation: All the Computer science and engineering students out there, who are looking to learn the craftsmanship of releasing software that works. We’re looking for student and junior CoDe’ers as well as interns. Join Praqma and earn your CoDe'er wings!
+
+Back in 1990 Prince (you might be too young to know him) release a single called “New Power Generation” part of the chorus went like this:
+
+> We are the new power generation
+> We wanna change the world
+> The only thing that’s in our way is you!
+
+The world of software development is undergoing rapid changes. There are still a good portion of nay-sayers out there - but they are just in the way. In Praqma we believe the world of software is changing and we're determined to play a part in that change.
+
+We're on the verge of a paradigm shift, where software developers are expected to build quality into the systems as opposed to glue it on after it’s released. In the future the definition of done will be implemented into continuous delivery pipelines and software developers will have unlimited access to production-like environments where they can automate every aspect of verification before releasing.
+
+Our mission in Praqma is to see this vision become true. We wanna change the world.
+{: .highlight}
+
+Maybe you've heard of this new approach referred to as DevOps, but in Praqma we call ourselves Continuous Deliverers - or just plain CoDe’ers.
+
+This new paradigm is so much more than just Dev collaborating with Ops. It requires a New Power Generation of software developers with a holistic view. Not just on programming, but on everything in the ecosystem that surrounds software development; Architecture, configuration and infrastructure as code, software as a factory, release management, automated functional testing, traceability, task management…
+
+Be warned: You will not be able to learn this as an academic discipline - this is craftsmanship.
+{: .highlight}
+
+Teaching it is another thing we're trying to facilitate. Praqma has hosted more than 20 students on internships since we started out in November 2007 and we are frequently giving lectures. We're have a well-established collaboration with University of Copenhagen and Copenhagen Business School and we're hosting the CoDe conferences.
+
+Earn your wings! Start as a CoDe'er prospect in Praqma; a whole company of highly motivated and dedicated CoDe’ers.
+
+Who are you - what are we looking for?
+
+ * You are studying to become either Master or Bachelor in a field that involves computer science or computer engineering.
+ * You might even have finished your education recently and are looking for your first employment.
+ * Maybe you need an internship as part of your education - It's likely we have a challenging assignment for you.
+ * You are ambitious.
+ * You like to develop software, you are probably even doing it in your spare time.
+ * You are curious and want to learn more - right until you die!
+ * You've probably already heard of this new Continuous Delivery, DevOps, Infrastructure as Code phenomena - and you've decided that this is the field where you wanna build yourself a career.
+ * You might live in Copenhagen, Århus, Oslo or Stockholm - we have offices in all locations.
+ * You like the color orange - in fact you want to have orange wings.
+
+
+Send us a mail at jobs@praqma.net and attach the following:
+
+ * Your resume.
+ * A cover letter explaining why you believe Praqma is all you.
