@@ -10,6 +10,7 @@ nav-weight: 40
 We abbreviate Continuous delivery as CoDe. _Co_ for Continuous and _De_ for delivery.
 
 The position title we use is "Continuous Deliverer" or just plain "CoDe:er".
+{: .highlight}
 
 Right now we're experiencing massive growth and we are looking for more CoDe:ers to join our ranks. If you have share our passion for creating world class development environments you might consider if you are destined for a new position with Praqma. We have exciting new clients projects waiting for someone like you. You will be engaged in implementing full-fledged continuous delivery pipelines and automated quality assurance eco-systems at our clients, and you will be surrounded by colleagues who have the same passions for this domain as yourself. Joining us will feel like coming home.
 

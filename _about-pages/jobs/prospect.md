@@ -13,7 +13,9 @@ This message goes out to The New Power Generation: All the Computer science and 
 Back in 1990 Prince (you might be too young to know him) release a single called “New Power Generation” part of the chorus went like this:
 
 > We are the new power generation
+>
 > We wanna change the world
+>
 > The only thing that’s in our way is you!
 
 The world of software development is undergoing rapid changes. There are still a good portion of nay-sayers out there - but they are just in the way. In Praqma we believe the world of software is changing and we're determined to play a part in that change.
