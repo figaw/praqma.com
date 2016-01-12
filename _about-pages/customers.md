@@ -3,6 +3,8 @@ title:      Clients
 caption:    We have some great partners
 avatar:     /images/about/customers.png
 nav-weight: 40
+redirect_from:
+  - /customers/
 
 customers:
   -
@@ -212,7 +214,7 @@ customers:
   -
     name: Visual Reporting
     logo: /images/customers/visual-reporting.png
-    link: 
+    link:
   -
     name: GrammaTech
     logo: /images/customers/grammatech.png
