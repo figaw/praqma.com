@@ -2,6 +2,8 @@
 title: Praqma raises Continuous Delivery to corporate level in Atmel
 tags: [Continuous Delivery, Customer case]
 avatar: /images/blog/atmel-logo.png
+redirect_from:
+  - /cases/atmel/
 ---
 
 Atmel Corporation has enhanced the quality of its software testing worldwide and established best practices for automation for all 1,500 IT developers in the organization. Software tests can now be implemented across all countries and in days instead of months.<!--break-->Praqma has matured the test method Continuous Delivery and lifted it from the Norwegian division of Atmel to the entire corporate group.
