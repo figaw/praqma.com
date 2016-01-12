@@ -1,8 +1,11 @@
 <section>
   <h3>Facts</h3>
-  <h4>Duration</h4><p>{{ page.duration }}</p>
-  <h4>Level</h4><p>{{ page.level }}</p>
-  <h4>Caption</h4><p>{{ page.caption }}</p>
-  <h4>Type</h4><p>{{ page.type }}</p>
-  <h4>Location</h4><p>{{ page.location }}</p>
+  {% capture table %}
+  | Duration | {{ page.duration }} |
+  | Level    | {{ page.level }}    |
+  | Caption  | {{ page.caption }}  |
+  | Type     | {{ page.type }}     |
+  | Location | {{ page.location }} |
+  {% endcapture %}
+  {{ table | markdownify }}
 </section>

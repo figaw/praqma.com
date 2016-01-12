@@ -17,17 +17,16 @@ You will learn how to improve your software development process by exploiting so
 
 ###We will explore:
 
-* What is Git?
+* What is Git? Learn the data model and design
 * Git command line - repos, staging, committing etc.
-* .gitconfig vs..gitignore
+* Git configuration
 * Git GUIs (exemplified with SourceTree)
-* Fixing errors in commits
+* Fixing errors
 * Git branching and merging
 * Troubleshooting with git
 * Distributed git
 * Branching- and flow strategies
 * Adaption to agile development processes
-* Integrations to automation platforms (exemplified with Jenkins CI)
 
 
 This class is intensive and hands-on! We have a complete lab setup where you will gain fast paced experiences to take home, ready to apply in your environment.

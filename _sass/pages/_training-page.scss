@@ -4,12 +4,12 @@
     @extend .row;
   }
   main[role="main"]{
-    @extend .col-md-40;
+    @extend .col-md-60;
   }
-  aside{
-    /*@extend .row;*/
-    @extend .col-md-20;
-    /*section{*/
-    /*}*/
-  }
+  /*aside{*/
+    /*[>@extend .row;<]*/
+    /*@extend .col-md-20;*/
+    /*[>section{<]*/
+    /*[>}<]*/
+  /*}*/
 }

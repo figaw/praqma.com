@@ -7,11 +7,7 @@ layout: training
     <main role="main">
       {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
       {{ content }}
+      {% include training-page-details.html %}
     </main>
-    <aside>
-      <div>
-        {% include training-page-details.html %}
-      </div>
-    </aside>
   </div>
 </div>

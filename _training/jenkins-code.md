@@ -3,7 +3,7 @@ title:    Mastering Continuous Delivery with Jenkins
 duration: Two days
 level:    Architects, System Administrators, Devops and Continuous Delivery practitioners
 caption:  Use this training to jump start your continuous delivery implementation
-type:     This class has plenty of hands-on exercises that familiarizes you with how to implement Continuous Delivery with Jenkins
+type:     This class has plenty of hands-on exercises that teaches you how to implement Continuous Delivery with Jenkins
 location: Copenhagen, Stockholm, Oslo
 avatar:   /images/training/jenkins.code.1x1.png
 ---
