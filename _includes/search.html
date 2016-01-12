@@ -10,9 +10,9 @@
     {% endfor %}
   {% endfor %}
   {% assign tags = tags | sort %}
-  <a href="/blog/#Newest" class="active">Newest</a>
+  <a href="/blog/#Newest">Newest</a>
   {% for t in tags %}
-    <a href="/blog/#{{ t }}" class="active">{{ t }}</a>
+    <a href="/blog/#{{ t }}">{{ t }}</a>
   {% endfor %}
   <script>
     (function() {

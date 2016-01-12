@@ -9,18 +9,18 @@
       text-transform: uppercase;
     }
     .tag{
-      background: $color-orange;
-      color: white;
+      background: $color-gray;
+      color: $color-gray-text;
       font-size: 0.8em;
       padding: 0 0.4em;
-      &.tag-no-link{
-        background: $color-gray;
-        color: $color-gray-text;
-      }
-      &.tag-link:hover{
-        opacity: 0.6;
+      &:hover{
+        background: $color-orange;
+        color: white;
         text-decoration: none;
       }
+      /*&.tag-link:hover{*/
+        /*opacity: 0.6;*/
+      /*}*/
     }
   }
 }

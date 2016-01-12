@@ -6,26 +6,8 @@ layout: blog
   <header class="post-header">
     <div class="meta">
       <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
-      {% comment %}show tags with a link{% endcomment %}
-      {% assign tags-without-link = "" | split: "|" %}
       {% for t in page.tags %}
-        {% assign matched = 0 %}
-        {% for tp in site.tag-pages %}
-          {% assign tp.tag = tp.tag | upcase %}
-          {% if tp.tag == t | upcase %}
-            {% if tp.tag != "Featured" %}
-              <a class="tag tag-link" href="{{ tp.url }}">{{ t }}</a>
-            {% endif %}
-            {% assign matched = 1 %}
-          {% endif %}
-        {% endfor %}
-        {% unless matched == 1 %}
-          {% assign tags-without-link = tags-without-link | push: t %}
-        {% endunless %}
-      {% endfor %}
-      {% comment %}show the rest tags{% endcomment %}
-      {% for t in tags-without-link %}
-        <span class="tag tag-no-link">{{ t }}</span>
+        <a class="tag" href="/blog/#{{ t }}">{{ t }}</a>
       {% endfor %}
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
