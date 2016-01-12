@@ -5,6 +5,7 @@ avatar:     /images/about/customers.png
 nav-weight: 40
 redirect_from:
   - /customers/
+  - /cases/
 
 customers:
   -
@@ -225,9 +226,7 @@ customers:
     link: http://www.moller.no/
 ---
 
-bla ha ha.
-
-At this point we will be listing our customers, you will find them in a yml file under `/_data/customers.yml`
+Read some of our [customer case stories](/blog/#Customer case).
 
 <div class="customers">
   <div class="customers-wrapper">
