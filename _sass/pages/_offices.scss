@@ -1,8 +1,28 @@
 .office{
   margin-bottom: 2em;
+  &>div{
+    @extend .row;
+    .column{
+      @extend .col-md-30;
+    }
+  }
+  iframe{
+    margin-bottom: 20px;
+    @media (min-width: $screen-md-min) {
+      margin-bottom: 0;
+    }
+  }
+  h3{
+    margin-top: 0;
+  }
   .vat{
     /*font-size: 0.7em;*/
     display: inline-block;
     /*color: $color-gray;*/
+  }
+  .auto-break{
+    &>a, &>span{
+      display: block;
+    }
   }
 }

@@ -8,18 +8,16 @@ nav-weight: 30
 <div class="page-offices">
   {% for o in site.data.offices %}
     <div class="office">
-      {{ o.map }}
-      <!--<div class="row">-->
-        <!--<div class="col-md-30">-->
+      <div>
+        <div class="column">
+          {{ o.map }}
+        </div>
+        <div class="column">
           <h3>{{ o.title }}</h3>
-          {{ o.address| strip_html}}
-          <div class="vat">VAT: {{ o.vat }}</div>
-          <div class="phone"><a href="tel:{{ o.phone }}">{{ o.phone }}</a></div>
-          <div class="email"><a href="mailto:{{ o.email }}">{{ o.email }}</a></div>
-        <!--</div>-->
-        <!--<div class="col-md-30">-->
-        <!--</div>-->
-      <!--</div>-->
+          <p class="auto-break"><span>{{ o.address| strip_html}}</span><span>VAT: {{ o.vat }}</span></p>
+          <p class="auto-break"><a href="tel:{{ o.phone }}">{{ o.phone }}</a><a href="mailto:{{ o.email }}">{{ o.email }}</a></p>
+        </div>
+      </div>
     </div>
   {% endfor %}
 </div>
