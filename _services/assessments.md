@@ -26,6 +26,8 @@ A Continuous Delivery Assessment consists of four main parts:
 * A Q&A session after you’ve had a chance to read the report
 
 ## The workshop
+<img src="/images/services/assessment.JPG" alt="The workshop" style="width: 500px;"/>
+
 At the workshop we recommend that people who have interests or stakes in the implementation of the continuous delivery approach in your organization participate. Ideally if your organization uses different technology stacks or processes, they should all be represented. Both software developers, build and release engineers, QA personnel, system architects, functional testers as well as project managers could contribute to such a workshop. The ideal number of participants is in the range of 10-20 people.
 
 ## The qualitative interviews
