@@ -23,7 +23,7 @@ We believe there are no silver bullets, only lots and lots of lead ones.  Improv
 Software development is a challenging, chaotic endeavor.  In the quest for
 survival and market success it is all too easy to focus on chopping the wood
 rather than sharpening the axe.  Software is your business, sharpening axes is
-ours.  We can help you identify, priotitize and remove
+ours.  We can help you identify, prioritize and remove
 the bottlenecks from your software development process.  We help our clients:
 
 * Remove manual and error prone processes
@@ -38,7 +38,7 @@ We hire and train the best in the field of Continuous Delivery and DevOps.  Peop
 We will never sell you a body or a named resource.  The continuous delivery
 ecosystem requires an ever-expanding skill set that is not available in just
 one person.  So when you enter into an consulting engagement with us, you don't
-need to choose between a strategic consulting expert, a jenkins ninja, an
+need to choose between a strategic consulting expert, a Jenkins ninja, an
 IT infrastructure automation guru, or a top trainer.  We will use our pool of
 experts to get you exactly the skills you need, when you need them.
 
