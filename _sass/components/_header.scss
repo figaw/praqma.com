@@ -6,8 +6,15 @@
     width: 88px;
   }
   .description{
-    font-size: 0.9em;
-    margin-top: 25px;
+    font-size: 14px;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+    @media 
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) { 
+      // renders smaller on retina for some reason, so I apply this
+      font-size: 20px;
+    }
     @media (min-width: $screen-sm-min) {
       line-height: 1.6;
     }
