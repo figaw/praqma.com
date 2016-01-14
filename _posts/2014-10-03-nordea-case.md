@@ -1,7 +1,7 @@
 ---
 title: Atlassian Jira Administrators Course at Nordea - Testimonial
 tags: [Atlassian Jira, Training, Customer case]
-avatar: /images/blog/nordea-logo.png
+avatar: /images/stories/nordea-logo.png
 redirect_from:
   - /events/jiratraining/
 ---

@@ -1,4 +1,4 @@
-.layout-blog{
+.layout-story{
   @extend .row;
   main[role="main"]{
     @extend .col-md-45;
@@ -60,7 +60,7 @@ input.gsc-input,
 .gsc-input-box-focus,
 .gsc-search-button,
 .gsc-selected-option-container{
-  box-sizing: content-box; 
+  box-sizing: content-box;
   line-height: normal;
 }
 .gsc-search-button,

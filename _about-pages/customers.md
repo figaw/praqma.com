@@ -226,7 +226,7 @@ customers:
     link: http://www.moller.no/
 ---
 
-Read some of our [customer case stories](/blog/#Customer case).
+Read some of our [customer case stories](/stories/#Customer case).
 
 <div class="customers">
   <div class="customers-wrapper">

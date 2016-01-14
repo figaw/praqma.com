@@ -1,7 +1,7 @@
 ---
 title: Grundfos increases productivity by 300 percent with Praqma
 tags: [Continuous Delivery, Customer case]
-avatar: /images/blog/grundfos-logo.png
+avatar: /images/stories/grundfos-logo.png
 redirect_from:
   -  /cases/grundfos/
 ---

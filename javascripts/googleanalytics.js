@@ -5,3 +5,4 @@
 
   //ga('create', 'UA-33979353-1', 'praqma.com');
   //ga('send', 'pageview');
+  // TODO: Make it online when we go live!

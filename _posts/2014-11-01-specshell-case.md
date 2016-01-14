@@ -1,7 +1,7 @@
 ---
 title: Praqma takes Specshell from start-up idea to viable business
 tags: [Continuous Delivery, Customer case]
-avatar: /images/blog/specshell-logo.png
+avatar: /images/stories/specshell-logo.png
 redirect_from:
   -  /events/specshell/
 ---

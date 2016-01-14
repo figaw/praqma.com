@@ -1,11 +1,11 @@
 ---
 layout: tag-page
-permalink: /blog/
-title: Blog
+permalink: /stories/
+title: Stories
 nav-weight: 40
 ---
 
-<h1>{{ site.blog.default-tag }}</h1>
+<h1>{{ site.stories.default-tag }}</h1>
 
 {% for post in site.posts %}
 {% assign tags = post.tags | push:"Newest" %}

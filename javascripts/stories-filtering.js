@@ -4,7 +4,7 @@ function filter(currentTag){
 
   // if hash is empty
   //
-  if (currentTag == "" && window.location.pathname == "/blog/") {
+  if (currentTag == "" && window.location.pathname == "/stories/") {
     currentTag = "Featured";
     console.log("currentTag = " + currentTag);
   }
@@ -31,10 +31,10 @@ function filter(currentTag){
     return $( this ).text() == currentTag;
   })
   .addClass("active");
-  
+
   // Wrong hash
   //
-  if(articlesToShow.length == 0 && window.location.pathname == "/blog/"){
+  if(articlesToShow.length == 0 && window.location.pathname == "/stories/"){
     window.location.replace("/404.html");
   }
 }

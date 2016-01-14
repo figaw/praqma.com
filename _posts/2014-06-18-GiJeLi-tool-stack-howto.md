@@ -1,7 +1,7 @@
 ---
 title: GiJeLi setup
 tags: [Featured, Gijeli, Wiki, MarkDown, Ruby]
-avatar: /images/blog/jekyll-4x3.png
+avatar: /images/stories/jekyll-4x3.png
 author: Lars Kruse
 ---
 

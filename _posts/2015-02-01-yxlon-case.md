@@ -1,7 +1,7 @@
 ---
 title: Full automation of software testing from day one at Yxlon International
 tags: [Continuous Delivery, Customer case]
-avatar: /images/blog/yxlon-logo.png
+avatar: /images/stories/yxlon-logo.png
 redirect_from:
   - /cases/yxlon/
 ---
