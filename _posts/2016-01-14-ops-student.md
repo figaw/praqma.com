@@ -1,6 +1,7 @@
 ---
 title:      IT Operations Student position
 caption:    We're hiring - are you an up and coming IT Operations expert?
+tags:   [Jobs]
 avatar:     /images/about/jobs.png
 nav-weight: 40
 ---
@@ -10,7 +11,7 @@ nav-weight: 40
 
 In Praqma we are specialists in continuous delivery as well as devops.  Right now we're experiencing massive growth and we are looking for more experts to join our ranks.  
 
-But but like the proverbial shoemaker whose children walk barefoot, we prioritize our customer needs over our own infrastructure maintenance.  We have a backlog of already planned work, but we could use a hand to get where we want to go.
+But but like the proverbial shoemaker whose children walk barefoot, we prioritize our customer needs over our own infrastructure maintenance.  We have a backlog of already planned work, but we could use a hand to get where we want to go.<!--break-->
 
 Can you take responsibility for maintaining and developing our internal IT infrastructure?
 {: .highlight}
