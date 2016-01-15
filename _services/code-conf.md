@@ -6,14 +6,43 @@ nav-weight: 80
 ---
 
 ## Continuous Delivery conferences and meetups
-Lorem ipsum dolor sit amet, ei iusto persius nam. Eos an dico ceteros. No decore quodsi sea. Ex vix laoreet abhorreant, in sit agam mutat alienum. Utroque patrioque est no, his invidunt lobortis gubergren no.
+
+Praqma has been organizing community events and meetups on a regular basis.  Beginning with Continuous Delivery Users meetup groups, through hosting the Jenkins Scandinavia, on to creating the CoDeConf concept, we have dedicated ourselves to improve the software communities we are part of.
 {: .caption}
 
-Id his equidem detracto, tantas liberavisse ne vix, mundi consequuntur sea eu. Omnes aeterno ex qui, in convenire interpretaris mei. Mea partem facilisis prodesset ne, mei at labores accumsan. Ad qui iudico tacimates. Has eros dicta ea, option deleniti ad vix. Natum intellegat incorrupte sed no, vel ut omnium adversarium concludaturque, vim facilisis percipitur et.
-
-Verear lucilius expetendis ut has. Elitr periculis expetendis nec ne, nulla graecis ei cum, mel errem animal suscipiantur ex. Eu eius ceteros vix. No has
+Passion is an overused word in our business - but we care deeply about Continuous Delivery.  We create the events we wished existed, and make them available to everyone.
 {: .highlight}
 
-Id his equidem detracto, tantas liberavisse ne vix, mundi consequuntur sea eu. Omnes aeterno ex qui, in convenire interpretaris mei. Mea partem facilisis prodesset ne, mei at labores accumsan. Ad qui iudico tacimates. Has eros dicta ea, option deleniti ad vix. Natum intellegat incorrupte sed no, vel ut omnium adversarium concludaturque, vim facilisis percipitur et.
 
-Mel in vero omittam platonem. Mea eu dolor saepe munere, vim suas enim timeam id. Veri fastidii mea ut, deserunt sapientem sea et. Ut duo omnes disputationi, ex sit malis doctus assentior, ex nominati similique vix. Ad ridens inermis efficiantur pro, tollit albucius ius an.
+## Conferences
+
+We have plans for 9 conferences in 2016, sign up to our newsletter to get the latest announcements on these exciting events!
+
+* **CoDe:CPH, CoDe:OSL & CoDe:STHLM** - our Continuous Delivery and DevOps conferences
+* **Day of Docker** - our bring-a-laptop workshop conference concept
+* **Jenkins User Event Scandinavia** - our annual jenkins event and code camp
+
+![Kelsey Hightower at Day of Docker Oslo](/images/services/conferences/kelsey-dod.jpg){: .pic .medium .center}
+
+We want to bring the best ideas and the leading figures in our world to our community.  Here is Kelsey Hightower giving the Keynote Day of Docker Oslo.
+{: .highlight}
+
+## Meetup groups
+
+We are helping to organize meetup groups at all of our locations in Scandinavia.  
+
+Copenhagen:
+
+ * [Continuous Delivery Users Copenhagen](http://www.meetup.com/code-u/)
+ * [Atlassian Users Copenhagen](http://www.meetup.com/Atlassian-Users-Copenhagen/)
+ * [Malmo & Copenhagen DevOps](http://www.meetup.com/Malmo-Cph-DevOps-Meetup/)
+
+Oslo:
+
+ * [Docker Oslo](http://www.meetup.com/Docker-Oslo/)
+ * [Devops Norway](http://www.meetup.com/DevOps-Norway/)
+ * [Oslo Embedded Software](http://www.meetup.com/Oslo-Embedded-Software-Meetup/)
+
+Stockholm:
+
+ * [Continuous Delivery Users STHLM](http://www.meetup.com/Malmo-Cph-DevOps-Meetup/)
