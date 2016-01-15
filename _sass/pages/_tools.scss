@@ -1,0 +1,33 @@
+.tools{
+  .tools-wrapper{
+    @extend .row;
+  }
+  .tool{
+    @extend .col-md-15;
+    /*@extend .col-sm-15;*/
+    @extend .col-xs-15;
+    height: 90px;
+    overflow: hidden;
+    margin-top: 25px;
+    /*&:nth-child(6n+1){*/
+      /*@extend .clearfix;*/
+    /*}*/
+    /*display: table;*/
+    /*text-align: center;*/
+    a{
+      position: relative;
+      display: block;
+      height: 100%;
+      /*max-height: 100%;*/
+    }
+    img{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /*width: 100%;*/
+      transform: translate(-50%, -50%);
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}

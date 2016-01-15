@@ -3,19 +3,75 @@ title:      Tool specialists
 caption:    Can we fix it? Yes we can!
 avatar:     /images/services/tools.png
 nav-weight: 60
+
+tools:
+  -
+    name: Docker
+    logo: /images/services/tools/docker.png
+    link:
+  -
+    name: Jenkins
+    logo: /images/services/tools/jenkins.png
+    link:
+  -
+    name: Maven
+    logo: /images/services/tools/maven.png
+    link:
+  -
+    name: Vagrant
+    logo: /images/services/tools/vagrant.png
+    link:
+  -
+    name: Gradle
+    logo: /images/services/tools/gradle.png
+    link:
+  -
+    name: Git
+    logo: /images/services/tools/git.png
+    link:
+  -
+    name: gcc
+    logo: /images/services/tools/gcc.png
+    link:
+  -
+    name: Kubernetes
+    logo: /images/services/tools/kubernetes.png
+    link:
+  -
+    name: Jira
+    logo: /images/services/tools/jira.png
+    link:
+  -
+    name: Confluence
+    logo: /images/services/tools/confluence.png
+    link:
+  -
+    name: Bamboo
+    logo: /images/services/tools/bamboo.png
+    link:
+  -
+    name: urbancode
+    logo: /images/services/tools/urbancode.gif
+    link:
+  -
+    name: Visual Studio
+    logo: /images/services/tools/visualstudio.png
+    link:
 ---
 
-## Assess your current situation and lay a path into the future
+## You name the tool, we have implemented solutions with it.
 
 At Praqma we are specialists in setting up tools to support software development teams. We do assessments, tool implementations, workshops, training, sponsored open source development and we teach best-practices.
 {: .caption}
 
+<div class="tools">
+  <div class="tools-wrapper">
+    {% for t in page.tools %}
+      <div class="tool">
 
-Lorem ipsum dolor sit amet, ei iusto persius nam. Eos an dico ceteros. No decore quodsi sea. Ex vix laoreet abhorreant, in sit agam mutat alienum. Utroque patrioque est no, his invidunt lobortis gubergren no.
-
-Verear lucilius expetendis ut has. Elitr periculis expetendis nec ne, nulla graecis ei cum, mel errem animal suscipiantur ex. Eu eius ceteros vix. No has
-{: .highlight}
-
-Id his equidem detracto, tantas liberavisse ne vix, mundi consequuntur sea eu. Omnes aeterno ex qui, in convenire interpretaris mei. Mea partem facilisis prodesset ne, mei at labores accumsan. Ad qui iudico tacimates. Has eros dicta ea, option deleniti ad vix. Natum intellegat incorrupte sed no, vel ut omnium adversarium concludaturque, vim facilisis percipitur et.
-
-Mel in vero omittam platonem. Mea eu dolor saepe munere, vim suas enim timeam id. Veri fastidii mea ut, deserunt sapientem sea et. Ut duo omnes disputationi, ex sit malis doctus assentior, ex nominati similique vix. Ad ridens inermis efficiantur pro, tollit albucius ius an.
+        <a {% if t.link %}href="{{ t.link }}" {% endif %}target="_blank" title="{{ t.name }}"><img src="{{ t.logo }}" alt="{{ t.name }}"></a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<br/>
