@@ -1,9 +1,9 @@
 main-banners:
  - avatar:  /images/main-banner-mastering-git.png
-   url:    http://new.praqma.com/training/git-mastering/
-   caption: Praqma courses are always hands-on - and we love to tailor content to suit your needs
+   url:    http://new.praqma.com/training/jenkins-code/
+   caption: Praqma training is always hands-on - and we love to tailor content to suit your needs
    ribbon-orange-caption: 2 DAY COURSE
-   ribbon-black-caption: MASTERING <br>GIT
+   ribbon-black-caption: MASTERING CONTINUOUS DELIVERY <br> WITH JENKINS CI
    ribbon-white-caption:  OUR TRAINING OFFERS
    ribbon-white-url:     /training/
 
