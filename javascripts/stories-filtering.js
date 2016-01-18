@@ -1,22 +1,20 @@
 function filter(currentTag){
-  var body = $("html, body");
-  body.stop().animate({scrollTop:0}, '200', 'swing');
 
   // if hash is empty
   //
   if (currentTag == "" && window.location.pathname == "/stories/") {
     currentTag = "Featured";
-    console.log("currentTag = " + currentTag);
+    //console.log("currentTag = " + currentTag);
   }
 
   // Setting visibility
   //
-  $(".layout-tag-page h1").text(currentTag);
-  $(".layout-tag-page article").filter(function( index ) {
+  $(".page-stories-index h1").text(currentTag);
+  $(".page-stories-index article").filter(function( index ) {
     return !$( this ).data("tags").includes(currentTag);
   })
   .hide("fast");
-  var articlesToShow = $(".layout-tag-page article").filter(function( index ) {
+  var articlesToShow = $(".page-stories-index article").filter(function( index ) {
     return $( this ).data("tags").includes(currentTag);
   });
   articlesToShow.show("fast");
@@ -35,6 +33,7 @@ function filter(currentTag){
   // Wrong hash
   //
   if(articlesToShow.length == 0 && window.location.pathname == "/stories/"){
+    //console.log("articlesToShow = " + articlesToShow.length);
     window.location.replace("/404.html");
   }
 }
@@ -48,6 +47,11 @@ function filter(currentTag){
 $(window).on('hashchange', function() {
   currentTag = window.location.hash.slice(1);
   filter(currentTag);
+
+  //scroll to h1
+  var body = $("html, body");
+  var scrollTo = $(".page-stories-index h1").offset().top;
+  body.stop().animate({scrollTop: scrollTo }, '200', 'swing');
 });
 
 $(function() {

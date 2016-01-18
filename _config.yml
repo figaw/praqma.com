@@ -26,10 +26,6 @@ style: debug
 permalink: /:categories/:title/
 
 collections:
-# The tag-pages collection isn't used anymore - is it? TODO:Delete
-  tag-pages:
-    output: true
-    permalink: /stories/tag/:path/
   training:
     output: true
     permalink: /training/:path/
@@ -52,15 +48,6 @@ defaults:
     values:
       categories: stories
       layout: post
-# TODO: Tag pages aren't used anymore, delete
-  -
-    scope:
-      type: tag-pages
-    values:
-      categories: [tag-page, stories] #it goes into body classes and impacts on styles
-      #categories: tag-page
-      #permalink: pretty
-      layout: tag-page
   -
     scope:
       type: training
@@ -76,8 +63,3 @@ defaults:
       type: about-pages
     values:
       layout: about-page
-  #-
-    #scope:
-      #type: about-pages
-    #values:
-      #layout: about-page

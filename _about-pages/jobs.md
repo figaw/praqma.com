@@ -17,5 +17,5 @@ If you know what we mean then you have probably got it - the DevOps. You are alr
 If you're a code at heart we encourage you to contact us. We have offices in Allerød, Aarhus, Copenhagen, Oslo and Stockholm and we're hiring in all locations.
 
 {% for p in site.tags.Jobs %}
-  [{{ p.title }}]({{ p.url }})<br>
+  [{{ p.title }}]({{ p.url }}#h)<br>
 {% endfor %}
