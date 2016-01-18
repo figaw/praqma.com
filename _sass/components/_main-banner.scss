@@ -17,6 +17,7 @@ section.main-banner{
     }
     position: absolute;
     top: 1em;
+    width: 100%;
     @media (min-width: $screen-sm-min) {
       top: 2.5em;
     }

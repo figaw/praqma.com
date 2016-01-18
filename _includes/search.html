@@ -1,32 +1,13 @@
-{% assign tag-pages = site.tag-pages | sort: "tag-weight" | reverse %}
-<section id="search">
-  <h3>Search</h3>
-  {% assign tags = "" | split:"" %}
-  {% for p in site.posts %}
-    {% for t in p.tags %}
-      {% unless tags contains t %}
-        {% assign tags = tags | push:t %}
-      {% endunless %}
-    {% endfor %}
-  {% endfor %}
-  {% assign tags = tags | sort %}
-  <a href="/stories/#Newest">Newest</a>
-  {% for t in tags %}
-    <a href="/stories/#{{ t }}">{{ t }}</a>
-  {% endfor %}
-  <script>
-    (function() {
-      var cx = '007895344881986624734:escogkbkkxk';
-      var gcse = document.createElement('script');
-      gcse.type = 'text/javascript';
-      gcse.async = true;
-      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-          '//cse.google.com/cse.js?cx=' + cx;
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(gcse, s);
-    })();
-  </script>
-  <gcse:search></gcse:search>
-  <script src="/javascripts/stories-filtering.js">
-  </script>
-</section>
+<script>
+  (function() {
+    var cx = '007895344881986624734:escogkbkkxk';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
