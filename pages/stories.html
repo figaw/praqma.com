@@ -1,33 +1,35 @@
 ---
-layout: tag-page
+layout: stories
 permalink: /stories/
 title: Stories
 nav-weight: 40
 ---
 
-<h1>{{ site.stories.default-tag }}</h1>
-
-{% for post in site.posts %}
-{% assign tags = post.tags | push:"Newest" %}
-<article data-tags='{{ tags | jsonify }}'>
-      <a href="{{ post.url }}">
-        <img src="{{ post.avatar }}" alt="{{ post.title }}">
-      </a>
-      <section>
-        <h2>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        <div class="date">
-          {{ post.date | date: "%B %d, %Y" }}
-        </div>
-        <div class="content">
-          {{ post.content | split:'<!--break-->' | first | markdownify }}
-        </div>
-        {% if post.content contains '<!--break-->' %}
-          <div class="readmore">
-            <a href="{{ post.url }}">Read more…</a>
+<div class="page-stories-index">
+  <h1>{{ site.stories.default-tag }}</h1>
+  
+  {% for post in site.posts %}
+  {% assign tags = post.tags | push:"Newest" %}
+  <article data-tags='{{ tags | jsonify }}'>
+        <a href="{{ post.url }}">
+          <img src="{{ post.avatar }}" alt="{{ post.title }}">
+        </a>
+        <section>
+          <h2>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h2>
+          <div class="date">
+            {{ post.date | date: "%B %d, %Y" }}
           </div>
-        {% endif %}
-      </section>
-    </article>
-{% endfor %}
+          <div class="content">
+            {{ post.content | split:'<!--break-->' | first | markdownify }}
+          </div>
+          {% if post.content contains '<!--break-->' %}
+            <div class="readmore">
+              <a href="{{ post.url }}">Read more…</a>
+            </div>
+          {% endif %}
+        </section>
+      </article>
+  {% endfor %}
+</div>

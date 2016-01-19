@@ -1,8 +1,8 @@
 ---
-layout: story
+layout: stories
 ---
 
-<div class="post">
+<div class="layout-post">
   <header class="post-header">
     <div class="meta">
       <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
@@ -10,7 +10,7 @@ layout: story
         <a class="tag" href="/stories/#{{ t }}">{{ t }}</a>
       {% endfor %}
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <a name="h"></a><h1 class="post-title">{{ page.title }}</h1>
   </header>
   <article class="post-content">
     {{ content }}
