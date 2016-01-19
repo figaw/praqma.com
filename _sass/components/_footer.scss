@@ -43,3 +43,17 @@ footer{
     /*background: $color-gray;*/
   /*}*/
 }
+
+// hack to disable footer on mobile
+//
+@media (max-width: $screen-sm-max){
+  footer{
+    background: white;
+    margin: 0;
+    padding: 0;
+    height: 5em;
+    *{
+      display: none;
+    }
+  }
+}
