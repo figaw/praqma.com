@@ -6,22 +6,14 @@ avatar:     /images/stories/cool-jenkins.png
 nav-weight: 40
 ---
 
-## A comprehensive list for pupils and pros alike.
+## A list of practical plugins for pupils and pros alike.
 {: .subtitle}
 
 In bygone times, Praqma composed a list of useful Jenkins plugins to spice up your CI life with. 
 However, 2013 is ancient history and we've decided that our list is long overdue for a refreshing rewrite.
-Now we present to you an updated list of practical plugins fixing problems you didn't even realize you had.
+Now we present to you an updated list of handy plugins fixing problems you didn't even realize you had.
 
 <!--break-->
-
-## Job configuration history
-*Plugin:* [JobConfigHistory](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin)
-
-Useful for keeping track of what changes you (or that bozo Jim across the room) have made to your Jenkins jobs.
-The plugin stores a copy of a job's configuration whenever it is changed, allowing for change tracking, diffing and painless configuration restoration.
-
-![JobConfigHistory diff](/images/stories/top-plugins/job-config-history.png){: .pic .large .center}
 
 ## Restarting safely
 *Plugin:* [SafeRestart](https://wiki.jenkins-ci.org/display/JENKINS/SafeRestart+Plugin)
@@ -32,30 +24,58 @@ The reboot can be scheduled from both the Jenkins configuration page and the mai
 
 ![SafeRestart button](/images/stories/top-plugins/safe-restart.png){: .pic .large .center}
 
-## Publishing builds to your server master
-Having more Jenkins servers, maybe one per team, you should publish the most significant jobs to a Jenkins company master.
-Use the plug-in called Build Publisher Pluginand configure the jobs to publish to the company master.
-
-
-https://wiki.jenkins-ci.org/display/JENKINS/Build+Publisher+Plugin
-
 ## Jenkins server monitoring
-If you do not employ a full blown server monitoring system, you should enable basic monitoring of your build system and slaves.
-Track disk usage for both builds and Jenkins master with the plug-in called Disk Usage Plugin
+*Plugins:* [Disk Usage](https://wiki.jenkins-ci.org/display/JENKINS/Disk+Usage+Plugin+Plugin), [Monitoring](https://wiki.jenkins-ci.org/display/JENKINS/Monitoring) 
+
+Keeping a watchful eye on your server lets you avoid some sticky situations.
+Why not employ some plugins that provide basic monitoring for your master and slaves?
+Use the Disk Usage plugin to keep your disk space in check and the Monitoring plugin to oversee a whole slew of interesting metrics on its very own monitoring page.
+
+![Monitoring bits](/images/stories/top-plugins/monitoring.png){: .pic .large .center}
+
+## Jenkins jobs as code
+*Plugin:* [Job DSL](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin)
+
+Storing your job and pipeline configuration as code comes with a myriad of advantages.
+It allows you to version control your configuration, regenerate your jobs on the fly, spin up and configure new Jenkins instances in a heartbeat, etc.
+The Jenkins Job DSL is a popular and exceptionally well documented Groovy DSL for configuring pipelines and jobs via scripts.
+Sinking your teeth into this one will doubtlessly open up some new doors.
+
+![Job DSL snippet](/images/stories/top-plugins/job-dsl.png){: .pic .large .center}
+
+## Build pipelines
+*Plugin:* [Build Pipeline](https://wiki.jenkins-ci.org/display/JENKINS/Build+Pipeline+Plugin)
+
+The Build Pipeline plugin visualizes your up- and downstream connected jobs in a prettified view
+and helps you get a nice overview of your build process, start to finish.
+It also comes with the handy ability to add 'manual triggers' to your jobs. 
+This allows you to fit external processes, such as a manual review before deployment, into your pipeline.
+
+![Build pipeline preview](/images/stories/top-plugins/build-pipeline.png){: .pic .large .center}
+
+## Building a better dashboard
+*Plugins:* [Build Monitor](https://wiki.jenkins-ci.org/display/JENKINS/Build+Monitor+Plugin), [Dashboard View](https://wiki.jenkins-ci.org/display/JENKINS/Dashboard+View), [Radiator View](https://wiki.jenkins-ci.org/display/JENKINS/Radiator+View+Plugin)  
+
+Piece together your dream dashboard and display the status of your key jobs on that big monitor by the coffee machine.  
+Sip  your coffee with pride as you bask in its green glow (or scurry back to your desk to fix that last commit instead).
+Build another dashboard where you gather and display interesting statistics about your builds, allowing you to identify fragile parts of your build process and pinpoint its ills. 
+
+![Build Monitor dashboard](/images/stories/top-plugins/build-monitor.png){: .pic .large .center}
+
+## Job configuration history
+*Plugin:* [JobConfigHistory](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin)
+
+Useful for keeping track of what changes you (or that bozo Jim across the room) have made to your Jenkins jobs.
+The plugin stores a copy of a job's configuration whenever it is changed, allowing for change tracking, diffing and painless configuration restoration.
+
+![JobConfigHistory diff](/images/stories/top-plugins/job-config-history.png){: .pic .large .center}
 
 
-https://wiki.jenkins-ci.org/display/JENKINS/Disk+Usage+Plugin
-{image}
-
-
-Also install the plug-in named Monitoring to give a monitoring page in Jenkins on the front page. 
-There you can monitor key metrics on the Jenkins server like memory usage and processes.
-
-
-https://wiki.jenkins-ci.org/display/JENKINS/Monitoring
-
+# TODO
 
 ## Jenkins user identities
+*Plugin:* [Additional Identities](https://wiki.jenkins-ci.org/display/JENKINS/Additional+Identities+Plugin )
+
 Jenkins will automatically gather users from your SCM commit when it builds jobs. 
 If those users do not match your Jenkins server users, this little nice plug-in can bundle your SCM user account with your Jenkins account. 
 This way the monitoring can send the mail to the right users (your Jenkins user).
@@ -64,14 +84,19 @@ The plugin is called: additional-identities-plugin
 
 https://wiki.jenkins-ci.org/display/JENKINS/Additional+Identities+Plugin 
 
-## Build pipelines
-We favor build pipelines because they provide a nice visual overview, support the divide and conquer principles about splitting the work between jobs.
-It's also easy to understand that one man's ceiling is another man's floor, as commits pass through the pipeline quality gates from job to job.
-Use the plugin name Build Pipeline Plugin
-Configure up- and downstream project (last step is a manually triggered release job!), then create a new view (tab on the frontpage) and choose a pipeline view type.
 
 
-https://wiki.jenkins-ci.org/display/JENKINS/Build+Pipeline+Plugin
+## Publishing builds to your server master
+Having more Jenkins servers, maybe one per team, you should publish the most significant jobs to a Jenkins company master.
+Use the plug-in called Build Publisher Pluginand configure the jobs to publish to the company master.
+
+
+https://wiki.jenkins-ci.org/display/JENKINS/Build+Publisher+Plugin
+
+
+
+
+
 
 
 {image}
@@ -110,26 +135,6 @@ http://wiki.jenkins-ci.org/display/JENKINS/Promoted+Builds+Plugin
 By the way, the promotion plug-in is also very useful for other situations, like starting jobs based on other jobs promotion etc.
 
 
-## Jenkins awareness
-Make your organization follow your Jenkins server, and make it visible to every one how your build status of the most important projects are.
-It's nice to be able poke your colleague over lunch that he should be fixing the red build instead of eating.
-The plug-in named Radiator View Pluginit fitted for large screens and uses very red color when something is broken. 
-Configure a radiator view and add your important jobs. Show the URL in a browser on the large screen.
-
-
-https://wiki.jenkins-ci.org/display/JENKINS/Radiator+View+Plugin
-
-
-If you want to summarize some statistics from your builds, be either one project or across projects, define a dashboard view. It's useful in addition to publishing important jobs to the company server as you can then show some stats on the important jobs as well.
-
-
-The plugin is named: Dashboard View
-
-
-https://wiki.jenkins-ci.org/display/JENKINS/Dashboard+View
-
-
-There are lots of awareness plug-ins out there - which one is your favourite ? Add a comment.
 
 
 ## Simple daily views
