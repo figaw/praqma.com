@@ -4,6 +4,7 @@ tags: [Continuous Delivery, Customer case]
 avatar: /images/stories/visual-reporting-logo.png
 redirect_from:
   -  /events/visualreporting/
+published: false
 ---
 
 Praqma helps Visual Reporting implement test driven development and raises quality levels significantly with Continuous Delivery with Jenkins CI.<!--break-->

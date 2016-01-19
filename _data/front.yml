@@ -1,5 +1,5 @@
 main-banners:
- - avatar:  /images/servers-cords.png
+ - avatar:  /images/front/hallway-servers.jpg
    url:    /training/jenkins-code/
    caption: Praqma courses are always hands-on - and we love to tailor content to suit your needs
    ribbon-orange-caption: 2 DAY COURSE
@@ -15,21 +15,21 @@ page-banners:
                   #even on small screens. The text is expected to be roughly
                   #the length of a tweet.
 
- - avatar:         /images/praqma-biker-shirt.jpg
-   url:          /about/jobs/
+ - avatar:        /images/front/bw-praqma-shirts.png
+   url:           /about/jobs/
    header:        NEWS
    caption:       We have offices in Allerød, Aarhus, Copenhagen, Oslo and Stockholm
                   and we’re now hiring in all locations.
                   If you’re a CoDe'r at heart we encourage you to contact us
 
 
- - avatar:         /images/specshell-crew.png
+ - avatar:        /images/front/bw-specshell-2.png
    url:           /stories/specshell-case/
    header:        FEATURES
    caption:       Praqma takes Specshell from start-up idea to viable business.
                   Follow the journey here
 
- - avatar:         /images/conference-banner.png
+ - avatar:         /images/front/dod-16.png
    url:          http://www.code-conf.com
    header:        CONFERENCES
    caption:       Our events are relevant to managers, software architects
