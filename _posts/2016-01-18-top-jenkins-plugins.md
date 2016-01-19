@@ -3,6 +3,7 @@ title:      Top Jenkins plugins
 caption:    Pragmatic plugins for pupils and pros alike.
 tags:       [Jenkins]
 avatar:     /images/stories/cool-jenkins.png
+redirect_from: /stories/jenkins-favs/
 nav-weight: 40
 ---
 
