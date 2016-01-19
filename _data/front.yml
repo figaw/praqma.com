@@ -1,9 +1,9 @@
 main-banners:
- - avatar:  /images/main-banner-mastering-git.png
+ - avatar:  /images/servers-cords.png
    url:    /training/jenkins-code/
-   caption: Praqma training is always hands-on - and we love to tailor content to suit your needs
+   caption: Praqma courses are always hands-on - and we love to tailor content to suit your needs
    ribbon-orange-caption: 2 DAY COURSE
-   ribbon-black-caption: MASTERING <br>CONTINUOUS DELIVERY <br>WITH JENKINS CI
+   ribbon-black-caption: MASTERING <br> CONTINUOUS DELIVERY <br> WITH JENKINS
    ribbon-white-caption:  OUR TRAINING OFFERS
    ribbon-white-url:     /training/
 
@@ -15,22 +15,23 @@ page-banners:
                   #even on small screens. The text is expected to be roughly
                   #the length of a tweet.
 
- - avatar:         /images/page-banner-news.png
-   url:          /news/some-page.html
+ - avatar:         /images/praqma-biker-shirt.jpg
+   url:          /about/jobs/
    header:        NEWS
-   caption:       Learn how Microsoft avoided “not invented here” syndrome and
-                  adopted Git. Ethomson speaks at code-conf.
+   caption:       We have offices in Allerød, Aarhus, Copenhagen, Oslo and Stockholm
+                  and we’re now hiring in all locations.
+                  If you’re a CoDe'r at heart we encourage you to contact us
 
- - avatar:         /images/page-banner-features.png
-   url:          /news/some-page.html
+
+ - avatar:         /images/specshell-crew.png
+   url:           /stories/specshell-case/
    header:        FEATURES
-   caption:       Our services, ranging from development of plain vanilla
-                  software, over software verification and continuous delivery
-                  assessment.
+   caption:       Praqma takes Specshell from start-up idea to viable business.
+                  Follow the journey here
 
- - avatar:         /images/page-banner-features.png
+ - avatar:         /images/conference-banner.png
    url:          http://www.code-conf.com
-   header:        CONFERENCE
-   caption:       Our event are relevant to managers, software architects
+   header:        CONFERENCES
+   caption:       Our events are relevant to managers, software architects
                   developers, project managers, agile coaches and everyone
-                  who’s got DevOps at heart.
+                  who’s got DevOps at heart
