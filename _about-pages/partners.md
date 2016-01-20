@@ -1,6 +1,6 @@
 ---
 title:      Partners
-caption:    We have some great partners
+caption:    We're proud of our partnerships - they're our friends
 avatar:     /images/about/partners.png
 nav-weight: 40
 

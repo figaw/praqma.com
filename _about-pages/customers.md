@@ -1,6 +1,6 @@
 ---
 title:      Clients
-caption:    We have some great partners
+caption:    We simply love our clients - we own their problems - and we solve them
 avatar:     /images/about/customers.png
 nav-weight: 40
 redirect_from:
