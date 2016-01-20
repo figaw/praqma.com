@@ -3,6 +3,7 @@ title: Praqma gijeli knowledgebase presentation
 tags: [Gijeli, Wiki, MarkDown, Ruby]
 avatar: /images/stories/placeholder.png
 author: Bue Petersen
+published: false
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Pretested integration with buildDSL
 tags: [Featured, Jenkins, Pretested, buildDSL]
-avatar: /images/stories/placeholder.png
+avatar: /images/stories/jobdsl_4x3.png
 author: Mike Long
 ---
 
