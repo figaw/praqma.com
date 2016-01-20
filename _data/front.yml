@@ -1,7 +1,8 @@
 main-banners:
  - avatar:  /images/front/hallway-servers.jpg
    url:    /training/jenkins-code/
-   caption: Praqma courses are always hands-on - and we love to tailor content to suit your needs
+   caption: Praqma courses are always hands-on - and we love to tailor content to suit your needs. Don't find the training of your dreams? Let's make it for you!
+
    ribbon-orange-caption: 2 DAY COURSE
    ribbon-black-caption: MASTERING <br> CONTINUOUS DELIVERY <br> WITH JENKINS
    ribbon-white-caption:  OUR TRAINING OFFERS
@@ -19,20 +20,20 @@ page-banners:
    url:           /about/jobs/
    header:        COME CO:DE WITH US
    caption:       We have offices in Allerød, Aarhus, Copenhagen, Oslo and Stockholm
-                  and we’re now hiring in all locations.
-                  If you’re a CoDe:er at heart, we encourage you to contact us
+                  and we’re hiring in all locations. <br>
+                  If you’re a CoDe:er at heart, please come and join us!
 
 
  - avatar:        /images/front/bw-specshell-2.png
    url:           /stories/specshell-case/
    header:        THE SUCCESS OF SPECSHELL
    caption:       Praqma takes Specshell from start-up idea to viable business.
-                  Meet the engeneers who needed the software skills of Praqma
+                  Meet the engineers who needed the software skills of Praqma
                   in order to save the beer
 
  - avatar:        /images/front/dod-16.png
    url:           /services/code-conf/
    header:        DAY OF DOCKER 2016
-   caption:       We host events relevant to managers, software architects
-                  developers, project managers, agile coaches and everyone
+   caption:       Events for managers, software architects,
+                  developers, project managers, agile coaches - everyone
                   who’s got DevOps at heart. Next up is Day of Docker!
