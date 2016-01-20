@@ -6,13 +6,17 @@ aside{
   & > div{
     @extend .row;
   }
-  section{
+
+  section, avatar{
     @extend .col-sm-30;
     @extend .col-md-60;
     @extend .col-lg-60;
     font-family: $font-family-condensed;
     margin-bottom: 60px;
     font-size: 1.2em;
+  }
+
+  section{
     @media (min-width: $screen-md-min) {
       /*margin-top: 5px;*/
       &:before{
