@@ -2,6 +2,7 @@
 title: Picture sample
 tags: [Sample]
 avatar: /images/stories/placeholder.png
+published:  false
 ---
 
 Lorem ipsum dolor sit amet, solet altera possim at est, sed veri equidem appellantur te, at detracto assentior referrentur vim. Semper euismod mentitum in mel. Te oratio altera ornatus <!--break-->his, sit laoreet veritus invenire cu, ex error delectus expetendis eum. Eu nihil dicunt eam, meis dicunt ius in, mei stet vocent pertinax et. Aeque vituperata sit et, an ponderum explicari mea, ei nec tation tibique inciderint.
