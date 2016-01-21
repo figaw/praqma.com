@@ -22,7 +22,7 @@ We have a bias towards **hands-on training** because we think the is best way
 to learn, and also the most fun!  You can expect all of our classes to be
 taught by our experts in an interactive, bring-your-laptop approach.
 
-As *certified training partners* within tool stacks such as **Docker** and
+As *certified training partners* within toolstacks such as **Docker** and
 **Atlassian** and as experts in **Jenkins CI** and **Git**, we can’t wait to
 help you build better, deploy faster and run smoother.
 

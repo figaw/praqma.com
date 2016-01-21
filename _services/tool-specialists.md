@@ -38,7 +38,7 @@ tools:
     logo: /images/services/tools/kubernetes.png
     link:
   -
-    name: Jira
+    name: JIRA
     logo: /images/services/tools/jira.png
     link:
   -
@@ -61,7 +61,8 @@ tools:
 
 ## You name the tool, we have implemented solutions with it.
 
-At Praqma we are specialists in setting up tools to support software development teams. We do assessments, tool implementations, workshops, training, sponsored open source development and we teach best-practices.
+At Praqma, we are specialists in setting up tools to support software development teams. 
+We do assessments, tool implementations, workshops, training, sponsored open source development and teach best practices.
 {: .caption}
 
 <div class="tools">

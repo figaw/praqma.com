@@ -47,12 +47,12 @@ members:
 ## Joint Open Source Roadmap Alliance - Development and support of open source tools
 {: .subtitle}
 
-Our most ambitious customers ask a lot from their development environment.  They want new tools, new integrations, new features, not to mention bugs that need tackled.  
+Our most ambitious customers ask a lot from their development environment. 
+They want new tools, new integrations and new features, not to mention bugs that need tackling.  
 {: .caption}
 
-Josra is an alliance of leading companies who co-organize to develop and support open source tools in collaboration with Praqma.  By pooling together interests, resources and genuine needs with our open source experts, Josra facilitates best practices and joint development on the Open Source tools that are shared among the members.
-
-<br/>
+Josra is an alliance of leading companies who co-organize development and support of open source tools in collaboration with Praqma. 
+By pooling interests, resources and genuine needs with our open source experts, Josra facilitates best practices and joint development on the open source tools that are shared among the members.
 
 ## A community of members
 
@@ -68,33 +68,39 @@ Josra is an alliance of leading companies who co-organize to develop and support
 </div>
 <br/>
 
-
 ## You are in safe hands
 
-Josra is an alliance that supports the members in feeling safe when they are dependent on Open Source tools in their software development process.
+Josra is an alliance that supports its members in feeling safe when being dependent on open source tools for their software development process.
 {: .caption}
 
-JOSRA enables the members to contribute by proxy, meaning that JOSRA members can take on the role as innovator both through influencing the roadmaps of the tools maintained by the alliance and by exploiting the support and development cases included in the membership. This influence can be exercised without actually having to redirect employees away from the core business domain and into becoming Open Source experts. Praqma has substantial Open Source community karma. This is our business and we do it right.
+Josra enables its members to contribute by proxy, they can take on the role as innovator by influencing the roadmaps of maintained tools and by exploiting the support and development cases included with membership. 
+This influence can be exerted without having to redirect employees away from the core business domain and into becoming open source experts. 
+Praqma has substantial open source community karma as this is our business and we do it right.
 
  * All software tools have a full CI infrastructure, ensuring the quality bar is kept high
- * All code is hosted on github, allowing anyone in the community to contribute improvements
+ * All code is hosted on GitHub, allowing anyone in the community to contribute improvements
  * All work is planned, prioritized and implemented together with the membership
 
 ## How does it work?
 
  * Members sign up on an annual basis
- * The membership fees go into a "pot" of hours ring-fenced for JOSRA development
- * The roadmap is decided at regular JOSRA gatherings
+ * The membership fees go into a "pot" of hours ring-fenced for Josra development
+ * The roadmap is decided at regular Josra gatherings
  * Our open source experts implement the vision with quality
  * Progress is reported and working code is released
 
-## JOSRA Gatherings
+## Josra Gatherings
 
-One time every year the JOSRA alliance members are invited to a whole-day meet-up. Each alliance member is entitled and encouraged to send two participants; A geek and a chief. We share experiences and visions and after lunch we split up, so while chiefs plan roadmaps geeks do hackathons - in the evening we eat-up and drink-up together.
+Once a year the Josra alliance members are invited to a whole-day meetup. 
+Each alliance member is entitled and encouraged to send two participants; A geek and a chief. 
+We share our experiences and visions and after lunch we split up, the chiefs plan roadmaps while the geeks do hackathons.
+We finish the day by having an evening eat-and-drink-up together.
 
-Our customers consider this meeting of minds one of the most valuable things that comes with being a member.  The chance to discuss with like-minded peers in different companies provides insights that are cross-fertilization that is hard to find in any other environment.
+Our customers consider this meeting of minds one of the most valuable things that comes with being a member.  
+The chance to discuss with like-minded peers in different companies provides insights and cross-fertilization that is hard to find in any other environment.
 {: .highlight}
 
-Between meetings, all tools in the JOSRA tool stack are being discussed and innovated through different Trello boards made available to all alliance members. More lengthy discussions and general feed-back can be communicated at the “Joint Open Source Roadmap Alliance” LinkedIn group.
+Between meetings, all tools in the Josra toolstack are being discussed and innovated through different Trello boards made available to all alliance members. 
+More lengthy discussions and general feedback can be communicated at the “Joint Open Source Roadmap Alliance” LinkedIn group.
 
-## _Get the development tools you wished existed_{: .highlight}
+## _Get the development tools you wish existed_{: .highlight}

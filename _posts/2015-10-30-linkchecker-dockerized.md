@@ -6,7 +6,7 @@ author: Waqar Ali Zaidi
 ---
 
 The reason for dockerizing LinkChecker is to facilitate Praqma's [Gijeli set-up](/stories/GiJeLi-tool-stack-howto) and produce reports for web projects. 
-There are other docker images of LinkChecker out there, but we find them lacking when it comes to entertaining _stable automated builds._
+There are other Docker images of LinkChecker out there, but we find them lacking when it comes to entertaining _stable automated builds._
 Any change applied to the image will trigger a new Jenkins job and the build process will tag each release with a version number.
 <!--break-->
 

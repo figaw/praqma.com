@@ -11,7 +11,7 @@
   caption: International Business Machines Corporation (commonly referred to as IBM) is an American multinational technology and consulting corporation.
 
 -
-  company: Cloudbees
+  company: CloudBees
   url: www.cloudbees.com
   logo: /images/customers/cloudbees.png
-  caption: CloudBees is a provider of continuous delivery solutions powered by Jenkins CI. Initially, CloudBees provided a platform as a service solution to build, run, and manage web applications.
+  caption: CloudBees is a provider of continuous delivery solutions powered by Jenkins CI. Initially, CloudBees provided a platform as a service solution to build, run and manage web applications.

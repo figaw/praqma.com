@@ -1,6 +1,6 @@
 ---
 title: GiJeLi setup
-tags: [Featured, Gijeli, Wiki, MarkDown, Ruby]
+tags: [Featured, Gijeli, Wiki, Markdown, Ruby]
 avatar: /images/stories/jekyll-4x3.png
 author: Lars Kruse
 ---
@@ -175,7 +175,7 @@ Consult the Jekyll documentation for more [tweaks](http://jekyllrb.com/docs/usag
 
 ## Setting up a web server running GiJeli
 
-Clone the git repo, cd into it and run the command `jekyll serve`. Now set up a cron job or a Jenkins CI job that periodically runs:
+Clone the Git repository, cd into it and run the command `jekyll serve`. Now set up a cron job or a Jenkins CI job that periodically runs:
 
     git pull
     jekyll build

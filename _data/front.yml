@@ -1,7 +1,7 @@
 main-banners:
  - avatar:  /images/front/hallway-servers.jpg
    url:    /training/jenkins-code/
-   caption: Praqma courses are always hands-on - and we love to tailor content to suit your needs. Can't find the training of your dreams? Let's make it for you!
+   caption: Praqma courses are always hands-on and we love to tailor content to your needs. Can't find the training of your dreams? Let us make it for you!
 
    ribbon-orange-caption: 2 DAY COURSE
    ribbon-black-caption: MASTERING <br> CONTINUOUS DELIVERY <br> WITH JENKINS
@@ -29,7 +29,7 @@ page-banners:
    header:        THE SUCCESS OF SPECSHELL
    caption:       Praqma takes Specshell from start-up idea to viable business.
                   Meet the engineers who needed the software skills of Praqma
-                  in order to save the beer
+                  in order to save the beer.
 
  - avatar:        /images/front/dod-16.png
    url:           /services/code-conf/
