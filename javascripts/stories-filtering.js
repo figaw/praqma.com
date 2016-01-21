@@ -38,14 +38,8 @@ function filter(currentTag){
   }
 }
 
-//$( "#search a" ).click(function() {
-  //var currentTag = $(this).text();
-  //filter(currentTag);
-//});
-
-
 $(window).on('hashchange', function() {
-  currentTag = window.location.hash.slice(1);
+  currentTag = unescape(window.location.hash.slice(1));
   filter(currentTag);
 
   //scroll to h1
@@ -60,6 +54,6 @@ $(function() {
     return $( this ).text() == "Featured";
   }).insertAfter("#search a:first");
 
-  currentTag = window.location.hash.slice(1);
+  currentTag = unescape(window.location.hash.slice(1));
   filter(currentTag);
 });
