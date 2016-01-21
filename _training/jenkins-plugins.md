@@ -1,8 +1,8 @@
 ---
 title:    Jenkins CI Plugin Development
 duration: One day
-level: Software developers with some Java experience
-caption:  Use this training to jump start your Jenkins CI Plugin development
+level:    Software developers with some Java experience
+caption:  Use this training to jump-start your Jenkins CI Plugin development
 type:     Plenty of hands-on exercises that familiarizes you with the Jenkins CI object model and the most commonly used extension points
 location: Copenhagen, Stockholm, Oslo - or on-site
 avatar:   /images/training/jciplugindev.jpg
@@ -20,5 +20,5 @@ avatar:   /images/training/jciplugindev.jpg
 * The object model of Jenkins CI and how to extend it
 * A thorough understanding of the most common and useful extension point in Jenkins
 * Developing, testing and debugging Jenkins CI plugins
-* The Jenkins CI community jargon, and what is expected from you when you start contributing
+* The Jenkins CI community jargon and what is expected from you when you start contributing
 * Where to find more help and guidance

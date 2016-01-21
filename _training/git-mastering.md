@@ -34,7 +34,7 @@ Learn how to improve your software development process by exploiting some of the
 * Distributed Git - cloning, remotes, forking, fetch, pull, push, Refs, rewriting
 * Branching- and flow strategies -Overview of branch and merge strategies
 * Git hooks - Client side hooks, Server side hooks, Enforcing policy with hooks
-* GitHub  - Pull-requests, GitHub Pages
+* GitHub - Pull-requests, GitHub Pages
 
 ### Enterprise setup:
 
@@ -47,9 +47,10 @@ Learn how to improve your software development process by exploiting some of the
 * Subtrees
 * Google's Git repo tool
 * What belongs in a repository?
-* Change logs
+* Changelogs
 
-We have a complete lab setup where you will gain fast paced experiences to take home, ready to apply in your environment. You only need to bring a laptop with Git installed.
+We have a complete lab setup where you will gain fast paced experiences to take home, ready to apply in your environment. 
+You only need to bring a laptop with Git installed.
 The course is run as instructor-led presentations of each topic followed by either lab exercises or discussions.
 
 Attendees are welcome to bring questions or challenges from their own background.

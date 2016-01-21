@@ -43,7 +43,7 @@ Copenhagen:
 Oslo:
 
  * [Docker Oslo](http://www.meetup.com/Docker-Oslo/)
- * [Devops Norway](http://www.meetup.com/DevOps-Norway/)
+ * [DevOps Norway](http://www.meetup.com/DevOps-Norway/)
  * [Oslo Embedded Software](http://www.meetup.com/Oslo-Embedded-Software-Meetup/)
 
 Stockholm:

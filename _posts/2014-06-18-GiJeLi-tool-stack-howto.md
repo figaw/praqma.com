@@ -12,7 +12,7 @@ By running Jekyll you can effectively have an equivalent to GitHub pages anywher
 
 GiJeLi is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid
 
-This post is a description on how to get the tool-stack up and running on your local machine. 
+This post is a description on how to get the toolstack up and running on your local machine. 
 It's intentionally kept short. 
 For more lecture on the subject you can visit [Jekyll home](http://jekyllrb.com/) or read the intro at [Jekyll bootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
 

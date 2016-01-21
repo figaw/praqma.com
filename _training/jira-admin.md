@@ -10,7 +10,8 @@ avatar:   /images/training/jira.1x1.png
 
 
 ## One Day intensive hands-on training
-The course is run as a mixture of theory and hands-on exercises. It provides participants with sufficient knowledge of the different strategies, tools, and techniques in Atlassian’s JIRA to take on the role as JIRA administrator.
+The course is run as a mixture of theory and hands-on exercises. 
+It provides participants with sufficient knowledge of the different strategies, tools and techniques in Atlassian’s JIRA to take on the role as JIRA administrator.
 Participants will get a guided tour of how JIRA is organized and get hands-on experience working with JIRA and the various functions and tasks relevant to JIRA administrators.
 
 ## Get solid understanding of:
@@ -22,7 +23,7 @@ Participants will get a guided tour of how JIRA is organized and get hands-on ex
 
 ### Learn about general JIRA project administrator tasks such as
 * Adapting project details
-* Customization, and configuration of workflows
+* Customization and configuration of workflows
 * Customization of fields
 * Creating new projects and dashboards
 * Troubleshooting etc.
