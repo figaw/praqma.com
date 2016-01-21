@@ -5,7 +5,8 @@ avatar: /images/stories/jobdsl_4x3.png
 author: Mike Long
 ---
 
-#### UPDATE: Since 2.3.2, the plugin does support Job DSL. Refer to the [wiki](https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin#PretestedIntegrationPlugin-JenkinsJobDSL) for more information.
+UPDATE: Since 2.3.2, the plugin does support Job DSL. Refer to the [wiki](https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin#PretestedIntegrationPlugin-JenkinsJobDSL) for more information.
+{: .highlight}
 
 
 The pretested integration plugin does not currently support the Jenkins Job DSL. 

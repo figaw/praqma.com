@@ -5,22 +5,26 @@ avatar: /images/stories/jekyll-4x3.png
 author: Lars Kruse
 ---
 
-Jekyll is a Ruby gem that renders [MarkDown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) to static html pages. Jekyll is the stand-alone engine that drives GitHub pages. By installing Jekyll you can effectively have an equivalent to GitHub pages anywhere.
+Jekyll is a Ruby gem that renders [Markdown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) to static HTML pages. 
+Jekyll is the stand-alone engine that drives GitHub pages. 
+By running Jekyll you can effectively have an equivalent to GitHub pages anywhere.
 <!--break-->
 
 GiJeLi is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid
 
-This post is a description on how to get the tool-stack up and running on your local machine. It's intentionally kept short. For more lecture on the subject you can visit [Jekyll home](http://jekyllrb.com/) or read the into at [Jekyllbootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
+This post is a description on how to get the tool-stack up and running on your local machine. 
+It's intentionally kept short. 
+For more lecture on the subject you can visit [Jekyll home](http://jekyllrb.com/) or read the intro at [Jekyll bootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
 
-Provided that you already have git up and running what you need to do is then:
+Provided that you already have git up and running, what you need to do is:
 
  * Install Ruby & Ruby development kit
- * Install the Jekyll Ruby Gem
+ * Install the Jekyll Ruby gem
 
 __Optional__
 
  * Python
- * Pygments (for syntax higlightning)
+ * Pygments (for syntax highlighting)
  * Ruby gems kramdown, nokogir, commander
 
 ## Setting up Ruby and Jekyll on Windows
@@ -29,7 +33,10 @@ See [Jekyll on Windows](http://jekyllrb.com/docs/windows/#installation) for more
 
 
 ### Install Ruby with dev-kit
-Windows users must install Ruby, if it is not installed already. Unlike Mac OS X, Ruby is not installed by default with the operating system, so most users will have to perform the following steps. Ruby can be easily installed with RubyInstaller. Download and run the latest version of the installer listed on the [RubyInstaller](http://rubyinstaller.org/downloads/) website.
+Windows users must install Ruby, if not installed already. 
+Unlike Mac OS X, Ruby is not installed by default with the operating system, so most users will have to perform the following steps. 
+Ruby can be easily installed with RubyInstaller. 
+Download and run the latest version of the installer listed on the [RubyInstaller](http://rubyinstaller.org/downloads/) website.
 
 You will also need to install the latest DevKit, which is also available on the [RubyInstaller downloads page](http://rubyinstaller.org/downloads/).
 
@@ -39,13 +46,15 @@ Once you’ve extracted the DevKit package (i.e. to directory _c:\\rubydevkit_),
     ruby dk.rb install
 
 ### Install Jekyll
-Finally, install the Jekyll RubyGem with
+Finally, install the Jekyll Ruby gem with
 
     gem install jekyll.
 
-If you are behind a proxy, add the option `--http-proxy <porxy-url>` after the install command.
+If you are behind a proxy, add the option `--http-proxy <proxy-url>` after the install command.
 
-To be able to run _jekyll_ you need to change codepage (to UTF-8) in the command window you are running _jekyll_ from. See [Jekyll Encoding](http://jekyllrb.com/docs/windows/#encoding). In your CLI window, do the command:
+To be able to run _jekyll_ you need to change codepage (to UTF-8) in the command window you are running _jekyll_ from. 
+See [Jekyll Encoding](http://jekyllrb.com/docs/windows/#encoding). 
+In your CLI window, do the command:
 
     chcp 65001
 
@@ -56,7 +65,7 @@ Then start the _jekyll_ server with the command:
 There is also a [portable Jekyll for Windows](http://www.madhur.co.in/blog/2013/07/20/buildportablejekyll.html) that might be easy to install.
 
 ### Install required RubyGems
-The following Gemsn need to be installed (as of time of writing this):
+The following gems need to be installed (at the time of writing this):
 
 * commander
 * nokogiri
@@ -70,8 +79,7 @@ Install with the command:
 ### Install python
 Get python installer from [the Python Website](http://www.pyton.org).
 
-Run the installer and then add the python folder to the PATH in windows.
-
+Run the installer and then add the python folder to the PATH in Windows.
 
 ## Setting up Ruby and Jekyll on Linux
 
@@ -103,7 +111,7 @@ First we need to install the package called Development tools.
 Also check if make is installed by «rpm -qi make», if not execute «yum install make».
 Start Installing jekyll stuff
 
-Install Ruby & RubyGems
+Install Ruby & Ruby gems
 
     sudo yum install -y ruby ruby-devel rubygems
 
@@ -132,16 +140,18 @@ rvm use ruby --default
 gem install jekyll
 ```
 
-If you need a few more words to dig into the background read on:
+If you need a few more words to dig into the background, read on:
 
-__Xcode CLI tools__ needs to be installed. From the terminal you can run `xcode-select --install` or any command that requires xcode CLI tools e.g `gcc`or `make` and MacOS will simply offer to install the CLI tools.
+__Xcode CLI tools__ needs to be installed. 
+From the terminal you can run `xcode-select --install` or any command that requires xcode CLI tools e.g `gcc`or `make` and MacOS will simply offer to install the CLI tools.
 
-__Ruby__ for more details read the [install instructions for Ruby](https://www.ruby-lang.org/en/downloads/). If you chose the RVM you can get more details on [rvm.io](http://rvm.io/rvm/install)
+__Ruby__ for more details read the [install instructions for Ruby](https://www.ruby-lang.org/en/downloads/). 
+If you chose the RVM you can get more details on [rvm.io](http://rvm.io/rvm/install)
 
 
 ## How to run it
 
-Basically you will need to to have a directory with some Jekyll compliant MarkDown in it, you'll most likely get this simply by cloning a git repository from somewhere.
+Basically you will need to to have a directory with some Jekyll compliant Markdown in it, you'll most likely get this simply by cloning a git repository from somewhere.
 
 The start the Jekyll web service - which will automatically build the HTML - and browse it:
 
@@ -151,21 +161,21 @@ The start the Jekyll web service - which will automatically build the HTML - and
     cd cd CoDe-U.github.io/
     jekyll serve
 
-Open your browser on go to `http://localhost:4000` and you should see the Code:U webpage.
+Open your browser on go to `http://localhost:4000` and you should see the CoDe:U web page.
 
 ...which you can also see at [www.codeu.eu](http://www.codeu.eu)
 
-Every time you have change the content of the files in directory you'll have to build the HTML again simply by running:
+Every time you change the content of the files in directory you'll have to build the HTML again simply by running:
 
     jekyll build
 
-A neat trick it to start the jekyll web service with the `--watch` this will make the service monitor any file changes in the directory and automatically rebuild when required.
+A neat trick is to start the jekyll web service with `--watch` this will make the service monitor any file changes in the directory and automatically rebuild when required.
 
 Consult the Jekyll documentation for more [tweaks](http://jekyllrb.com/docs/usage/).
 
 ## Setting up a web server running GiJeli
 
-Clone the git repo, cd into it and run the command `jekyll serve`. Now setup a cron job or a Jenkins CI job that periodically runs:
+Clone the git repo, cd into it and run the command `jekyll serve`. Now set up a cron job or a Jenkins CI job that periodically runs:
 
     git pull
     jekyll build
