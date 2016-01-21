@@ -1,27 +1,24 @@
 ---
 title:  LinkChecker - Jekyll flavor
-tags:   [Featured, Jekyll, Jenkins, Linkchecker, Warnings plugin]
+tags:   [Featured, Jekyll, Jenkins, LinkChecker, Warnings plugin]
 avatar: /images/stories/broken-link.4x3.png
 author: Lars Kruse
 ---
 
-This parser is designed to parse the CSV output from LinkChecker
-It assumes that the source of the web, that is being parsed is
-available in the `_site` folder of the workspace. `_site` is the Jekyll
-default, but it can be overridden.
+This parser is designed to parse the CSV output from LinkChecker.
+It assumes that the source of the website that is being parsed is available in the `_site` directory of the workspace. 
+`_site` is the Jekyll default, but it can be overridden.
 <!--break-->
 
-
 __Example:__
-Say that your hosting http://blogs.praqma.com from the master branch
-Set up a job that
+Say that you're hosting http://blogs.praqma.com from the master branch
+Set up a job that:
 
- * pull master
- * jekyll build
- * linkchecker -o text -Fcsv/report/linkchecker.report.csv  http://blogs.praqma.com
+    pull master
+    jekyll build
+    linkchecker -o text -Fcsv/report/linkchecker.report.csv  http://blogs.praqma.com
 
-Let the Warnings plugin scan the generated report/linkchecker.report.csv
-using this parser.
+Let the Warnings plugin scan the generated `report/linkchecker.report.csv` using this parser.
 
 ## Settings for the Warnings plugin
 
@@ -31,11 +28,11 @@ LinkChecker CSV (Jekyll flavor)
 
 ### Link name
 
-Jekyll Linkchecker
+Jekyll LinkChecker
 
 ### Trend report Name
 
-Jekyll Linkchecker Trend
+Jekyll LinkChecker Trend
 
 ### Regular expression
 
@@ -43,7 +40,7 @@ Jekyll Linkchecker Trend
 
 ### Mapping script
 
-The import of `hudson.plugins.analysis.util.model.Priority` is necessary if you want to get access to the `Warning`constructor that takes five arguments - the last being the priority.
+The import of `hudson.plugins.analysis.util.model.Priority` is necessary if you want to get access to the `Warning` constructor that takes five arguments - the last being the priority.
 
     import hudson.plugins.warnings.parser.Warning
     import hudson.plugins.analysis.util.model.Priority  
