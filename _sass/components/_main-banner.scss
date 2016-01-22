@@ -22,6 +22,12 @@ section.main-banner{
       top: 2.5em;
     }
   }
+  .lines-number-3{
+    font-size: 3vw;
+    @media (min-width: $screen-sm-min) {
+      font-size: 1em;
+    }
+  }
   .ribbon-secondary{
     background-color: $color-orange;
     display: inline-block;

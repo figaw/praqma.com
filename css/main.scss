@@ -7,9 +7,6 @@
 $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 $fa-font-path: "/bower_components/components-font-awesome/fonts/";
 
-/* custom variable */
-/*$body-bg: red;*/
-
 /* any style customization must be before the bootstrap import */
 @import "helpers/variables";
 @import "base/layout";
@@ -22,6 +19,7 @@ $fa-font-path: "/bower_components/components-font-awesome/fonts/";
 @import "components/page-banners";
 @import "pages/about";
 @import "components/slogan";
+@import "components/image-grid";
 @import "components/header";
 @import "components/nav";
 @import "components/widget-contacts";
@@ -36,8 +34,8 @@ $fa-font-path: "/bower_components/components-font-awesome/fonts/";
 @import "pages/training-page";
 @import "pages/offices";
 @import "pages/customers";
-@import "pages/members";
-@import "pages/tools";
+@import "pages/josra";
+@import "pages/tool-specialists";
 @import "pages/service-page";
 @import "pages/training-index";
 @import "pages/partners";

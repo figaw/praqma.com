@@ -2,6 +2,7 @@
 title:      Clients
 caption:    We simply love our clients - we own their problems - and we solve them
 avatar:     /images/about/customers.png
+css-class:  customers
 nav-weight: 40
 redirect_from:
   - /customers/
@@ -228,10 +229,10 @@ customers:
 
 Read some of our [customer case stories](/stories/#Customer case).
 
-<div class="customers">
-  <div class="customers-wrapper">
+<div class="image-grid">
+  <div class="image-grid-wrapper">
     {% for c in page.customers %}
-      <div class="customer">
+      <div class="image-grid-cell">
 
         <a {% if c.link %}href="{{ c.link }}" {% endif %}target="_blank" title="{{ c.name }}"><img src="{{ c.logo }}" alt="{{ c.name }}"></a>
       </div>

@@ -1,3 +1,5 @@
+//TODO remove and spread this file to others
+
 .logo img{
   width: 64px;
 }
@@ -7,7 +9,7 @@ aside{
     @extend .row;
   }
 
-  section, avatar{
+  section{
     @extend .col-sm-30;
     @extend .col-md-60;
     @extend .col-lg-60;

@@ -2,6 +2,7 @@
 title:      Partners
 caption:    We're proud of our partnerships - they're our friends
 avatar:     /images/about/partners.png
+css-class:  partners
 nav-weight: 40
 
 partners:

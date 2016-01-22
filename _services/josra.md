@@ -2,6 +2,7 @@
 title:      Josra
 caption:    Joint Open Source Roadmap Alliance
 avatar:     /images/services/josra.png
+css-class:  josra
 nav-weight: 50
 
 members:
@@ -56,11 +57,10 @@ By pooling interests, resources and genuine needs with our open source experts, 
 
 ## A community of members
 
-<div class="members">
-  <div class="members-wrapper">
+<div class="image-grid">
+  <div class="image-grid-wrapper">
     {% for m in page.members %}
-      <div class="member">
-
+      <div class="image-grid-cell">
         <a {% if m.link %}href="{{ m.link }}" {% endif %}target="_blank" title="{{ m.name }}"><img src="{{ m.logo }}" alt="{{ m.name }}"></a>
       </div>
     {% endfor %}

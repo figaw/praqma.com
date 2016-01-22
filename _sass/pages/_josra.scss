@@ -1,0 +1,14 @@
+.page-josra{
+  .image-grid{
+    .image-grid-cell{
+      @extend .col-md-20;
+      @extend .col-xs-30;
+      a{
+      }
+      img{
+        max-width: 70%;
+        max-height: 70%;
+      }
+    }
+  }
+}

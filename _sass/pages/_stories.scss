@@ -1,3 +1,8 @@
+// Common styles for *stories* related pages
+// Things for *stories index* and *posts* 
+// are to be implemented withing 
+// *_stories-index.scss* and *_post.scss*
+
 .layout-stories{
   @extend .row;
   main[role="main"]{

@@ -2,6 +2,7 @@
 title:      Tool specialists
 caption:    Can we fix it? Yes we can!
 avatar:     /images/services/tools.png
+css-class:  tool-specialists
 nav-weight: 60
 
 tools:
@@ -65,11 +66,10 @@ At Praqma, we are specialists in setting up tools to support software developmen
 We do assessments, tool implementations, workshops, training, sponsored open source development and teach best practices.
 {: .caption}
 
-<div class="tools">
-  <div class="tools-wrapper">
+<div class="image-grid">
+  <div class="image-grid-wrapper">
     {% for t in page.tools %}
-      <div class="tool">
-
+      <div class="image-grid-cell">
         <a {% if t.link %}href="{{ t.link }}" {% endif %}target="_blank" title="{{ t.name }}"><img src="{{ t.logo }}" alt="{{ t.name }}"></a>
       </div>
     {% endfor %}

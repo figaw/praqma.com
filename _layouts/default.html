@@ -3,7 +3,8 @@
 
   {% include head.html %}
 
-  <body>
+  <body{% if page.css-class %} class="page-{{ page.css-class }}"{% endif %}>
+  
     {% include widget-contacts.html %}
     {% include header.html %}
     {% include nav.html %}
