@@ -3,6 +3,8 @@ title:      Tool specialists
 caption:    Can we fix it? Yes we can!
 avatar:     /images/services/tools.png
 css-class:  tool-specialists
+redirect_from:
+  - /services/atlassianservices/
 nav-weight: 60
 
 tools:
@@ -62,7 +64,7 @@ tools:
 
 ## You name the tool, we have implemented solutions with it.
 
-At Praqma, we are specialists in setting up tools to support software development teams. 
+At Praqma, we are specialists in setting up tools to support software development teams.
 We do assessments, tool implementations, workshops, training, sponsored open source development and teach best practices.
 {: .caption}
 
