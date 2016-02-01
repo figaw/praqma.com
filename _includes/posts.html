@@ -1,0 +1,67 @@
+{% comment %}
+* tag — tag to filter. Register sensetive.
+* limit — number of posts. Skip to output all.
+* avatar-alignment — avatar alignment
+* sort — name of filed to sort. Skip to filter by date.
+{% endcomment %}
+
+{% assign posts = site.posts %}
+
+
+{% comment %}
+Sorting
+If we sort first, we can filter and limit at once then.
+{% endcomment %}
+
+{% assign sort = "date" %}
+{% if include.sort %}
+  {% assign sort = include.sort %}
+{% endif %}
+
+{% if sort != "date" %}
+  {% assign posts = posts | sort:sort %}
+{% endif %}
+
+
+{% comment %}
+Filtering and limiting
+{% endcomment %}
+
+{% assign posts_filtered = "" | split:"" %}
+{% for p in posts %}
+  {% if p.tags contains include.tag or include.tag == null %}
+    {% assign posts_filtered = posts_filtered | push:p %}
+    {% assign posts_filtered_size = posts_filtered | size %}
+    {% if posts_filtered_size == include.limit %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign posts = posts_filtered %}
+
+<!--TODO avatar aligment-->
+
+{% for post in posts %}
+{% assign tags = post.tags | push:"Newest" %}
+<article data-tags='{{ tags | jsonify }}'>
+      <a href="{{ post.url }}">
+        <img src="{{ post.avatar }}" alt="{{ post.title }}">
+      </a>
+      <section>
+        <h2>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <div class="date">
+          {{ post.date | date: "%B %d, %Y" }}
+        </div>
+        <div class="content">
+          {{ post.content | split:'<!--break-->' | first | markdownify }}
+        </div>
+        {% if post.content contains '<!--break-->' %}
+          <div class="readmore">
+            <a href="{{ post.url }}">Read more…</a>
+          </div>
+        {% endif %}
+      </section>
+    </article>
+{% endfor %}

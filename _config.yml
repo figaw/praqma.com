@@ -48,6 +48,7 @@ defaults:
     values:
       categories: stories
       layout: post
+      weight: 0
   -
     scope:
       type: training
