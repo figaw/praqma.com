@@ -5,10 +5,16 @@
     @extend .col-xs-30;
     @extend .col-sm-15;
     margin-bottom: 2em;
+    text-align: center;
+    &:nth-child(2n+1){
+      clear: left;
+    }
     @media (min-width: $screen-sm-min) {
       margin-bottom: 0em;
+      &:nth-child(2n+1){
+        clear: none;
+      }
     }
-    text-align: center;
     img{
       width: 70%;
       /*transition: opacity $transition-time;*/
