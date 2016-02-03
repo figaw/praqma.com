@@ -7,7 +7,7 @@ description: The Continuous Delivery and DevOps Company
 slogan: — In Praqma we strive to change the world…
 url: http://praqma.com
 stories:
-  default-tag: Featured
+  default-tag: Newest
 
 # Only use gems that are supported by github
 # the gems must be installed on your local system to support jekyll build/serve
