@@ -1,28 +1,28 @@
 ---
-title: 1 Hour Free Consultation
+title: Book your free consultation today!
+caption: Continuous Delivery Maturity Assessment
 permalink: /1hour/
 ---
 
-
-## Book a free consultation on Continuous Delivery and DevOps
-
 {% include meeting_request.html %}
 
-Smarter software development approaches increase productivity and quality
+Learn how continuous delivery and devops can boost your development productivity and reliability
 {: .highlight}
 
-Is your software development as effective as you'd like?  Book a free and no-obligation consulting hour to learn how to use continuous delivery and devops to boost development productivity and reliability.
+### Is your software development as effective as you'd like?
+
+Book a free and no-obligation consulting hour to learn how to use continuous delivery and devops to boost development productivity and reliability.
 
 Together we can look at how well your current development practices support your goals. In consulting hours we can discuss, among other things:
 
- - Your goals and development plans
- - How well your practices supports your goals
+ - Your goals and future plans
+ - How well your current practices support your goals
  - How tools and techniques can be applied to your organization
  - If continuous delivery and devops is right for your business
- - What impact your business can get by inbound marketing
+ - What impact your business can get from devops and continuous delivery
  - How to use development automation correctly
 
-After consulting hours we give you specific recommendations for how to be still tougher on what you are doing.
+After consulting hours you will have specific recommendations for how to improve.
 
-Fill out this form and we will contact you to make an appointment.
+Fill out the form on the right and we will contact you to make an appointment.
 {: .highlight}
