@@ -62,7 +62,7 @@ It's easy to sneak a quick peek at an existing job's *config.xml* in Jenkins by 
 ### Empty config.xml <a name="empty-config"/> 
 It’s not uncommon for plugins to always have a small default block added to a job’s *config.xml* on job creation. 
 There's no point in writing giant configure blocks for these XML blocks as they'll just be generated automatically anyway. 
-Create or ask for an empty job's *config.xml* and take not of what's added automatically before churning out redundant code. 
+Create or ask for an empty job's *config.xml* and take note of what's added automatically before churning out redundant code. 
 
 ### Groovy skills <a name="groovy-skills"/> 
 Don't forget that you are working with a Groovy DSL and have full access to the power of Groovy while writing your scripts. 
