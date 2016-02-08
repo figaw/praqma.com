@@ -39,18 +39,18 @@ The complete setup is run using docker-compose. The slave containers link to the
 
 As mentioned above, one of the general ideas is provide Jenkins jobs as a code. All jobs configurations are kept in scripts following a simple naming convention (*.dsl). The Jenkins Job DSL plugin allows you to define a job as code, offering a useful set of functions to configure job components and grants direct access to the config.xml to generate the job. The script is actually Groovy code, so you have the full power of Groovy at your disposal. 
 
-#### Very trivial example of the code
+#### Very trivial example of the dsl job
 	job('example') {
 		scm {
-	    	git {
-	        	remote {
-	            	url('git@yourremote:account/repo1.git')
-	            }
-	        }    
-	    }
-	    steps{
-	    	gradle('build', '', true) 
-	    }
+			git {
+				remote {
+					url('git@yourremote:account/repo1.git')
+				}
+			}    
+		}
+		steps{
+			gradle('build', '', true) 
+		}
 	}
 
 When configured in the Jenkins UI (through adding a “Process Job DSLs” build step to your job), it allows you to execute given code or scripts found in the workspace. We already defined a seed job on our Jenkins master, so we just want to run it on startup. We did this programmatically using a Groovy script that’s run during the Jenkins startup:
@@ -101,29 +101,6 @@ So now we have what we wanted: A Dockerized Jenkins setup with all jobs containe
 As a final feature, we want the possibility to test changes in  our Job DSL scripts. 
 We do this by running the scripts locally through a nifty bash script. This script allows building xml files from the dsl's scripts. If the build is successful then the scripts are correct. 
 
-#### Example
-	DSL_JAR=$(find ${ROOTDIR}/.tmp -name '*standalone.jar'|tail -1)
-
-	if [ ! -f "${DSL_JAR}" ]
-	then
-	  [ -e "${ROOTDIR}/.tmp" ] && rm -rf ${ROOTDIR}/.tmp
-	  mkdir ${ROOTDIR}/.tmp
-	  git clone https://github.com/jenkinsci/job-dsl-plugin.git ${ROOTDIR}/.tmp/jobdsl
-	  cd ${ROOTDIR}/.tmp/jobdsl
-	  ./gradlew :job-dsl-core:oneJar
-	  cd -
-	fi
-
-	DSL_JAR=$(find ${ROOTDIR}/.tmp -name '*standalone.jar'|tail -1)
-
-	if [ -f "${DSL_JAR}" ]; then
-	   CLASSPATH="$DSL_JAR:${DSL}/jobhelpers"
-	   java -cp "$CLASSPATH" OneJar ${DSL}/*.dsl > xmlbuild.log
-	else
-	   echo No JobDSL.jar built.
-	   exit 1
-	fi
-	
 We set up a small pipeline to allow for continuous integration of our Job DSL scripts. 
 It uses the Pretested Integration plugin to run the above verification whenever changes are commited before merging them into the master branch. After a successful merge, our seed job is run, which updates all of our jobs with the new configuration.
  
