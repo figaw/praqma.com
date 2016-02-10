@@ -4,4 +4,4 @@ permalink: /thanks/
 ---
 
 
-## Thanks for your inquiry.  Someone will return to you as soon as possible.
+## Thanks for your inquiry!  Rest assured we have a team of our very best people working on your case.  

@@ -40,4 +40,4 @@ So when you enter into an consulting engagement with us, you don't have to choos
 You get them all.
 We use our pool of experts to get you exactly the skills you need, where and when you need them.
 
-## Call us!
+{% include call_to_action.html %}

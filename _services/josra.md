@@ -48,11 +48,11 @@ members:
 ## Joint Open Source Roadmap Alliance - Development and support of open source tools
 {: .subtitle}
 
-Our most ambitious customers ask a lot from their development environment. 
+Our most ambitious customers ask a lot from their development environment.
 They want new tools, new integrations and new features, not to mention bugs that need tackling.  
 {: .caption}
 
-Josra is an alliance of leading companies who co-organize development and support of open source tools in collaboration with Praqma. 
+Josra is an alliance of leading companies who co-organize development and support of open source tools in collaboration with Praqma.
 By pooling interests, resources and genuine needs with our open source experts, Josra facilitates best practices and joint development on the open source tools that are shared among the members.
 
 ## A community of members
@@ -73,8 +73,8 @@ By pooling interests, resources and genuine needs with our open source experts, 
 Josra is an alliance that supports its members in feeling safe when being dependent on open source tools for their software development process.
 {: .caption}
 
-Josra enables its members to contribute by proxy, they can take on the role as innovator by influencing the roadmaps of maintained tools and by exploiting the support and development cases included with membership. 
-This influence can be exerted without having to redirect employees away from the core business domain and into becoming open source experts. 
+Josra enables its members to contribute by proxy, they can take on the role as innovator by influencing the roadmaps of maintained tools and by exploiting the support and development cases included with membership.
+This influence can be exerted without having to redirect employees away from the core business domain and into becoming open source experts.
 Praqma has substantial open source community karma as this is our business and we do it right.
 
  * All software tools have a full CI infrastructure, ensuring the quality bar is kept high
@@ -91,8 +91,8 @@ Praqma has substantial open source community karma as this is our business and w
 
 ## Josra Gatherings
 
-Once a year the Josra alliance members are invited to a whole-day meetup. 
-Each alliance member is entitled and encouraged to send two participants; A geek and a chief. 
+Once a year the Josra alliance members are invited to a whole-day meetup.
+Each alliance member is entitled and encouraged to send two participants; A geek and a chief.
 We share our experiences and visions and after lunch we split up, the chiefs plan roadmaps while the geeks do hackathons.
 We finish the day by having an evening eat-and-drink-up together.
 
@@ -100,7 +100,9 @@ Our customers consider this meeting of minds one of the most valuable things tha
 The chance to discuss with like-minded peers in different companies provides insights and cross-fertilization that is hard to find in any other environment.
 {: .highlight}
 
-Between meetings, all tools in the Josra toolstack are being discussed and innovated through different Trello boards made available to all alliance members. 
+Between meetings, all tools in the Josra toolstack are being discussed and innovated through different Trello boards made available to all alliance members.
 More lengthy discussions and general feedback can be communicated at the “Joint Open Source Roadmap Alliance” LinkedIn group.
 
 ## _Get the development tools you wish existed_{: .highlight}
+
+{% include call_to_action.html %}

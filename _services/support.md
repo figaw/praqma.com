@@ -51,4 +51,4 @@ Every support agreement comes with these additional benefits:
 * **You have access to our entire team** - with the combination of our diverse skillsets we can service any tool or issue
 * **You can use the account you have for anything CoDe** - second line support, bug fixing, tool setup, configuration, training, coaching, strategic planning and feature development
 
-**It all starts with a visit.  Get in touch and invite us for a cup of coffee!**
+{% include call_to_action.html %}

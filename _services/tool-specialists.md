@@ -78,3 +78,5 @@ We do assessments, tool implementations, workshops, training, sponsored open sou
   </div>
 </div>
 <br/>
+
+{% include call_to_action.html %}

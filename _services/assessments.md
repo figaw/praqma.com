@@ -28,13 +28,13 @@ A Continuous Delivery Assessment consists of four main parts:
 ## The workshop
 <img src="/images/services/assessment.JPG" alt="The workshop" style="width: 500px;"/>
 
-At the workshop we recommend that people who have interests or stakes in the implementation of the continuous delivery approach in your organization participate. 
-Ideally if your organization uses different technology stacks or processes, they should all be represented. 
-Software developers, build and release engineers, QA personnel, system architects, functional testers as well as project managers could contribute to such a workshop. 
+At the workshop we recommend that people who have interests or stakes in the implementation of the continuous delivery approach in your organization participate.
+Ideally if your organization uses different technology stacks or processes, they should all be represented.
+Software developers, build and release engineers, QA personnel, system architects, functional testers as well as project managers could contribute to such a workshop.
 The ideal number of participants is in the range of 10-20 people.
 
 ## The qualitative interviews
-The day after the workshop we will arrange a series of short 30-60 minute interviews with different people in your staff representing different roles in your current process. 
+The day after the workshop we will arrange a series of short 30-60 minute interviews with different people in your staff representing different roles in your current process.
 In these interviews we will focus on understanding your current processes, tool utilization, skill levels and approaches.
 
 If possible the interviews should be conducted in a setup where the actual tools that people use are available, so that we can get actual demonstrations of the workflows that are being used.
@@ -54,9 +54,11 @@ After you have received the report, and have had a chance to discuss it internal
 
 ## A model-based assessment
 
-We’ve learned to recognize various signs indicating different levels of ‘continuous delivery maturity’ and have used them to create a model. 
+We’ve learned to recognize various signs indicating different levels of ‘continuous delivery maturity’ and have used them to create a model.
 We use the model to categorize our findings, observations and recommendations.
 
 At Praqma we are all very engaged in continuous delivery and find the model incredibly useful when discussing with clients, colleagues, user groups, companions, audiences etc.
 
 You can learn more about the model at http://code-maturity.praqma.com/model/
+
+{% include call_to_action.html %}
