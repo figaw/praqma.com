@@ -11,17 +11,14 @@ schedule:
   -
     location:     Oslo
     date:         2016-02-15
-    registration: https://docker-intro-oslo.eventbrite.co.uk
     eventbriteid: 19528021839
   -
     location:     Stockholm
     date:         2016-02-22
-    registration: https://docker-intro-sthlm.eventbrite.co.uk
     eventbriteid: 19992428893
   -
     location:     Aarhus
     date:         2016-03-14
-    registration: https://docker-intro-aarhus.eventbrite.co.uk
     eventbriteid: 19994494070
 ---
 
