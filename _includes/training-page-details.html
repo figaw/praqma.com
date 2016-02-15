@@ -1,5 +1,5 @@
 <section>
-  <h3>Facts</h3>
+  <!--<h3>Facts</h3>
   {% capture table %}
   | Duration | {{ page.duration }} |
   | Level    | {{ page.level }}    |
@@ -7,5 +7,16 @@
   | Type     | {{ page.type }}     |
   | Location | {{ page.location }} |
   {% endcapture %}
-  {{ table | markdownify }}
+  {{ table | markdownify }}-->
+
+  {% if page.schedule %}
+  <h2>Scheduled training</h2>
+  <div class="ticket-form">
+    {% for course in page.schedule  %}
+      <h3>{{ course.location }}</h3>
+      <b>{{ course.date | date: "%A %B %d. %Y" }}</b> <a href="https://www.eventbrite.co.uk/e/{{course.eventbriteid}}" target="_blank"><em>....details</em></a><br/>
+      {% include eventbrite-ticket-form.html eventbriteid=course.eventbriteid %}
+    {% endfor %}
+  </div>
+  {% endif %}
 </section>
