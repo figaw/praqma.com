@@ -7,12 +7,12 @@ nav-weight: 80
 
 ## Continuous Delivery conferences and meetups
 
-Praqma has been organizing community events and meetups on a regular basis. 
-Beginning with Continuous Delivery Users meetup groups, through hosting the Jenkins Scandinavia and on to creating the CoDeConf concept, 
+Praqma has been organizing community events and meetups on a regular basis.
+Beginning with Continuous Delivery Users meetup groups, through hosting the Jenkins Scandinavia and on to creating the CoDeConf concept,
 we have dedicated ourselves to improving the software communities we are part of.
 {: .caption}
 
-Passion is an overused word in our business - but we care deeply about Continuous Delivery. 
+Passion is an overused word in our business - but we care deeply about Continuous Delivery.
 We create the events we wish existed and make them available to everyone.
 {: .highlight}
 
@@ -21,9 +21,12 @@ We create the events we wish existed and make them available to everyone.
 
 We have plans for 9 conferences in 2016, sign up to our newsletter to get the latest announcements on these exciting events!
 
-* **CoDe:CPH, CoDe:OSL & CoDe:STHLM** - our Continuous Delivery and DevOps conferences
-* **Day of Docker** - our bring-a-laptop workshop conference concept
-* **Jenkins User Event Scandinavia** - our annual Jenkins event and code camp
+
+
+* [**CoDe:CPH, CoDe:OSL & CoDe:STHLM**](http://www.code-conf.com) - our Continuous Delivery and DevOps conferences
+* [**Day of Docker**](http://www.code-conf.com) - our bring-a-laptop workshop conference concept
+* [**Jenkins User Event Scandinavia**](http://www.code-conf.com) - our annual Jenkins event and code camp
+
 
 ![Kelsey Hightower at Day of Docker Oslo](/images/services/conferences/kelsey-dod.jpg){: .pic .medium .center}
 
