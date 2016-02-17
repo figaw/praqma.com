@@ -31,9 +31,9 @@ page-banners:
                   Meet the engineers who needed the software skills of Praqma
                   in order to save the beer.
 
- - avatar:        /images/front/dod-16.png
+ - avatar:        /images/front/praqma_front_293-140_doc.png
    url:           /services/code-conf/
-   header:        DAY OF DOCKER 2016
+   header:        DAY OF CONTAINERS 2016
    caption:       Events for managers, software architects,
                   developers, project managers, agile coaches - everyone
-                  who’s got DevOps at heart. Next up is Day of Docker!
+                  who’s got DevOps at heart. Next up is Day of Containers!
