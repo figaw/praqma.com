@@ -1,12 +1,12 @@
 main-banners:
- - avatar:  /images/front/hallway-servers.jpg
-   url:    /training/jenkins-code/
-   caption: Praqma courses are always hands-on and we love to tailor content to your needs. Can't find the training of your dreams? Let us make it for you!
+ - avatar:  /images/front/assessment.JPG
+   url:    /services/consulting
+   caption: Find out how we help our clients build quality software faster with our Continuous Delivery and Devops consulting
 
-   ribbon-orange-caption: 2 DAY COURSE
-   ribbon-black-caption: CONTINUOUS DELIVERY<br> WITH JENKINS
-   ribbon-white-caption:  OUR TRAINING OFFERS
-   ribbon-white-url:     /training/
+   ribbon-orange-caption: WE DON'T CHOP WOOD.  WE SHARPEN AXES.
+   ribbon-black-caption: CONSULTING THAT DELIVERS
+   ribbon-white-caption:  ALL OUR SERVICES
+   ribbon-white-url:     /services/
 
 page-banners:
  #- avatar:         /images/page-banner-conf.png

@@ -5,16 +5,12 @@ avatar:     /images/services/consulting.png
 nav-weight: 10
 ---
 
-## Tailored to your quality and productivity goals
+## Tailored Continuous Delivery and DevOps Consulting
 {: .subtitle}
 
 Praqma can help your software organization achieve your quality and productivity goals.
 We are change management specialists and have helped hundreds of clients realize their ambitions.
 {: .caption}
-
-We believe there are no silver bullets, only lots and lots of lead ones.
-Improving quality consists of a lot of unglamorous work that really adds up.
-{: .highlight}
 
 ## We don't chop wood. We sharpen axes.
 
