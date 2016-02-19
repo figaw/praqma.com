@@ -27,7 +27,17 @@
           {% for p in menu_items %}
             {% if p.nav-weight %}
               {% assign menu-item-folder = p.url | split: "/" | shift %}
-              <li{% if p.url == page.url or current-page-folder == menu-item-folder %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+              {% assign is_active = false %}
+              {% if p.url == page.url %}
+                {% assign is_active = true %}
+              {% endif %}
+              {% if current-page-folder == menu-item-folder %}
+                {% assign current-page-folder-size = current-page-folder | size  %}
+                {% if current-page-folder-size > 0 %}
+                  {% assign is_active = true %}
+                {% endif %}
+              {% endif %}
+              <li{% if is_active %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>

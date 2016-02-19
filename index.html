@@ -2,9 +2,10 @@
 layout: default
 title: Home
 nav-weight: 0
+css-class: index
 ---
 
-<div class="front">
-  {% include main-banner.html %}
-  {% include page-banners.html %}
-</div>
+{% include main-banner.html %}
+{% include page-banners.html %}
+
+{% include posts.html tag="Featured" limit=3 header="News" %}
