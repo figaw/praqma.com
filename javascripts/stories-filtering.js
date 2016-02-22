@@ -1,9 +1,13 @@
+---
+layout: 
+---
+
 function filter(currentTag){
 
   // if hash is empty
   //
   if (currentTag == "" && window.location.pathname == "/stories/") {
-    currentTag = "Featured";
+    currentTag = "{{ site.stories.default-tag }}";
     //console.log("currentTag = " + currentTag);
   }
 
