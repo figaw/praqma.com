@@ -1,4 +1,8 @@
 #widget-meeting{
+  display: none;
+  @media (min-width: $screen-sm-min) {
+    display: block;
+  }
   top: 0;
   left: 0;
   pointer-events: none;
