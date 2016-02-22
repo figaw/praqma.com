@@ -16,6 +16,4 @@ If you know what we mean then you've probably got it - DevOps. You are already d
 
 If you're a CoDer at heart we encourage you to contact us. We have offices in Allerød, Aarhus, Copenhagen, Oslo and Stockholm and we're hiring in all locations.
 
-{% for p in site.tags.Jobs %}
-  [{{ p.title }}]({{ p.url }}#h)<br>
-{% endfor %}
+{% include posts.html tag="Jobs" %}
