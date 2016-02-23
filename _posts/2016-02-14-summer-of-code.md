@@ -2,21 +2,21 @@
 title:      Coming soon - summer of code!
 caption:    A Continuous Delivery bootcamp for graduates
 tags:       [Jenkins, Git, Docker]
-avatar:     /images/stories/jenkinsdocker.png
-nav-weight: 40
+avatar:     /images/stories/soc.jpg
+nav-weight: 5
 ---
 
 ## A modern software bootcamp for graduates
 {: .subtitle}
 
-Are you a final year student about to embark on a software career?  
+Are you a final year student about to embark on a software career?
 
 Do you get the feeling that you might still have a few things to learn before you are prepared for the world of professional software development?
 
-How would you a like a **free**  5 day intense course about **git, jenkins, test-driven development and docker**?  
+How would you a like a **free**  5 day intense course about **git, jenkins, test-driven development and docker**?
 <!--break-->
 
-You would?  
+You would?
 
 Then sign up for the Summer of Code!!
 {: .highlight}
@@ -27,14 +27,13 @@ Then sign up for the Summer of Code!!
 
 The bootcamp will be an intense 5-day course taking you through all the basics of continuous delivery.
 
-<ul class="checkmark">
- <li><strong>Agile methods</strong>:  A primer in Kanban, Lean, and Scrum</li>
- <li><strong>Advanced version control</strong>:  Git in depth</li>
- <li><strong>Build and test automation</strong> : with Jenkins</li>
- <li><strong>Test Driven Development</strong> : Build quality in</li>
- <li><strong>Build, Ship, Run</strong> : with Docker</li>
- <li><strong>Everything as Code</strong> : Infrastructure, Documentation, Tests</li>
-</ul>
+* __Agile methods__:  A primer in Kanban, Lean, and Scrum
+* __Advanced version control__:  Git in depth
+* __Build and test automation__: with Jenkins
+* __Test Driven Development__: Build quality in<
+* __Build, Ship, Run__: with Docker
+* __Everything as Code__: Infrastructure, Documentation, Tests
+{: .checkmark}
 
 ## Is it really free?
 
@@ -44,19 +43,20 @@ Yes. Really.
 
 There's no such thing as a free lunch, right?
 
-Each lunch time there will be a short presentation from one of the sponsors about their company.  On the other hand, if you are looking for a job doesn't it make sense to hear from great employers who take training seriously? :-D  
+Each lunch time there will be a short presentation from one of the sponsors about their company.  On the other hand, if you are looking for a job doesn't it make sense to hear from great employers who take training seriously? :-D
 
 But seriously, the lunch *will be free!*
 
 ## Who is eligible?
 
 You should:
-<ul class="checkmark">
- <li>Be a final year student or unemployed recent graduate</li>
- <li>Have Studied Computer Science or related field</li>
- <li>Want to learn the latest software techniques</li>
- <li>Want to have fun!</li>
-</ul>
+
+* Be a final year student or unemployed recent graduate
+* Have Studied Computer Science or related field
+* Want to learn the latest software techniques
+* Want to have fun!
+{: .checkmark}
+
 
 ## When will it happen?
 
@@ -68,11 +68,11 @@ We still have a few details to iron out - locations, dates, etc.  You know, the 
 
 ## How do I get involved?
 
-Spaces will be limited by the locations we find, so there will be a selection process involved.  If you are interested in attending please send a mail to soc@praqma.com with your current cv and tell us why you want to learn these skills.
+Spaces will be limited by the locations we find, so there will be a selection process involved.  If you are interested in attending please send a mail to [soc@praqma.com](mailto:soc@praqma.com?subject=I+wanna+know+more+about+summer+of+CoDe) with your current cv and tell us why you want to learn these skills.
 
 ## My company loves this idea! Can we sponsor?
 
-Sure - send us a mail and we can set up a chat!
+Sure - [send us a mail](mailto:soc@praqma.com?subject=Please!+We+want+to+know+more+about+sponsoring+summer+of+CoDe) and we can set up a chat!
 
 ## Why is Praqma organizing this?
 
