@@ -5,6 +5,9 @@ avatar: /images/stories/broken-link.4x3.png
 author: Lars Kruse
 ---
 
+UPDATE: Updated alongside the parser, now picks up warnings with newlines in their messages. 
+{: .highlight}
+
 This parser is designed to parse the CSV output from LinkChecker.
 It assumes that the source of the website that is being parsed is available in the `_site` directory of the workspace. 
 `_site` is the Jekyll default, but it can be overridden.
@@ -35,64 +38,57 @@ Jekyll LinkChecker
 Jekyll LinkChecker Trend
 
 ### Regular expression
+The following regex is pretty daunting, but it allows for greater customization of the warnings later on.
 
-    (.*?);(.*?);(.*?);(404 Not Found|.*?Errno 111.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?)\n
+    ([^\n;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^;]*?(?=;))?;([^\n]*)
 
 ### Mapping script
 
 The import of `hudson.plugins.analysis.util.model.Priority` is necessary if you want to get access to the `Warning` constructor that takes five arguments - the last being the priority.
 
+    import hudson.plugins.analysis.util.model.Priority
     import hudson.plugins.warnings.parser.Warning
-    import hudson.plugins.analysis.util.model.Priority  
-
-    String baseurl = "http://blogs.praqma.com"
-    String jekylltarget = "_site"
-    String defaultindex = "index.html"
-
-    // As defined by LinkChecker:
-
-    String urlname       = matcher.group(1)
-    String parentname    = matcher.group(2)
-    String baseref       = matcher.group(3)
-    String result        = matcher.group(4)
-    String warningstring = matcher.group(5)
-    String infostring    = matcher.group(6)
-    String valid         = matcher.group(7)
-    String url           = matcher.group(8)
-    String line          = matcher.group(9)
-    String column        = matcher.group(10)
-    String name          = matcher.group(11)
-    String dltime        = matcher.group(12)
-    String dlsize        = matcher.group(13)
-    String checktime     = matcher.group(14)
-    String cached        = matcher.group(15)
-    String level         = matcher.group(16)
-    String modified      = matcher.group(17)
-
-
-    String modparentname = parentname.replaceAll(/\/$/,"/"+defaultindex)
-    modparentname =     modparentname.replaceAll(/http:\/\/blogs.praqma.com$/,baseurl+"/"+defaultindex)
-    String localfile = modparentname.replaceAll(baseurl+"/", jekylltarget+"/")
-
-    switch ( result ) {
-        case "404 Not Found":
-            message = "In " + modparentname + " at line:" +line + " column:" + column + " the link "+name+ " to " + urlname + " is broken"
-            return new Warning(localfile, Integer.parseInt(line), "Level:" +level, result, message, Priority.HIGH)
-
-        case ~/.*?Errno 111.*?/:
-            message = "In " + modparentname + " at line:" +line + " column:" + column + " the link "+name+ " can not connect to " + urlname
-            return new Warning(localfile, Integer.parseInt(line), "Level:" +level, result, message, Priority.NORMAL)
-
-        default:
-            break
-    }
-
-    switch ( warningstring ) {
-
-        case ~/HTTP 301.*?/:
-            message = "In " + modparentname + " at line:" +line + " column:" + column + " the link "+name+ " to " + urlname + " is permanently     redirected"
-            return new Warning(localfile, Integer.parseInt(line), "Level:" +level, "Permanent redirect", message, Priority.LOW)
-
-        default:
-            break
-    }
+    
+    def obj = [
+            url          : matcher.group(1),
+            parentUrl    : matcher.group(2),
+            baseRef      : matcher.group(3),
+            result       : matcher.group(4),
+            warningString: matcher.group(5),
+            infoString   : matcher.group(6),
+            valid        : matcher.group(7),
+            fullUrl      : matcher.group(8),
+            line         : matcher.group(9),
+            column       : matcher.group(10),
+            name         : matcher.group(11),
+            dlTime       : matcher.group(12),
+            dlSize       : matcher.group(13),
+            checkTime    : matcher.group(14),
+            cached       : matcher.group(15),
+            level        : matcher.group(16),
+            modified     : matcher.group(17)
+    ]
+    
+    String jekyllTarget = "_site"
+    String defaultIndex = "index.html"
+    String source = obj.parentUrl
+    if (source ==~ /https?:\/\/[^\s\.].[^\s\/]*$/)
+        source = $ { source } $ { "/" }
+    if (source ==~ /.*\/$/)
+        source = $ { source } $ { defaultIndex }
+    source = source.replaceAll(/https?:\/\/[^\s\.].[^\s\/]*/, jekyllTarget)
+    
+    def line = obj.line.toInteger()
+    def type = obj.level
+    def category = obj.result
+    
+    message = "$obj.fullUrl: ($obj.result) $obj.warningString - $obj.infoString"
+    
+    def priority = Priority.NORMAL
+    if (obj.valid.equalsIgnoreCase("true"))
+        priority = Priority.LOW
+    if (obj.valid.equalsIgnoreCase("false"))
+        priority = Priority.HIGH
+    
+    
+    return new Warning(source, line, type, category, message, priority)
