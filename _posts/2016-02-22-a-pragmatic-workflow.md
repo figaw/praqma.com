@@ -157,4 +157,31 @@ If you look at in [waffle](http://waffle.io/praqma/praqma.com) you'll see that i
 
 ![waffle](/images/stories/waffle-wip.png){: .pic .center .large}
 
-When I'm done I simply run `git wrapup 200`
+When I'm done I simply run `git wrapup 200`. The command will add, remove and commit everything with a commet message in the format `close #200 Story on how we work`
+
+![git wrapup](/images/stories/git-wrapup.png){: .pic .center .medium}
+
+When I run `git deliver` it will kick off the Jenkins job I have waiting to do the integation. A few seconds later it's integrated:
+
+![Jenkins Ready Branch](/images/stories/jenkins-ready-branch.png){: .pic .center .medium}
+
+In waffle, the issue is automatically moved to _done_ because of my commit message mentioning `close #200`.
+
+![waffle](/images/stories/waffle-done.png){: .pic .center .large}
+
+And on GitHub issues the log is maintained nicely - even with a reference to the commit I made, and all the various labels being applied:
+
+![GitHub issues](/images/stories/github-issue.png){: .pic .center .large}
+
+### Creating a new issue and working on that
+
+Ghi suports that you can create new issues locally, right in you editor all you have to do is to run `ghi open`. I use Atom as my favorite editor but for creating issues I like to stay in my terminal so I have instructed ghi to use nano, simply by adding it to my `.gitconfig` like this:
+
+{% highlight shell %}
+[ghi]
+  editor = nano
+{% endhighlight %}
+
+The first line becomes the title and the rest of the file content is added as the issue description. When I close the file in nano, ghi displays the number of the newly created issue: `201` and I can simply continue with business as usual `git work-on 201`.
+
+Hack, hack hack.
