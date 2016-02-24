@@ -1,0 +1,7 @@
+.layout-subpage{
+  &>aside{
+    /*@extend .row;*/
+    @extend .col-md-15;
+    @extend .col-md-pull-45;
+  }
+}

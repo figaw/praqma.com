@@ -59,7 +59,7 @@ defaults:
     scope:
       type: services
     values:
-      layout: service-page
+      layout: subpage
   -
     scope:
       type: about-pages

@@ -22,3 +22,7 @@ You can expect all of our classes to be taught by our experts in an interactive,
 As *certified training partners* for toolstacks such as **Docker** and **Atlassian** and as experts in **Jenkins CI** and **Git**, we can’t wait to help you build better, deploy faster and run smoother.
 
 # _Sharpen your knife skills with us!_{: .highlight}
+
+<div>
+  {% include banner-menu.html collection="training" %}
+</div>

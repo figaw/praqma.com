@@ -1,13 +1,13 @@
 // styles for traning description pages
 
 .layout-training-page{
-  @extend .col-md-45;
-  & > div{
-    @extend .row;
-  }
-  main[role="main"]{
-    @extend .col-md-60;
-  }
+  /*@extend .col-md-60;*/
+  /*& > div{*/
+    /*@extend .row;*/
+  /*}*/
+  /*main[role="main"]{*/
+    /*@extend .col-md-60;*/
+  /*}*/
   /*aside{*/
     /*[>@extend .row;<]*/
     /*@extend .col-md-20;*/

@@ -1,0 +1,23 @@
+{% for c in site.collections %}
+  {% if c.label == include.collection %}
+    {% assign docs=c.docs | sort: "nav-weight" %}
+
+    <nav class="page-banners">
+      {% for d in docs %}
+        <article class="menu-item{% if d.url == page.url %} active{% endif %}">
+          <a href="{{ d.url }}">
+            <img src="{{ d.avatar }}" alt="{{ d.title }}">
+          </a>
+          <div class="caption">
+            <h3>{{ d.title }}</h3>
+            <p class="details">
+              {% comment %}{{ d.content | split:'<!--break-->' | first | markdownify | strip_html }}{% endcomment %}
+              {{ d.caption }}
+            </p>
+          </div>
+        </article>
+      {% endfor %}
+    </nav>
+
+  {% endif %}
+{% endfor %}

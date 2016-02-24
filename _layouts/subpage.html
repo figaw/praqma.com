@@ -1,0 +1,13 @@
+---
+layout: default
+# shows navs to sibling subpages of page's collection
+---
+<div class="layout-subpage">
+  <main role="main">
+    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+    {{ content }}
+  </main>
+  <aside>
+    {% include banner-menu.html collection=page.collection %}
+  </aside>
+</div>

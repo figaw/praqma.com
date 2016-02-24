@@ -1,15 +1,18 @@
 // styles for `/training/`
 
 .layout-training-index{
-  @extend .col-md-45;
+  @extend .col-md-60;
   & > div{
     @extend .row;
   }
   main[role="main"]{
-    @extend .col-md-40;
+    @extend .col-md-45;
+  }
+  .page-banners{
+    margin-top: 50px;
   }
   aside{
-    @extend .col-md-20;
+    @extend .col-md-15;
     .phone{
       color: $color-orange;
       font-weight: bold;

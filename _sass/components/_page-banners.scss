@@ -1,16 +1,20 @@
-section.page-banners{
+.page-banners{
   @extend .row;
   /*margin-bottom: 2em;*/
   /*margin-top: 1em;*/
   @media (min-width: $screen-sm-min) {
-    margin-bottom: 2em;
+    /*margin-bottom: 2em;*/
+    /*margin-top: 2em;*/
   }
   article{
     @extend .col-md-20;
     @extend .col-sm-20;
     margin-bottom: 2em;
-    @media (min-width: $screen-sm-min) {
-      margin-bottom: 0;
+    /*@media (min-width: $screen-sm-min) {*/
+      /*margin-bottom: 0;*/
+    /*}*/
+    &:nth-child(3n+1) {
+      clear: left;
     }
     h3{
       letter-spacing: $font-letter-spacing;
@@ -25,7 +29,7 @@ section.page-banners{
       }
       opacity: 0.8;
     }
-    a>img{
+    img{
       margin: 0;
       text-align: left;
       width: 70%;
