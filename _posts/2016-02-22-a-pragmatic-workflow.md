@@ -6,8 +6,7 @@ avatar:     /images/stories/workflow_in_git_4x3.png
 nav-weight: 40
 ---
 
-Imagine a workflow so sophisticated, that you couldn't break the integration branch even if you tried.
-And at the same time you wouldn't have to go anywhere else than your terminal and your favorite IDE to manage issues, promotions and deploys.
+Imagine a workflow so sophisticated, that you couldn't break the integration branch even if you tried. And at the same time you wouldn't have to go anywhere else than your terminal and your favorite IDE to manage issues, promotions and deploys.
 {: .highlight}
 
 <!--break-->
@@ -37,18 +36,18 @@ We have given ourselves the luxury to choose a simple, minimalistic tool-stack t
 Both GitHub, Waffle and Jenkins contributes to their part of the magic.
 
 ### GitHub issues integration to git commits messages
-* When a commit message mentions an issue number prefixed with a # (hash) a reference to that particular commit is automatically added to the issue
-* It the commit message mentions one of the [keywords](https://help.github.com/articles/closing-issues-via-commit-messages/){: target="_blank"} `fixed`, `resolved` or `closed` before the issue - It's automatically closed
+* When a commit message mentions an issue number prefixed with a # (hash) a reference to that particular commit is automatically added to the issue.
+* It the commit message mentions one of the. [keywords](https://help.github.com/articles/closing-issues-via-commit-messages/){: target="_blank"} `fixed`, `resolved` or `closed` before the issue - It's automatically closed.
 
 ### In Waffle.io integration with branch naming conventions and labels
 
-* When a branch is created and mentions an issue number: like this `112-fix`or `fix-#112` and it's pushed to `origin` then waffle.io will mark issue #112 as _work in progress_
-* The same effect can occur even without actually pushing the branch to `origin`, but simply by adding the label that Waffle.io uses for marking work in progress (we use the label "Status - In progress")
-* When the label that waffle.io uses to indicate that an issue is workable (groomed) is assigned to an issue - it's automatically moved to the _Workable_ column (we use the label "Status - workable" for this)
+* When a branch is created and mentions an issue number: like this `112-fix`or `fix-#112` and it's pushed to `origin` then waffle.io will mark issue #112 as _work in progress_.
+* The same effect can occur even without actually pushing the branch to `origin`, but simply by adding the label that Waffle.io uses for marking work in progress (we use the label "Status - In progress").
+* When the label that waffle.io uses to indicate that an issue is workable (groomed) is assigned to an issue - it's automatically moved to the _Workable_ column (we use the label "Status - workable" for this).
 
 ### On Jenkins CI
-* The Pretested Integration Plugin is set up to monitor when a branch is pushed and follows the naming convention `ready/*`. Then the integration onto the GitGub default branch - typically `master` or `gh-pages`-  runs automatically
-* When the integration is done, the integration is pushed to `origin` and the `ready/*` branch is removed
+* The Pretested Integration Plugin is set up to monitor when a branch is pushed that follows the naming convention `ready/*`. It then kicks off the integration onto the GitHub default branch - typically `master` or `gh-pages`.
+* When the integration is done, the new commit is pushed to `origin` and the `ready/*` branch is removed.
 
 ## Setting up labels
 
@@ -131,11 +130,11 @@ git config --global --edit
 
 `git issue-wip <issue-number>` will set the label used to mark an issue as _work in progress_. In waffle.io it will be moved to the corresponding column.
 
-`git issue-branch <issue-number` will take the title of the issue and based on this, it will construct a string that will essentially make up a good branch name for working on this issue.
+`git issue-branch <issue-number>` will take the title of the issue and based on this, it will construct a string that will essentially make up a good branch name for working on this issue.
 
 `git default-branch` is used to determine if our integration branch is `master` or `gh-pages`, simply assuming that if `master` exists, then that takes precedence.
 
-`git work-on <issue-number>` will fetch from origin and branch off from the `<origin/default-branch>`. This has the intended side effect, that you create a branch off a remote branch, rather than a local.
+`git work-on <issue-number>` will fetch from origin and branch off from the `<origin/default-branch>`. This has the intended side effect, that you track the remote branch default branch - so at any point in your work process a simple `git pull --rebase` will keep you in sync.
 
 `git addremove` takes every change in the workspace and adds or removes it to the index. If you're familiar with Mercurial Hg, you know the usefulness of this already.
 
@@ -143,7 +142,7 @@ git config --global --edit
 
 `git deliver` will simply push your current branch to a `ready/<current-branch>` on the remote and then rename your local branch to `delivered/<current-branch>`. You might not want to delete your branch just yet, until you've seen that it's successfully integrated.
 
-`git purge-all-delivered` will remove all local branches named `delivered/**` and at the same time remove any branches you may have pushed to origin - without the `ready/**` prefix.
+`git purge-all-delivered` will remove all local branches named `delivered/**` and at the same time remove any corresponding branches you may have pushed to origin - without the `ready/**` prefix.
 
 ## User scenarios
 With this set of ingredients we can carry out a series of useful everyday scenarios without even leaving the terminal
