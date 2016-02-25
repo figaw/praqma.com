@@ -1,10 +1,12 @@
 ---
-title:      A Pragmatic Workflow
-caption:    A workflow automated and optimized for simplicity
-tags:       [How We Work]
-avatar:     /images/stories/workflow_in_git_4x3.png
-comments:   true
-nav-weight: 40
+title:       A Pragmatic Workflow
+caption:     A workflow automated and optimized for simplicity
+tags:        [How We Work]
+avatar:      /images/stories/workflow_in_git_4x3.png
+author:      Lars Kruse
+author-link: http://twitter.com/lakruzz
+comments:    true
+nav-weight:  40
 ---
 
 Imagine a workflow so sophisticated, that you couldn't break the integration branch even if you tried. And at the same time you wouldn't have to go anywhere else than your terminal and your favorite IDE to manage issues, promotions and deploys.

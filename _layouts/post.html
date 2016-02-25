@@ -6,6 +6,18 @@ layout: stories
   <header class="post-header">
     <div class="meta">
       <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
+      {% if page.author %}
+        <span class="author">
+        {% if page.author-link %}
+          <a href="{{page.author-link}}" target="_blank">
+        {% endif %}
+        {{page.author}}
+        {% if page.author-link %}
+          </a>
+        {% endif %}
+        &nbsp;
+        </span>
+      {% endif %}
       {% for t in page.tags %}
         <a class="tag" href="/stories/#{{ t }}">{{ t }}</a>
       {% endfor %}
