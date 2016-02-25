@@ -3,6 +3,7 @@ title:      A Pragmatic Workflow
 caption:    A workflow automated and optimized for simplicity
 tags:       [How We Work]
 avatar:     /images/stories/workflow_in_git_4x3.png
+comments:   true
 nav-weight: 40
 ---
 

@@ -14,5 +14,9 @@ layout: stories
   </header>
   <article class="post-content">
     {{ content }}
+    {% if page.comments == true %}
+    <hr/>
+      {% include google-comments.html %}
+    {% endif%}
   </article>
 </div>
