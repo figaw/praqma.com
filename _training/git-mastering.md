@@ -2,10 +2,10 @@
 title:    Mastering Git
 duration: Two days
 level:    Software developers, Architects, DevOps and Continuous Delivery practitioners
-caption:  Use this training to get to gain a deep understanding of Git
+caption:  Use this training to gain a deep understanding of Git
 type:     This class has plenty of hands-on exercises to familiarize you with the nitty-gritty details of Git. You will leave this course as a Git master.
 location: Copenhagen, Stockholm, Oslo
-avatar:   /images/training/git-logo.png
+avatar:   /images/training/master_git_4x3.png
 ---
 
 ## Two Day on-site intensive hands-on training
@@ -49,7 +49,7 @@ Learn how to improve your software development process by exploiting some of the
 * What belongs in a repository?
 * Changelogs
 
-We have a complete lab setup where you will gain fast paced experiences to take home, ready to apply in your environment. 
+We have a complete lab setup where you will gain fast paced experiences to take home, ready to apply in your environment.
 You only need to bring a laptop with Git installed.
 The course is run as instructor-led presentations of each topic followed by either lab exercises or discussions.
 

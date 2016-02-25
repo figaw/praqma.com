@@ -5,7 +5,7 @@ level:    Architects, System Administrators, DevOps and Continuous Delivery prac
 caption:  Use this training to jump start your continuous delivery implementation
 type:     This class has plenty of hands-on exercises that teaches you how to implement Continuous Delivery with Jenkins
 location: Copenhagen, Stockholm, Oslo
-avatar:   /images/training/jenkins.code.1x1.png
+avatar:   /images/training/code_jenkins_4x3.png
 ---
 
 ## Two Day on-site intensive hands-on training
@@ -35,11 +35,11 @@ We will teach you how to configure and utilize Jenkins to its full potential as 
 * Scalability
 
 
-We have a complete lab set-up where you will gain fast paced experiences to take home, ready to apply in your environment. 
+We have a complete lab set-up where you will gain fast paced experiences to take home, ready to apply in your environment.
 You only need to bring a laptop.
 
 
-The course structure is module based, with each module containing an instructor-led presentation of each topic followed by either lab exercises or discussions. 
+The course structure is module based, with each module containing an instructor-led presentation of each topic followed by either lab exercises or discussions.
 Attendees are welcome to bring questions or challenges from their own background.
 {: .highlight}
 

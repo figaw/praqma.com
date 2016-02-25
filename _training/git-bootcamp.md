@@ -2,10 +2,10 @@
 title:    Git Boot Camp
 duration: One day
 level:    Software developers, Architects, DevOps and Continuous Delivery practitioners
-caption:  Use this training to get to gain a solid working understanding of Git
+caption:  Use this training to get a solid working understanding of Git
 type:     This class has plenty of hands-on exercises to familiarize yourself with the nitty-gritty details of Git
 location: Copenhagen, Stockholm, Oslo
-avatar:   /images/training/git-logo.png
+avatar:   /images/training/course_room_4x3.png
 ---
 
 ##One Day intensive hands-on training
@@ -29,7 +29,7 @@ You will learn how to improve your software development process by exploiting so
 * Adaption to agile development processes
 
 
-This class is intensive and hands-on! 
+This class is intensive and hands-on!
 We have a complete lab setup where you will gain fast paced experiences to take home, ready to apply in your environment.
 
 You only need to bring a laptop with Git installed.

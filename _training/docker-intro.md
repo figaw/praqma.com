@@ -5,7 +5,7 @@ level:    Software developers, Architects, DevOps and Continuous Delivery practi
 caption:  Use this training to jump-start your Docker journey
 type:     This hands-on course will introduce you to the Docker platform and take you through installing, integrating and running it in your working environment.
 location: Copenhagen, Stockholm, Oslo - or on-site
-avatar:   /images/training/docker-intro.1x1.png
+avatar:   /images/training/intro_to_docker_4x3.png
 
 schedule:
   -

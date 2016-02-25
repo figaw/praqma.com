@@ -7,7 +7,7 @@ caption:  Use this training to learn to use Docker to control the Docker daemon,
 type:     This hands-on course will introduce you to the Docker platform and
           take you through installing, integrating and running it in your working environment
 location: Copenhagen, Stockholm, Oslo - or on-site
-avatar:   /images/training/docker.1x1.png
+avatar:   /images/training/docker_adm_ops_4x3.png
 
 schedule:
   -

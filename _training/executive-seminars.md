@@ -5,7 +5,7 @@ level:    C-level executives, R&D Managers, Project Managers, System Architects,
 caption:  Inspire and lead change
 type:     This seminar will inspire and inform your leadership team
 location: On-site
-avatar:   /images/training/executives2.png
+avatar:   /images/training/executive_seminar_4x3.png
 ---
 
 ## Inspire your leadership team with a Continuous Delivery and DevOps seminar
@@ -13,7 +13,7 @@ avatar:   /images/training/executives2.png
 
 Our job in Praqma is to help organizations change.  We have helped hundreds of companies become more effective and successful in the way they work by coaching at all levels of the organization.  In this capacity we have identified that our most successful customers all had one key thing in common: **buy-in and commitment for change throughout the leadership team**.
 
-The most common questions we get from leadership concerning continuous delivery delivery implementation are :
+The most common questions we get from leadership concerning continuous delivery implementation are :
 
  - “How do we decide where to start?”,
  - “What’s the benefit of this particular practice?”, and
