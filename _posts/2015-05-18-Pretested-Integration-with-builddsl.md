@@ -3,13 +3,14 @@ title: Pretested integration with Job DSL
 tags: [Featured, Jenkins, Pretested, Job DSL]
 avatar: /images/stories/jobdsl_4x3.png
 author: Mike Long
+published:  false
 ---
 
 UPDATE: Since 2.3.2, the plugin does support Job DSL. Refer to the [wiki](https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin#PretestedIntegrationPlugin-JenkinsJobDSL) for more information.
 {: .highlight}
 
 
-The pretested integration plugin does not currently support the Jenkins Job DSL. 
+The pretested integration plugin does not currently support the Jenkins Job DSL.
 However, we can still utilize a [configure block](https://github.com/jenkinsci/job-dsl-plugin/wiki/The-Configure-Block) that will generate the required XML to set up the plugin.
 Here is an example we used at Novelda:
 <!--break-->
