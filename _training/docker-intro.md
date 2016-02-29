@@ -9,13 +9,13 @@ avatar:   /images/training/intro_to_docker_4x3.png
 
 schedule:
   -
-    location:     Oslo
-    date:         2016-02-15
-    eventbriteid: 19528021839
+    location:     Copenhagen
+    date:         2016-03-07
+    eventbriteid: 19994372707
   -
     location:     Stockholm
-    date:         2016-02-22
-    eventbriteid: 19992428893
+    date:         2016-03-29
+    eventbriteid: 20104247345
   -
     location:     Aarhus
     date:         2016-03-14

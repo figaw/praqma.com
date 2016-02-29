@@ -11,14 +11,6 @@ avatar:   /images/training/docker_adm_ops_4x3.png
 
 schedule:
   -
-    location:     Oslo
-    date:         2016-02-29
-    eventbriteid: 19528366871
-  -
-    location:     Stockholm
-    date:         2016-03-29
-    eventbriteid: 20104247345
-  -
     location:     Copenhagen
     date:         2016-04-19
     eventbriteid: 21382334137
