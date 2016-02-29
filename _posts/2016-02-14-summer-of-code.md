@@ -32,7 +32,6 @@ The bootcamp will be an intense 5-day course taking you through all the basics o
 * __Build and test automation__: with Jenkins
 * __Test Driven Development__: Build quality in<
 * __Build, Ship, Run__: with Docker
-* __Everything as Code__: Infrastructure, Documentation, Tests
 {: .checkmark}
 
 ## Is it really free?
@@ -51,7 +50,7 @@ But seriously, the lunch *will be free!*
 
 You should:
 
-* Be a final year student or unemployed recent graduate
+* Be a student or unemployed recent graduate
 * Have Studied Computer Science or related field
 * Want to learn the latest software techniques
 * Want to have fun!
