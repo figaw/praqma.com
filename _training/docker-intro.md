@@ -13,13 +13,13 @@ schedule:
     date:         2016-03-07
     eventbriteid: 19994372707
   -
-    location:     Stockholm
-    date:         2016-03-29
-    eventbriteid: 20104247345
-  -
     location:     Aarhus
     date:         2016-03-14
     eventbriteid: 19994494070
+  -
+    location:     Stockholm
+    date:         2016-03-29
+    eventbriteid: 20104247345
 ---
 
 ## Two-day, on-site or classroom-based training
