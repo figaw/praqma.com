@@ -17,6 +17,7 @@ schedule:
 
 ---
 
+
 ## Two day hands-on training
 
 This course is designed to help new and experienced system administrators learn to use Docker to control the Docker daemon, security, Docker Machine, Swarm and Compose.
