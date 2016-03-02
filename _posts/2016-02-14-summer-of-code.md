@@ -9,7 +9,7 @@ nav-weight: 5
 ## A modern software bootcamp for graduates
 {: .subtitle}
 
-Are you a final year student about to embark on a software career?
+Are you a student ready to embark on a software career?
 
 Do you get the feeling that you might still have a few things to learn before you are prepared for the world of professional software development?
 
