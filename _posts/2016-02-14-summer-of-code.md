@@ -1,5 +1,5 @@
 ---
-title:      Coming soon - summer of code!
+title:      Coming soon - CoDe Academy!
 caption:    A Continuous Delivery bootcamp for graduates
 tags:       [Jenkins, Git, Docker]
 avatar:     /images/stories/soc.jpg
@@ -30,7 +30,7 @@ The bootcamp will be an intense 5-day course taking you through all the basics o
 * __Agile methods__:  A primer in Kanban, Lean, and Scrum
 * __Advanced version control__:  Git in depth
 * __Build and test automation__: with Jenkins
-* __Test Driven Development__: Build quality in<
+* __Test Driven Development__: Build quality in
 * __Build, Ship, Run__: with Docker
 {: .checkmark}
 
