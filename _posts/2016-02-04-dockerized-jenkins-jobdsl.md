@@ -96,7 +96,7 @@ The seed job runs again every night to prevent configuration drift:
 	project.save()
 	Jenkins.instance.reload() 
 
-So now we have what we wanted: A Dockerized Jenkins setup with all jobs contained in Job DSL scripts. One script - one job. The scripts are under source control, just like the rest of the project. 
+So now we have what we want: A Dockerized Jenkins setup with all jobs contained in Job DSL scripts. One script - one job. The scripts are under source control, just like the rest of the project. 
 
 As a final feature, we want the possibility to test changes in  our Job DSL scripts. 
 We do this by running the scripts locally through a nifty bash script. This script allows building xml files from the dsl's scripts. If the build is successful then the scripts are correct. 
