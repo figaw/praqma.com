@@ -5,15 +5,16 @@ avatar: /images/stories/jekyll-4x3.png
 author: Lars Kruse
 ---
 
-Jekyll is a Ruby gem that renders [Markdown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) to static HTML pages. 
-Jekyll is the stand-alone engine that drives GitHub pages. 
+
+Jekyll is a Ruby gem that renders [Markdown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) to static HTML pages.
+Jekyll is the stand-alone engine that drives GitHub pages.
 By running Jekyll you can effectively have an equivalent to GitHub pages anywhere.
 <!--break-->
 
-GiJeLi is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid
+__GiJeLi is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid__
 
-This post is a description on how to get the toolstack up and running on your local machine. 
-It's intentionally kept short. 
+This post is a description on how to get the toolstack up and running on your local machine.
+It's intentionally kept short.
 For more lecture on the subject you can visit [Jekyll home](http://jekyllrb.com/) or read the intro at [Jekyll bootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
 
 Provided that you already have git up and running, what you need to do is:
@@ -33,27 +34,27 @@ See [Jekyll on Windows](http://jekyllrb.com/docs/windows/#installation) for more
 
 
 ### Install Ruby with dev-kit
-Windows users must install Ruby, if not installed already. 
-Unlike Mac OS X, Ruby is not installed by default with the operating system, so most users will have to perform the following steps. 
-Ruby can be easily installed with RubyInstaller. 
+Windows users must install Ruby, if not installed already.
+Unlike Mac OS X, Ruby is not installed by default with the operating system, so most users will have to perform the following steps.
+Ruby can be easily installed with RubyInstaller.
 Download and run the latest version of the installer listed on the [RubyInstaller](http://rubyinstaller.org/downloads/) website.
 
 You will also need to install the latest DevKit, which is also available on the [RubyInstaller downloads page](http://rubyinstaller.org/downloads/).
 
-Once you’ve extracted the DevKit package (i.e. to directory _c:\\rubydevkit_), use the Command Prompt to cd into the directory and run the following commands.
+Once you’ve extracted the DevKit package (i.e. to directory _c:\\rubydevkit_), use the Command Prompt to cd into the directory and run the following commands:
 
     ruby dk.rb init
     ruby dk.rb install
 
 ### Install Jekyll
-Finally, install the Jekyll Ruby gem with
+Finally, install the Jekyll Ruby gem with:
 
     gem install jekyll.
 
 If you are behind a proxy, add the option `--http-proxy <proxy-url>` after the install command.
 
-To be able to run _jekyll_ you need to change codepage (to UTF-8) in the command window you are running _jekyll_ from. 
-See [Jekyll Encoding](http://jekyllrb.com/docs/windows/#encoding). 
+To be able to run _jekyll_ you need to change codepage (to UTF-8) in the command window you are running _jekyll_ from.
+See [Jekyll Encoding](http://jekyllrb.com/docs/windows/#encoding).
 In your CLI window, do the command:
 
     chcp 65001
@@ -104,7 +105,7 @@ Run the following commands:
 
 Pre-Install stuff
 
-First we need to install the package called Development tools.
+First we need to install the package called Development tools:
 
     yum groupinstall "Development tools"
 
@@ -142,10 +143,10 @@ gem install jekyll
 
 If you need a few more words to dig into the background, read on:
 
-__Xcode CLI tools__ needs to be installed. 
+__Xcode CLI tools__ needs to be installed.
 From the terminal you can run `xcode-select --install` or any command that requires xcode CLI tools e.g `gcc`or `make` and MacOS will simply offer to install the CLI tools.
 
-__Ruby__ for more details read the [install instructions for Ruby](https://www.ruby-lang.org/en/downloads/). 
+__Ruby__ for more details read the [install instructions for Ruby](https://www.ruby-lang.org/en/downloads/).
 If you chose the RVM you can get more details on [rvm.io](http://rvm.io/rvm/install)
 
 
@@ -153,7 +154,7 @@ If you chose the RVM you can get more details on [rvm.io](http://rvm.io/rvm/inst
 
 Basically you will need to to have a directory with some Jekyll compliant Markdown in it, you'll most likely get this simply by cloning a git repository from somewhere.
 
-The start the Jekyll web service - which will automatically build the HTML - and browse it:
+Then start the Jekyll web service - which will automatically build the HTML - and browse it:
 
 ### Test your setup by running:
 
@@ -161,9 +162,9 @@ The start the Jekyll web service - which will automatically build the HTML - and
     cd cd CoDe-U.github.io/
     jekyll serve
 
-Open your browser on go to `http://localhost:4000` and you should see the CoDe:U web page.
+Open your browser and go to `http://localhost:4000` and you should see the CoDe:U web page.
 
-...which you can also see at [www.codeu.eu](http://www.codeu.eu)
+...which you can also see at [www.code-conf.com](http://www.code-conf.com)
 
 Every time you change the content of the files in directory you'll have to build the HTML again simply by running:
 

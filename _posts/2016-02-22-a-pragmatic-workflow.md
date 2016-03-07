@@ -10,7 +10,6 @@ nav-weight:  40
 ---
 
 Imagine a workflow so sophisticated, that you couldn't break the integration branch even if you tried. And at the same time you wouldn't have to go anywhere else than your terminal and your favorite IDE to manage issues, promotions and deploys.
-{: .highlight}
 
 <!--break-->
 
@@ -21,6 +20,7 @@ So as a developer I'd like a workflow that goes like this:
 Tasks and issues are groomed and ready to work on. When I want to work on a task I set up a branch for the purpose. When I'm done with my work I deliver it for integration - and hopefully I'll never have to go back to that again; The Jenkins automation backend tests and verifies that everything is OK, and if not, I get a notification. The issues are promoted automatically, through the task management system.
 
 We have given ourselves the luxury to choose a simple, minimalistic tool-stack that supports our ideal workflow. We use it for a wide range of our deliveries and it's easy to demonstrate, since most of these are Open Source.
+{: .highlight}
 
 ## Ingredients
 

@@ -8,10 +8,7 @@ location: Copenhagen, Stockholm, Oslo - or on-site
 avatar:   /images/training/intro_to_docker_4x3.png
 
 schedule:
-  -
-    location:     Copenhagen
-    date:         2016-03-07
-    eventbriteid: 19994372707
+
   -
     location:     Aarhus
     date:         2016-03-14

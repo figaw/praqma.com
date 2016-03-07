@@ -6,16 +6,24 @@ redirect_from:
   -  /cases/grundfos/
 ---
 
-Grundfos and Praqma have been close partners since 2007 and have a constant eye on the optimization potential of software development at Grundfos.
-Praqma has implemented the configuration management tool 'IBM Rational ClearCase' in Grundfos’ software development departments around the world as well as implemented automated processes related to software testing.
+
+ __Grundfos and Praqma have been close partners since 2007 and have a constant eye on the optimization potential of software development at Grundfos.__
+
 <!--break-->
+
+Praqma has implemented the configuration management tool 'IBM Rational ClearCase' in Grundfos’ software development departments around the world as well as implemented automated processes related to software testing.
+
 Praqma's knowledge of automation, configuration management and especially best practices is pivotal for Grundfos' software business.
+{: .highlight}
 
 Approximately 100 software engineers in Grundfos are responsible for new software for each pump variant in Grundfos' huge product portfolio.
 The software is used to program and control the pumps and Grundfos releases new versions once or twice every month.
-In order to optimize resources Grundfos wanted to find a method that could automate their processes.
+
+In order to optimize resources, Grundfos wanted to find a method that could automate their processes.
+{: .highlight}
 
 ## Praqma’s knowledge of Jenkins CI is unmatched
+
 
 > "We wanted to save time and resources and at the same time increase productivity in our software testing.
 Praqma recommended the open source tool Jenkins CI, which is the Continuous Integration server that continuously integrates all software bits from the software engineers.
@@ -24,7 +32,9 @@ Where it previously took three or four months to conduct a manual test, it now o
 We have optimized our resources by 300 percent and increased our productivity two to three times.
 These are measurable results that we are very proud of."
 
-Says Flemming Ask Sørensen, Project Manager, Grundfos.
+Flemming Ask Sørensen, Project Manager, Grundfos
+
+
 
 ## Close sparring since 2007
 
