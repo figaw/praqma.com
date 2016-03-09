@@ -2,7 +2,7 @@
 title:    Praqma Academy
 duration: Five days
 level:
-caption:  Use this training learn the continuous delivery mindset
+caption:  Use this training to learn the continuous delivery mindset
 type:     This class has plenty of hands-on exercises to familiarize you with the nitty-gritty details of professional software development. You will leave this course ready to work in a software team.
 location: Copenhagen, Stockholm, Oslo
 avatar:   /images/training/praqma_academy_4x3.jpg

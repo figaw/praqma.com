@@ -31,8 +31,8 @@ page-banners:
                   Meet the engineers who needed the software skills of Praqma
                   in order to save the beer.
 
- - avatar:        /images/front/docker-hands_293x140.jpg
+ - avatar:        /images/front/docker_intro_600x287.jpg
    url:           /training/docker-intro/
    header:        INTRODUCTION TO DOCKER
-   caption:       This course introduces you to the Docker platform
+   caption:       This course introduces you to the Docker platform.
                   Two-day hands on training help you quickly grow from a beginner into a seasoned user
