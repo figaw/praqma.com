@@ -24,12 +24,11 @@ page-banners:
                   If you’re a CoDer at heart, please come and join us!
 
 
- - avatar:        /images/front/bw-specshell-2.png
-   url:           /stories/specshell-case/
-   header:        THE SUCCESS OF SPECSHELL
-   caption:       Praqma takes Specshell from start-up idea to viable business.
-                  Meet the engineers who needed the software skills of Praqma
-                  in order to save the beer.
+ - avatar:        /images/front/customers_praqma_banners_293x140.png
+   url:           /stories/#Customer%20case
+   header:        MEET THE PEOPLE WE HELP
+   caption:       Praqma takes pride in working with organizations that are ready for better workflows.
+                  Hear how our customers benefit from the software skills of Praqma
 
  - avatar:        /images/front/docker_intro_600x287.jpg
    url:           /training/docker-intro/
