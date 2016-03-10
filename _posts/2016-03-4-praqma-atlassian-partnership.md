@@ -29,7 +29,60 @@ The affiliation with one of the fastest growing enterprise software companies is
 The team at Praqma is enthusiastic about both tools and the people who use them, so we support the Scandinavian Atlassian community through activities like hosting events and meetups. This enables us to facilitate best practice as well as accelerate the adoption and knowledge of the Atlassian tool suite.
 
 ### Let us help you
-With extensive Atlassian knowledge and expertise, we offer full-service assistance tailored to our clients' needs on the entire Atlassian tool suite. We offer consultancy, plugin development, training, support, and migration to Git and Stash from SVN, ClearCase, etc. As a certified Atlassian Expert Partner we provide the following services for the Atlassian suite.
+With extensive Atlassian knowledge and expertise, we offer full-service assistance tailored to our clients' needs on the entire Atlassian tool suite. We offer consultancy, plugin development, training, support, and migration to Git and Stash from SVN, ClearCase, etc.
+
+### As a certified Atlassian Expert Partner we provide the following services for the Atlassian suite:
+
+
+
+__Continuous Delivery & Agile development with Atlassian tools__
+
+* Continuous Delivery & Agile coaching and training
+
+__Installation & customization__
+
+* We'll help you get started and set up your tools to fit your specific workflow
+
+__Introduction & training__
+
+* We offer both custommade and standardized on-site training as well as workshops
+
+__Plug-in development__
+
+* Let us help you extend the functionality of your Atlassian tools
+
+__Strategic consultancy__
+
+* We´ll be your ‘trusted advisor’ on all matters of the Atlassian tool suite
+
+__Connectors to other applications__
+
+* We can help you get the most out of your applications by linking them to your existing tool-suite
+
+__Migration__
+
+* Migrate your version control system (e.g from Subversion to Git)
+
+__Operation, maintenance and support (Service Level Agreement)__
+
+* Let us take care of your tools so you can focus on your core business.
+
+__Performance investigations and tuning__
+
+* We can help you maintain a well oiled setup even when the complexity of your installation increases
+
+__The Atlassian toolsuite:__
+
+* Bamboo
+* JIRA, JIRA Agile, and JIRA Service Desk
+* Confluence
+* Stash
+* Crucible
+* Crowd
+* Fisheye
+* Team Calendars
+{: .checkmark}
+
 <!--break-->
 <!--break-->
 
