@@ -2,10 +2,11 @@
 title: OCTOBER 2014 PRAQMA WELCOMES NEW EMPLOYEES
 tags: [Employees, Jenkins]
 avatar: /images/stories/usual-suspects_4x3.jpg
+published:  false
 ---
 
 Praqma is growing rapidly and now has offices in Allerød, Aarhus, Copenhagen, and Oslo.
-Consequently, Praqma has recently welcomed new employees. 
+Consequently, Praqma has recently welcomed new employees.
 Please meet our new team members.
 {: .caption}
 <!--break-->
