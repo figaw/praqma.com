@@ -17,6 +17,14 @@ Imagine a workflow so sophisticated, that you couldn't break the integration bra
 
 So as a developer I'd like a workflow that goes like this:
 
+{% highlight shell %}
+git work-on 200
+git wrapup
+git deliver
+git work-on ...
+...
+{% endhighlight %}
+
 Tasks and issues are groomed and ready to work on. When I want to work on a task I set up a branch for the purpose. When I'm done with my work I deliver it for integration - and hopefully I'll never have to go back to that again; The Jenkins automation backend tests and verifies that everything is OK, and if not, I get a notification. The issues are promoted automatically, through the task management system.
 
 We have given ourselves the luxury to choose a simple, minimalistic tool-stack that supports our ideal workflow. We use it for a wide range of our deliveries and it's easy to demonstrate, since most of these are Open Source.
@@ -162,7 +170,7 @@ If you look at [waffle](http://waffle.io/praqma/praqma.com) you'll see that it's
 
 ![waffle](/images/stories/waffle-wip.png){: .pic .center .large}
 
-When I'm done, I simply run `git wrapup 200`. The command will add, remove and commit everything with a comment message in the format `close #200 Story on how we work`
+When I'm done, I simply run `git wrapup`. The command will add, remove and commit everything with a comment message in the format `close #200 Story on how we work`
 
 ![git wrapup](/images/stories/git-wrapup.png){: .pic .center .medium}
 
