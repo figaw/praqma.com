@@ -9,13 +9,12 @@ avatar:   /images/training/code_kickstart_4x3.jpg
 ---
 <br>
 
-## Get your team up and running with the continuous delivery mindset
+## Get the continuous delivery mindset for developers
 {: .subtitle}
 
-### Sometimes getting started is the hard part
-You probably have the same goals as us:
+###  When getting started is the hard part
+You probably have the same goals as us: a streamlined, low-friction development process.
 
-We know we want to have a streamlined, low-friction development process.
 But sometimes it is hard to decide how to make that a reality.
 
 Common questions we get from teams starting with Continuous Delivery are:
@@ -23,10 +22,11 @@ Common questions we get from teams starting with Continuous Delivery are:
  - “What branching strategy should we use?”
  - “How do we automate this thing?”
  - "What is the right development process for our team?"
+ - "Is this tool right for us?"
 
 <br>
 
-### So we created the Continuous Delivery and DevOps kickstart
+### We created the Continuous Delivery and DevOps kickstart
 
 The kickstart is a tool to help our customers __understand__ the techniques of CoDe and how to __apply__ them.
 
@@ -57,9 +57,7 @@ A survey of the tools available to aid the software development process.  We wil
 ### The workshop
 
 __In the workshop we take a look at your current practices and find out what is important to your team.__ <br>
-We construct a value stream of your development process and identify the tools and techniques that would apply to your context.
-We then use this information to create a prioritized backlog of tasks for your team.
-
+We construct a value stream of your development process and identify the tools and techniques that we would recommend to your context.
 
 <img src="/images/services/assessment.JPG" alt="The workshop" style="width: 500px;"/>
 
