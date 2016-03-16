@@ -1,7 +1,7 @@
 -
   title: Praqma A/S
-  address: Allerød Stationsvej 4<br>
-           DK-3450 Allerød<br>
+  address: Allerød Stationsvej 4,<br>
+           DK-3450 Allerød,<br>
            Denmark
   phone: +45 36 77 27 62
   vat:   DK30987225
@@ -10,8 +10,8 @@
 
 -
   title: Copenhagen office
-  address:  Borgergade 24B, 2. sal<br>
-            1300 København K<br>
+  address:  Borgergade 24B, 2. sal,<br>
+            1300 København K,<br>
             Denmark
   phone: +45 42 71 17 78
   vat:   DK30987225
@@ -21,8 +21,8 @@
 -
   title: Praqma Aarhus
   address: Incuba science park<br>
-           Åbogade 15<br>
-           8200 Aarhus N<br>
+           Åbogade 15,<br>
+           8200 Aarhus N,<br>
            Denmark
   vat:   DK36085220
   email: info@praqma.com
@@ -30,8 +30,8 @@
 
 -
   title: Praqma Norway A/S
-  address:  Tordenskioldsgate 3<br>
-            0160 Oslo<br>
+  address:  Tordenskioldsgate, 3<br>
+            0160 Oslo,<br>
             Norway<br>
   phone:    +47 48676360
   vat:    NO914758440
@@ -41,8 +41,8 @@
 
 -
   title: Praqma Sweden AB
-  caption:  Slottsbacken 8<br>
-            111 30 Stockholm<br>
+  address:  Slottsbacken 8, <br>
+            11130 Stockholm, <br>
             Sweden
   phone:
   vat:   SE556976195901
