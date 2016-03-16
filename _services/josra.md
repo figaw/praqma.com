@@ -49,10 +49,10 @@ members:
 {: .subtitle}
 
 Our most ambitious customers ask a lot from their development environment.
-They want new tools, new integrations and new features, not to mention bugs that need tackling.  
+They want new tools, new integrations and new features, not to mention bugs that need tackling.
 {: .caption}
 
-Josra is an alliance of leading companies who co-organize development and support of open source tools in collaboration with Praqma.
+[Josra](http://www.josra.org){: target="_blank"} is an alliance of leading companies who co-organize development and support of open source tools in collaboration with Praqma.
 By pooling interests, resources and genuine needs with our open source experts, Josra facilitates best practices and joint development on the open source tools that are shared among the members.
 
 ## A community of members
@@ -96,7 +96,7 @@ Each alliance member is entitled and encouraged to send two participants; A geek
 We share our experiences and visions and after lunch we split up, the chiefs plan roadmaps while the geeks do hackathons.
 We finish the day by having an evening eat-and-drink-up together.
 
-Our customers consider this meeting of minds one of the most valuable things that comes with being a member.  
+Our customers consider this meeting of minds one of the most valuable things that comes with being a member.
 The chance to discuss with like-minded peers in different companies provides insights and cross-fertilization that is hard to find in any other environment.
 {: .highlight}
 
