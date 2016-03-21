@@ -6,6 +6,11 @@ caption:  Use this training to gain a deep understanding of Git
 type:     This class has plenty of hands-on exercises to familiarize you with the nitty-gritty details of Git. You will leave this course as a Git master.
 location: Copenhagen, Stockholm, Oslo
 avatar:   /images/training/master_git_4x3.png
+schedule:
+  -
+    location:     Copenhagen
+    date:         2016-05-11
+    eventbriteid: 23176930824
 ---
 
 ## Two Day on-site intensive hands-on training
