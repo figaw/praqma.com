@@ -23,7 +23,6 @@ Learn how to improve your software development process by exploiting some of the
 ### Explore:
 * Branching strategies
 * Adaption to agile development processes
-* Integrations to automation platforms (exemplified with Jenkins CI)
 
 ### From basics to advanced levels:
 
@@ -40,19 +39,6 @@ Learn how to improve your software development process by exploiting some of the
 * Branching- and flow strategies -Overview of branch and merge strategies
 * Git hooks - Client side hooks, Server side hooks, Enforcing policy with hooks
 * GitHub - Pull-requests, GitHub Pages
-
-### Enterprise setup:
-
-* Repository browsers
-* Security models (exemplified with either GitLab or Stash)
-* Migration from another VCS
-* Multi-repo projects
-* Repository organization
-* Submodules
-* Subtrees
-* Google's Git repo tool
-* What belongs in a repository?
-* Changelogs
 
 We have a complete lab setup where you will gain fast paced experiences to take home, ready to apply in your environment.
 You only need to bring a laptop with Git installed.
