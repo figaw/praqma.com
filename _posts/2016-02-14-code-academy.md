@@ -11,11 +11,7 @@ nav-weight: 5
 ## A modern software bootcamp for graduates
 {: .subtitle}
 
-Are you a student ready to embark on a software career?
-
-Do you get the feeling that you might still have a few things to learn before you are prepared for the world of professional software development?
-
-How would you a like a **free**  5 day intense course about **git, jenkins, test-driven development and docker**?
+Are you a student ready to embark on a software career? Do you get the feeling that you might still have a few things to learn before you are prepared for the world of professional software development? How would you a like a __free__  5 day intense hands-on course in __git, jenkins, test-driven development and docker?__
 <!--break-->
 
 You would?
@@ -59,21 +55,21 @@ You should:
 {: .checkmark}
 
 
-## When will it happen?
+## Where and When will it happen?
 
-In the summer, final dates are to be announced shortly
+In the summer, final dates are to be announced shortly but this is currently what we're aiming at:
 
-## Where will it happen?
-
-We still have a few details to iron out - locations, dates, etc.  You know, the small stuff.  Updates will come soon.
+* __Trondheim:__ Mid June
+* __Copenhagen:__ Mid August
+* __Oslo:__ Mid August
 
 ## How do I get involved?
 
-Spaces will be limited by the locations we find, so there will be a selection process involved.  If you are interested in attending please send a mail to [soc@praqma.com](mailto:soc@praqma.com?subject=I+wanna+know+more+about+summer+of+CoDe) with your current cv and tell us why you want to learn these skills.
+Spaces will be limited by the locations we find, so there will be a selection process involved.  If you are interested in attending please send a mail to [code-academy@praqma.com](mailto:code-academy@praqma.com?subject=I+wanna+know+more+about+CoDe+Academy) with your current cv and tell us why you want to learn these skills.
 
 ## My company loves this idea! Can we sponsor?
 
-Sure - [send us a mail](mailto:soc@praqma.com?subject=Please!+We+want+to+know+more+about+sponsoring+summer+of+CoDe) and we can set up a chat!
+Sure - [send us a mail](mailto:code-academy@praqma.com?subject=Please!+We+want+to+know+more+about+sponsoring+CoDe+Academy) and we can set up a chat!
 
 ## Why is Praqma organizing this?
 

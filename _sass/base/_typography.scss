@@ -67,9 +67,10 @@ main[role="main"] p{
 
 ul.checkmark li:before
 {
-    content: '✔';
-    margin-left: -1em;
-    margin-right: .800em;
+  font-family: $font-family-decorative;
+  content: '✔';
+  margin-left: -1em;
+  margin-right: .800em;
 }
 
 ul.checkmark
