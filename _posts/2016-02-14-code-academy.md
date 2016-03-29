@@ -16,9 +16,8 @@ Are you a student ready to embark on a software career? Do you get the feeling t
 
 You would?
 
-Then sign up for the Summer of Code!!
+[Then pre-register your interest in Continuous delivery Academy 2016!!](#interested)
 {: .highlight}
-
 
 
 ## What will I learn?
@@ -59,13 +58,14 @@ You should:
 
 In the summer, final dates are to be announced shortly but this is currently what we're aiming at:
 
-* __Trondheim:__ Mid June
 * __Copenhagen:__ Mid August
-* __Oslo:__ Mid August
+* __Aarhus:__ End of August
+* __Trondheim:__ End of August or beginning of September
+* __Oslo:__ End of August or beginning of September
 
 ## How do I get involved?
 
-Spaces will be limited by the locations we find, so there will be a selection process involved.  If you are interested in attending please send a mail to [code-academy@praqma.com](mailto:code-academy@praqma.com?subject=I+wanna+know+more+about+CoDe+Academy) with your current cv and tell us why you want to learn these skills.
+Spaces will be limited by the locations we find, so there will be a selection process involved. If you are interested in attending please [fill out the form below](#interested) - If you have _any_ questionn then just mail at [code-academy@praqma.com](mailto:code-academy@praqma.com).
 
 ## My company loves this idea! Can we sponsor?
 
@@ -82,3 +82,9 @@ And it makes sense.  We take training very seriously at Praqma, and understand t
 
 But then a second thought came - instead of only training our recruits, why not train all recruits?  Why not make this available to everyone looking for work, so that not only Praqma employees get these skills but all people entering the industry?
 {: .highlight}
+
+# Interested?
+
+If you want to be part of this, then you should register your interest in the form below. We will reserve a seat for you! When the program is final and registration to the CoDe Academies opens, we will will get back to you on the email you provided in this form, with a promotion code for your __FREE__ registration.
+
+<iframe src="https://docs.google.com/forms/d/1_chJOyTrnJV2dTqwfa29OGEeDCgu6zQnU1QEFSjYJX0/viewform?embedded=true" width="100%" height="1730" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
