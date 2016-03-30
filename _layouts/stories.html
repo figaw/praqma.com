@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="layout-stories">
+  <main role="main">
+    {{ content }}
+  </main>
   <aside>
     <div>
       <avatar id="avatar">
@@ -12,7 +15,4 @@ layout: default
       {% include story-filters.html %}
     </div>
   </aside>
-  <main role="main">
-    {{ content }}
-  </main>
 </div>
