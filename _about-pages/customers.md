@@ -98,14 +98,6 @@ customers:
     logo: /images/customers/dsv.png
     link: http://dk.dsv.com/
   -
-    name: Elekta
-    logo: /images/customers/elekta-logo.png
-    link: http://elekta.com/
-  -
-    name: Flir
-    logo: /images/customers/flir.png
-    link: http://flir.se/
-  -
     name: FL Smidth
     logo: /images/customers/fl-smidth.png
     link: http://flsmidth.com/
@@ -161,10 +153,6 @@ customers:
     name: MøllerGruppen
     logo: /images/customers/moller-gruppen.png
     link: http://www.moller.no/
-  -
-    name: Netent
-    logo: /images/customers/netent.jpg
-    link: http://netent.com/
   -
     name: Nets
     logo: /images/customers/nets.png
