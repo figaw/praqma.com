@@ -1,13 +1,12 @@
 <section>
-  <!--<h3>Facts</h3>
-  {% capture table %}
-  | Duration | {{ page.duration }} |
-  | Level    | {{ page.level }}    |
-  | Caption  | {{ page.caption }}  |
-  | Type     | {{ page.type }}     |
-  | Location | {{ page.location }} |
-  {% endcapture %}
-  {{ table | markdownify }}-->
+  <div class="facts">
+    <h2>Facts</h2>
+    <div class="fact"><h3>Duration </h3>  {{ page.duration }} </div>
+    <div class="fact"><h3>Level    </h3>  {{ page.level }}    </div>
+    <div class="fact"><h3>Caption  </h3>  {{ page.caption }}  </div>
+    <div class="fact"><h3>Type     </h3>  {{ page.type }}     </div>
+    <div class="fact"><h3>Location </h3>  {{ page.location }} </div>
+  </div>
 
   {% if page.schedule %}
   <h2>Scheduled training</h2>
