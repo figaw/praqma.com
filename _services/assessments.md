@@ -59,6 +59,6 @@ We use the model to categorize our findings, observations and recommendations.
 
 At Praqma we are all very engaged in continuous delivery and find the model incredibly useful when discussing with clients, colleagues, user groups, companions, audiences etc.
 
-You can learn more about the model at http://code-maturity.praqma.com/model/
+You can learn more about the model at [code-maturity.praqma.com](http://code-maturity.praqma.com/)
 
 {% include call_to_action.html %}
