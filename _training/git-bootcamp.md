@@ -8,14 +8,14 @@ location: Copenhagen, Stockholm, Oslo
 avatar:   /images/training/course_room_4x3.png
 ---
 
-##One Day intensive hands-on training
+## One Day intensive hands-on training
 
 This course will provide you with a solid working understanding of distributed version control concepts and give you the necessary skills to succeed with Git.
 It will teach you how to configure and utilize Git to its full potential as the foundation for your software development process.
 You will learn how to improve your software development process by exploiting some of the features that are unique to distributed version control systems.
 
 
-###We will explore:
+### We will explore:
 
 * What is Git? Learn the data model and design
 * Git command line - repositories, staging, committing etc.
