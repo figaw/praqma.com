@@ -1,13 +1,11 @@
 ---
 title:      IT Operations Student position
+subtitle:   We're hiring - are you an up and coming IT Operations expert? 
 caption:    We're hiring - are you an up and coming IT Operations expert?
 tags:       [Jobs]
 avatar:     /images/stories/praqma-ops.jpg
 nav-weight: 40
 ---
-
-## We're hiring - are you an up and coming IT Operations expert?
-{: .subtitle}
 
 At Praqma we specialize in Continuous Delivery as well as DevOps.
 Right now we're experiencing massive growth and we are looking for more experts to join our ranks.

@@ -1,13 +1,11 @@
 ---
 title:      Using Packer-azure plugin to build and deploy Azure images
+subtitle:   Provision Windows images with Packer tool
 caption:    Building preconfigured Windows images for Azure with Packer
 tags:       [Packer, Azure, Windows]
 avatar:     /images/stories/azure.png
 nav-weight: 40
 ---
-
-## Provision Windows images with Packer tool
-{: .subtitle}
 
 ## Introduction
 

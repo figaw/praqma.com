@@ -58,6 +58,9 @@ Filtering and limiting
             {{ post.date | date: "%B %d, %Y" }}
           </div>
           <div class="content">
+            {% if post.subtitle %}
+              <h2 class="subtitle">{{ post.subtitle | markdownify }}</h2>
+            {% endif %}
             {{ post.content | split:'<!--break-->' | first | markdownify }}
           </div>
           {% if post.content contains '<!--break-->' %}

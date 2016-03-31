@@ -1,13 +1,11 @@
 ---
 title:      Dockerized Jenkins environment
+subtitle:   A solution which is easy to deploy
 caption:    A ready solution which is easy to deploy
 tags:       [Jenkins, Job DSL, Docker]
 avatar:     /images/stories/jenkinsdocker.png
 nav-weight: 40
 ---
-
-## A solution which is easy to deploy
-{: .subtitle}
 
 ## Introduction
 

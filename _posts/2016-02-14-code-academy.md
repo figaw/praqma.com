@@ -1,5 +1,6 @@
 ---
 title:      Coming soon - CoDe Academy!
+subtitle:   A modern software bootcamp for graduates
 caption:    A Continuous Delivery bootcamp for graduates
 tags:       [Jenkins, Git, Docker]
 avatar:     /images/stories/soc.jpg
@@ -7,9 +8,6 @@ redirect_from:
   - /stories/summer-of-code/
 nav-weight: 5
 ---
-
-## A modern software bootcamp for graduates
-{: .subtitle}
 
 Are you a student ready to embark on a software career? Do you get the feeling that you might still have a few things to learn before you are prepared for the world of professional software development? How would you a like a __free__  5 day intense hands-on course in __git, jenkins, test-driven development and docker?__
 <!--break-->

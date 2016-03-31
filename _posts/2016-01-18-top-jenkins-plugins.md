@@ -1,14 +1,12 @@
 ---
 title:      Top Jenkins plugins
+subtitle:   A list of pragmatic plugins for pupils and pros alike.
 caption:    Pragmatic plugins for pupils and pros alike.
 tags:       [Jenkins]
 avatar:     /images/stories/cool-jenkins.png
 redirect_from: /stories/jenkins-favs/
 nav-weight: 40
 ---
-
-## A list of pragmatic plugins for pupils and pros alike.
-{: .subtitle}
 
 In bygone times, Praqma composed a list of useful Jenkins plugins to spice up your CI life with. 
 However, 2013 is ancient history and we've decided that our list is long overdue for a refreshing rewrite.

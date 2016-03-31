@@ -1,13 +1,11 @@
 ---
 title:      Delving into Job DSL
+subtitle:   Tips, tricks and notes on working with Jenkins Job DSL
 caption:    Tips, tricks and notes on working with Jenkins Job DSL
 tags:       [Jenkins, Job DSL]
 avatar:     /images/stories/jenkins.png
 nav-weight: 40
 ---
-
-## Tips, tricks and notes on working with Jenkins Job DSL
-{: .subtitle}
 
 A short blog post for those working or wanting to work with the popular [Jenkins Job DSL](https://github.com/jenkinsci/job-dsl-plugin/wiki). 
 After migrating a fair number of jobs, I’ve decided to jot down some notes for future projects. 

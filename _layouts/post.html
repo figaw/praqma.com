@@ -3,6 +3,11 @@ layout: stories
 ---
 
 <div class="layout-post">
+  {% if page.avatar %}
+    <div class="avatar mobile">
+      <img alt="{{ page.caption }}" src="{{ page.avatar }}">
+    </div>
+  {% endif %}
   <header class="post-header">
     <div class="meta">
       <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
@@ -23,8 +28,16 @@ layout: stories
       {% endfor %}
     </div>
     <a name="h"></a><h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <h2 class="subtitle">{{ page.subtitle | markdownify }}</h2>
+    {% endif %}
   </header>
   <article class="post-content">
+    {% if page.avatar %}
+      <div class="avatar wide">
+        <img alt="{{ page.caption }}" src="{{ page.avatar }}">
+      </div>
+    {% endif %}
     {{ content }}
     {% if page.comments == true %}
     <hr/>
