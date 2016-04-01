@@ -14,6 +14,15 @@ nav.main-menu{
   & > div{
     @extend .row;
   }
+  .navbar-toggle{
+    margin-right: 0;
+    margin-left: 10px;
+    &.collapsed{
+      &:hover, &:focus{
+        background: none;
+      }
+    }
+  }
 }
 .navbar-header{
   @extend .col-xs-60;
@@ -41,6 +50,10 @@ nav.main-menu{
   }
 }
 #main-menu-collapse{
+  .search{
+    @extend .visible-xs-block;
+    margin: 15px 0 10px;
+  }
   & > ul{
     float: none;
     margin: 1em auto 0;
@@ -80,12 +93,5 @@ nav.main-menu{
       background: $color-black;
       margin-top: 0px;
     }
-  }
-}
-.navbar-toggle{
-  margin-right: 0;
-  margin-left: 10px;
-  &.collapsed:not(:hover){
-    background: none !important;
   }
 }

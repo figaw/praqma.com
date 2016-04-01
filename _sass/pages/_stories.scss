@@ -15,13 +15,16 @@
     @media (min-width: $screen-md-min) {
       margin-top: 0;
     }
-    #search{
+    .story-filters{
       a{
         display: block;
         color: $color-black;
         &:hover, &.active{
           color: $color-orange;
         }
+      }
+      .search{
+        @extend .hidden-xs;
       }
     }
   }
