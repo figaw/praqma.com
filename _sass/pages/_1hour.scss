@@ -1,20 +1,11 @@
-// Common styles for *stories* related pages
-// Things for *stories index* and *posts* 
-// are to be implemented withing 
-// *_stories-index.scss* and *_post.scss*
-
-.layout-stories{
+.layout-1hour{
   @extend .row;
   main[role="main"]{
     @extend .col-md-45;
   }
   aside{
-    margin-top: 80px;
     letter-spacing: $font-letter-spacing;
     @extend .col-md-15;
-    @media (min-width: $screen-md-min) {
-      margin-top: 0;
-    }
     #search{
       a{
         display: block;

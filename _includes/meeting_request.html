@@ -1,18 +1,12 @@
-<div class="meeting-request" style="float:right">
+<section>
   <h3>Yes, I'd like to have a chat!</h3>
-  <div class="wrapper" >
-    <form action="http://formspree.io/info@praqma.com" method="POST">
+  <form action="http://formspree.io/info@praqma.com" method="POST">
 
-      <input type="text" name="forename" placeholder="Forename"/> <br/>
-      <input type="text" name="surname" placeholder="Surname"/> <br/>
-      <input type="text" name="_replyto" placeholder="Your email" /> <br/>
-      <input type="text" name="_replyto" placeholder="Your telephone" />
-      <br/>
-      <textarea name="message" rows="10" cols="30" placeholder="What would you like to discuss?"></textarea>
-      <br/>
-      <input type="submit" value="Let's chat!">
-      <input type="hidden" name="_subject" value="New submission from praqma.com" />
-      <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
-    </form>
-  </div>
-</div>
+    <input type="text" name="forename" placeholder="Name"/>
+    <input type="text" name="_replyto" placeholder="Phone or email" />
+    <textarea name="message" rows="10" cols="30" placeholder="What would you like to discuss?"></textarea>
+    <button type="submit">Let's chat!</button>
+    <input type="hidden" name="_subject" value="New submission from praqma.com" />
+    <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
+  </form>
+</section>

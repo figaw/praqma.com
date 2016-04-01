@@ -1,0 +1,11 @@
+form{
+  margin-top: 0.5em;
+  @extend .form-group;
+  input, textarea{
+    margin-bottom: 10px;
+    @extend .form-control;
+  }
+  button, button:hover, button:active{
+    float: right;
+  }
+}
