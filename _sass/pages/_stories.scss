@@ -23,6 +23,14 @@
           color: $color-orange;
         }
       }
+      .dropdown{
+        @extend .visible-xs-block;
+        @extend .visible-sm-block;
+      }
+      .filters-href{
+        @extend .hidden-xs;
+        @extend .hidden-sm;
+      }
       .search{
         @extend .hidden-xs;
       }

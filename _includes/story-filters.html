@@ -9,11 +9,21 @@
     {% endfor %}
   {% endfor %}
   {% assign tags = tags | sort %}
-  <a href="/stories/#Newest">Newest</a>
-  {% for t in tags %}
-    <a href="/stories/#{{ t }}">{{ t }}</a>
-  {% endfor %}
+  <div class="filters-href">
+    <a href="/stories/#Newest">Newest</a>
+    {% for t in tags %}
+      <a href="/stories/#{{ t }}">{{ t }}</a>
+    {% endfor %}
+  </div>
+  <div class="dropdown">
+    <select onchange="window.location.href=this.options[this.selectedIndex].value">
+      <option value="/stories/#Newest">Newest</option>
+      {% for t in tags %}
+        <option value="/stories/#{{ t }}">{{ t }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  {% include search.html %}
   <script src="/javascripts/stories-filtering.js">
   </script>
-  {% include search.html %}
 </section>
