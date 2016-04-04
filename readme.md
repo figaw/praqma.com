@@ -1,3 +1,5 @@
+test
+
 Navigation
 ---
 All pages and tag-pages with *nav-weight* in frontmatter go to menu. They are sorted by *nav-weight* from frontmatter (small values go first).
