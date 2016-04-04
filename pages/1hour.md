@@ -40,7 +40,7 @@ layout: default
           <input type="text" name="forename" placeholder="Name"/>
           <input type="text" name="_replyto" placeholder="Phone or email" />
           <textarea name="message" rows="10" cols="30" placeholder="What would you like to discuss?"></textarea>
-          <button type="submit">Let's chat!</button>
+          <button type="submit">Contact me</button>
           <input type="hidden" name="_subject" value="New submission from praqma.com" />
           <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
         </form>
