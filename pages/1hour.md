@@ -34,7 +34,17 @@ layout: default
 	</main>
 	<aside>
 		<div>
-			{% include meeting_request.html %}
+      <section>
+        <h3>Yes, I'd like some free consultation</h3>
+        <form action="http://formspree.io/info@praqma.com" method="POST">
+          <input type="text" name="forename" placeholder="Name"/>
+          <input type="text" name="_replyto" placeholder="Phone or email" />
+          <textarea name="message" rows="10" cols="30" placeholder="What would you like to discuss?"></textarea>
+          <button type="submit">Let's chat!</button>
+          <input type="hidden" name="_subject" value="New submission from praqma.com" />
+          <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
+        </form>
+      </section>
 		</div>
 	</aside>
 </div>
