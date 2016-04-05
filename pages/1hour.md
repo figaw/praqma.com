@@ -48,3 +48,9 @@ layout: default
 		</div>
 	</aside>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/h5Validate/0.8.4/jquery.h5validate.js"></script>
+<script>
+  $(document).ready(function () {
+    $('form').h5Validate();
+  });
+</script>

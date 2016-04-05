@@ -4,6 +4,12 @@ form{
   input, textarea{
     @extend .form-control;
     margin-bottom: 10px;
+    &.ui-state-error{ // for h5validate plugin
+      border-color: $color-orange;
+      &:focus{
+        box-shadow: 0 0 5px rgba(red($color-orange), green($color-orange), blue($color-orange), 1);
+      }
+    }
   }
   button{
     @extend .btn;
