@@ -31,6 +31,7 @@ Next, we introduced automated tool-testing, so that we end up with a version of 
 Where it previously took three or four months to conduct a manual test, it now only takes one week.
 We have optimized our resources by 300 percent and increased our productivity two to three times.
 These are measurable results that we are very proud of."
+{: .small}
 
 Flemming Ask Sørensen, Project Manager, Grundfos
 
@@ -45,8 +46,9 @@ However, Grundfos continues to keep a close watch for improvements in their deve
 We were recommended to contact Lars Kruse from Praqma, who has educated us and been a great partner in our work on implementing IBM Rational ClearCase.
 Three years later, we examined best practices in relation to automating the processes associated with software testing and here Lars and the rest of Praqma once again proved their worth.
 Their knowledge on Jenkins CI has been a very important element for the results we have achieved."
+{: .small}
 
-Says Flemming Ask Sørensen.
+Flemming Ask Sørensen
 
 ## Praqma understands our wishes
 
@@ -56,6 +58,7 @@ Since 2007, Praqma has been a permanent Grundfos supplier and according to Flemm
 They have an enormous expertise in handling Jenkins CI and they are very quick to write plugins that work and drive the entire testing process in the configuration system we have chosen.
 We are in daily contact with Praqma and they are outstandingly good at taking care of things quickly.
 We greatly appreciate that."
+{: .small}
 
 
 > "A further advantage with Praqma is that they have other similar customers with challenges that we might run into one day.

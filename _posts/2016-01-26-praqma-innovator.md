@@ -1,6 +1,6 @@
 ---
 title:      Praqma Innovator
-caption:    We’re looking for a partner or business developer in a new startups
+subtitle:    We’re looking for a partner or business developer in a new startups
 tags:       [Jobs]
 avatar:     /images/stories/firm20-innovator.jpg
 nav-weight: 40

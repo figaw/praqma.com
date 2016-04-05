@@ -1,6 +1,7 @@
 ---
 title:      Praqma's partnership with Atlassian
-caption:    A given partnership between toolsuite and consultants
+subtitle:   A given partnership between toolsuite and consultants
+caption:
 tags:       [Partners, Featured]
 avatar:     /images/stories/praqma_atlassian_4x3.jpg
 
