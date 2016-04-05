@@ -36,9 +36,9 @@ layout: default
 		<div>
       <section>
         <h3>Yes, I'd like some free consultation</h3>
-        <form action="http://formspree.io/info@praqma.com" method="POST">
+        <form action="http://formspree.io/{{ site.email }}" method="POST">
           <input type="text" name="forename" placeholder="Name"/>
-          <input type="text" name="_replyto" placeholder="Phone or email" />
+          <input type="text" name="_replyto" placeholder="Phone or email" required/>
           <textarea name="message" rows="10" cols="30" placeholder="What would you like to discuss?"></textarea>
           <button type="submit">Contact me</button>
           <input type="hidden" name="_subject" value="New submission from praqma.com" />
