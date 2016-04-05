@@ -2,7 +2,7 @@
 title:      Coming soon - CoDe Academy!
 subtitle:   A modern software bootcamp for graduates
 caption:    A Continuous Delivery bootcamp for graduates
-tags:       [Jenkins, Git, Docker]
+tags:       [Jenkins, Git, Docker, Featured]
 avatar:     /images/stories/soc.jpg
 redirect_from:
   - /stories/summer-of-code/

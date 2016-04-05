@@ -2,7 +2,7 @@
 title:      Using Packer-azure plugin to build and deploy Azure images
 subtitle:   Provision Windows images with Packer tool
 caption:    Building preconfigured Windows images for Azure with Packer
-tags:       [Packer, Azure, Windows]
+tags:       [Packer, Azure, Windows, Featured]
 avatar:     /images/stories/azure.png
 nav-weight: 40
 ---
@@ -35,8 +35,8 @@ If you want to capture your image as a base, you must remove 'unique' informatio
 Check [this article](https://technet.microsoft.com/en-us/library/hh824938.aspx) for more detailed information about generalizing your image.
 
 In my setup, I used the image from the official public storage.
-To get a list of all images stored in the public repository you can execute the following command in Azure CLI: 
-> azure vm image list 
+To get a list of all images stored in the public repository you can execute the following command in Azure CLI:
+> azure vm image list
 
 ![List](/images/stories/azure-list.png){: .pic .large}
 
@@ -45,14 +45,14 @@ You could use this [list](https://azure.microsoft.com/en-us/documentation/articl
 
 As a base image, I would choose the Windows Server 2012 Datacenter.
 For the packer-azure plugin, you need to capture a label of the image.
-Now call the following using azure-cli again: 
->azure vm image show <name-of-the-image.vhd> 
+Now call the following using azure-cli again:
+>azure vm image show <name-of-the-image.vhd>
 
 ![Show](/images/stories/azure-show.png){: .pic .large}
 
 Now it's time for our configuration!
 
-#### Example of The JSON file 
+#### Example of The JSON file
 
 	{
 	  "variables": {
@@ -93,13 +93,13 @@ Now it's time for our configuration!
 To build provisioned image run the packer command:
 >  packer build <name-of-the-json-file>.json
 
-The build will take about 35-40 minutes. 
-If it finishes successfully, you will find a new image in the Azure storage. 
+The build will take about 35-40 minutes.
+If it finishes successfully, you will find a new image in the Azure storage.
 You can now spin up VMs via the web portal or by using the azure-cli:
 > ./azure-cli.sh vm create <VM-name> <image-name> -g <username> -p <pwd>  -r -e -z <size-of-instance>
 > ./azure-cli.sh vm start <VM-name>
 
-One of the benefits of using Packer is that you only require one source to build several images for the different VMs. 
+One of the benefits of using Packer is that you only require one source to build several images for the different VMs.
 You could use several builders:
 
 #### Example of the multiple builders
@@ -112,7 +112,7 @@ You could use several builders:
 	{
 	  "type": "virtualbox-iso",
 	   ...
-	} 
+	}
 	]
 
 You can also declare different provisioners for the different builders types.
@@ -131,6 +131,4 @@ To build them selectively, set the -only=type-of-builder option when building.
 	      "only": ["virtualbox-iso"],
 	      "script": "{{user `example_dir`}}/script2.ps1"
 	    }
-	  ] 
-
-
+	  ]
