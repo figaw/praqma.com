@@ -23,6 +23,10 @@ All posts are treated as they have tag `Newest`. We add it in `_includes/posts.h
 
 You can skip any of `posts.html` parameters.
 
+Tags
+---
+Convention: all tags should start with capital letter.
+
 Weight
 ---
 
