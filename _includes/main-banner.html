@@ -4,11 +4,12 @@
       <a class="main-link" href="{{ mb.url }}">
         {% assign lines-number = mb.ribbon-black-caption | split: "<br>" | size %}
         <span class="title-ribbons lines-number-{{ lines-number }}">
-          <span class="ribbon-secondary">{{ mb.ribbon-orange-caption }}</span><br/>
-          {% assign black-ribbon-parts =  mb.ribbon-black-caption | split: "<br>" %}
-          {% for t in black-ribbon-parts %}
-            <span class="ribbon-primary">{{ t }}</span><br/>
-          {% endfor %}
+          <div class="ribbon-secondary">
+            <span>{{ mb.ribbon-orange-caption }}</span>
+          </div>
+          <div class="ribbon-primary">
+            <span>{{ mb.ribbon-black-caption }}</span><br/>
+          </div>
         </span>
         <img src="{{ mb.avatar }}" alt="{{ ribbon-black-caption }}">
         <span class="caption">{{ mb.caption }}</span>

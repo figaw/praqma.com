@@ -3,7 +3,7 @@ main-banners:
    url:    /services/consulting
    caption: Find out how we help our clients build quality software faster with our Continuous Delivery and Devops consulting
 
-   ribbon-orange-caption: WE DON'T CHOP WOOD.  WE SHARPEN AXES.
+   ribbon-orange-caption: WE DON'T CHOP WOOD. WE SHARPEN AXES.
    ribbon-black-caption: CONSULTING THAT DELIVERS
    ribbon-white-caption:  ALL OUR SERVICES
    ribbon-white-url:     /services/

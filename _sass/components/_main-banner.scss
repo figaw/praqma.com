@@ -12,50 +12,67 @@ section.main-banner{
     position: relative;
   }
   a.main-link .title-ribbons{
-    span{
-      padding: 0 3%;
-    }
     position: absolute;
-    top: 1em;
+    top: 0;
     width: 100%;
     @media (min-width: $screen-sm-min) {
       top: 1.5em;
     }
   }
-  .lines-number-3{
+  .lines-number-3{ //TODO check if we still need this?
     font-size: 3vw;
     @media (min-width: $screen-sm-min) {
       font-size: 1em;
     }
   }
   .ribbon-secondary{
-    background-color: $color-orange;
-    display: inline-block;
-    margin: 0;
-    font-size: 1.5em;
-    font-family: $font-family-ribbon;
-    font-weight: bold;
-    letter-spacing: $font-letter-spacing;
-    white-space: nowrap;
+    margin-bottom: 0.08em;
+    padding-right: 0.5em;
+    font-size: 3vw;
     @media (min-width: $screen-sm-min) {
       font-size: 1.6em;
     }
+    span{
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+      /*.level-3, .level-2, .level-1 {*/
+        background-color: $color-orange;
+      /*}*/
+      line-height: 1.3em;
+      display: inline;
+      margin: 0;
+      padding: 0.15em 1.5vw;
+      font-family: $font-family-ribbon;
+      font-weight: bold;
+      letter-spacing: $font-letter-spacing;
+    }
   }
   .ribbon-primary{
-    background-color: $color-black;
-    display: inline-block;
-    margin: 0;
-    font-size: 2em;
-    br{
-      display: none;
-    }
-    font-family: $font-family-ribbon;
+    font-size: 6vw;
+    padding-right: 0.5em;
     @media (min-width: $screen-sm-min) {
       font-size: 4em;
       line-height: 1.3em;
       br{
         display: block;
       }
+    }
+    span{
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+      /*.level-3, .level-2, .level-1 {*/
+        background-color: $color-black;
+      /*}*/
+      line-height: 1.3em;
+      padding-top: 0.15em;
+      padding-bottom: 0.15em;
+      display: inline;
+      margin: 0;
+      padding: 0.15em 1.5vw;
+      br{
+        display: none;
+      }
+      font-family: $font-family-ribbon;
     }
   }
   img{
