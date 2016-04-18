@@ -9,7 +9,7 @@ avatar:   /images/training/master_git_4x3.png
 schedule:
   -
     location:     Copenhagen
-    date:         2016-05-11
+    date:         2016-05-23
     eventbriteid: 23176930824
 ---
 
