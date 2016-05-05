@@ -1,14 +1,15 @@
 .site-header{
-  margin-top: 17px;
-  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  /*text-align: center;*/
   @extend .hidden-xs;
   .logo img{
-    width: 88px;
+    width: 48px;
+    vertical-align: -90%;
   }
   .description{
-    font-size: 14px;
-    margin-top: 0.9em;
-    margin-bottom: 0.9em;
+    display: inline-block;
+    margin-left: 10px;
     @media 
     (-webkit-min-device-pixel-ratio: 2), 
     (min-resolution: 192dpi) { 
@@ -17,6 +18,36 @@
     }
     @media (min-width: $screen-sm-min) {
       line-height: 1.6;
+    }
+  }
+  .contacts{
+    margin-top: -3px;
+    float: right;
+    a{
+      font-family: $font-family-condensed;
+      /*font-weight: bold;*/
+      line-height: 24px;
+      margin-left: 10px;
+      &.phone{
+        color: black;
+      }
+      &.button{ // reuse for footer botton
+        display: block;
+        background: $color-orange;
+        color: white;
+        /*letter-spacing: $font-letter-spacing;*/
+        padding: 0 10px;
+        text-decoration: none;
+        &:hover{
+          opacity: 0.6;
+        }
+      }
+    }
+    @media (min-width: $screen-md-min) {
+      margin-top: 14px;
+      a.button{
+        display: inline-block;
+      }
     }
   }
 }

@@ -1,11 +1,14 @@
 footer{
   color: $color-gray-text;
-  background: $color-gray;
-  padding: 2em 0px 6em; // padding for social buttons on mobile
+  background: $color-black;
+  padding: 1.7em 0 2em;
   @media (min-width: $screen-xs-min) {
     padding-bottom: 2em;
   }
   margin-top: 50px;
+  .offices{
+    display: none;
+  }
   h2{
     margin-top: 0.1em;
   }
@@ -35,25 +38,43 @@ footer{
   .addition{
     margin-top: 0.5em;
   }
-  /*&:before{*/
-    /*content: " ";*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*background: $color-gray;*/
-  /*}*/
+  .contacts{
+    a{
+      font-family: $font-family-condensed;
+      display: block;
+      margin-bottom: 1px;
+      font-size: 1.2em;
+      &.phone{
+        color: white;
+      }
+      &.button{ // reuse for header
+        display: inline-block;
+        background: $color-orange;
+        color: white;
+        /*letter-spacing: $font-letter-spacing;*/
+        padding: 0 10px;
+        text-decoration: none;
+        &:hover{
+          opacity: 0.6;
+        }
+      }
+      &.button{ // not reusable part
+        margin-top: 0.5em;
+        line-height: 30px;
+      }
+    }
+  }
 }
 
-// hack to disable footer on mobile
-//
-@media (max-width: $screen-sm-max){
+@media (min-width: $screen-sm-min){
   footer{
-    background: white;
-    margin: 0;
-    padding: 0;
-    height: 5em;
-    *{
+    padding: 2em 0px 3em; // padding for social buttons on mobile
+    background: $color-gray;
+    .contacts{
       display: none;
+    }
+    .offices{
+      display: block;
     }
   }
 }
