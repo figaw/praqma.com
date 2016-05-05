@@ -15,11 +15,11 @@ function filter(currentTag){
   //
   $(".page-stories-index h1").text(currentTag);
   $(".page-stories-index article").filter(function( index ) {
-    return !$( this ).data("tags").includes(currentTag);
+    return !$( this ).data("tags").indexOf(currentTag) > -1;
   })
   .hide("fast");
   var articlesToShow = $(".page-stories-index article").filter(function( index ) {
-    return $( this ).data("tags").includes(currentTag);
+    return $( this ).data("tags").indexOf(currentTag) > -1;
   });
   articlesToShow.show("fast");
 
