@@ -63,7 +63,7 @@ In the summer, final dates are to be announced shortly but this is currently wha
 
 ## How do I get involved?
 
-Spaces will be limited by the locations we find, so there will be a selection process involved. If you are interested in attending please [fill out the form below](#interested) - If you have _any_ questionn then just mail at [code-academy@praqma.com](mailto:code-academy@praqma.com).
+Spaces will be limited by the locations we find, so there will be a selection process involved. If you are interested in attending please [click on the link below](#interested) - If you have _any_ questions then just mail at [code-academy@praqma.com](mailto:code-academy@praqma.com).
 
 ## My company loves this idea! Can we sponsor?
 
@@ -83,6 +83,4 @@ But then a second thought came - instead of only training our recruits, why not 
 
 # Interested?
 
-If you want to be part of this, then you should register your interest in the form below. We will reserve a seat for you! When the program is final and registration to the CoDe Academies opens, we will will get back to you on the email you provided in this form, with a promotion code for your __FREE__ registration.
-
-<iframe src="https://docs.google.com/forms/d/1_chJOyTrnJV2dTqwfa29OGEeDCgu6zQnU1QEFSjYJX0/viewform?embedded=true" width="100%" height="1730" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+## Head over to [code-conf.com/academy2016](http://www.code-conf.com/academy2016/) and sign up!
