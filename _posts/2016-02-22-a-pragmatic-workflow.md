@@ -9,7 +9,7 @@ comments:    true
 nav-weight:  40
 ---
 
-Imagine a workflow so sophisticated, that you couldn't break the integration branch even if you tried. And at the same time you wouldn't have to go anywhere else than your terminal and your favorite IDE to manage issues, promotions and deploys.
+Imagine a workflow so sophisticated, that you couldn't break the integration branch even if you tried. And at the same time you wouldn't have to go anywhere else than your terminal and your favorite IDE to manage issues, promotions and deploys. -
 
 <!--break-->
 
