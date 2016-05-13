@@ -15,15 +15,15 @@ At Praqma, while helping many companies with their continuous delivery implement
 
 We created the Continuous Delivery Assessment as a tool to help teams get answers to these questions.
 
-> _"I don't know where I'm going from here, but I promise it won't be boring."_ David Bowie
-{: .highlight}
-
 A Continuous Delivery Assessment consists of four main parts:
 
-* A full day workshop
-* A series of qualitative interviews
-* A report
-* A Q&A session after you’ve had a chance to read the report
+* Day one: Continuous Delivery presentation and context workshops
+* Day two: A series of qualitative interviews
+* Report and roadmap
+* A breakdown of the tasks required to achieve your goals
+
+<img src="/images/services/WorkshopAgendaHi.png" alt="The workshop" style="width: 500px;"/>
+
 
 ## The workshop
 <img src="/images/services/assessment.JPG" alt="The workshop" style="width: 500px;"/>
