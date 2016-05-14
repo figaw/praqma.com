@@ -9,6 +9,7 @@ avatar:     /images/stories/praqticum.jpg
 nav-weight: 5
 redirect_from:
   - /praqticum/
+  - /praqticum.html
 ---
 
 __At Praqma, learning new stuff and improving existing techniques and tools is the most important ability that we can provide to our customers. Many of the tools, techniques and approaches we juggle are brand new - To claim ourselves expert status within these, we need to be good a learning__
