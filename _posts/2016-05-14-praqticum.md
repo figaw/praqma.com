@@ -41,15 +41,15 @@ When I wrote my master thesis - almost 20 years ago - the topic was to explore t
 
 I'll give you an insight in some of the inspirational sources and theories that helped me back then, to build the vocabulary and some of the ideas on how to put the pedal to the metal in a learning process. Of course the books that inspired back then are ancient today - and who reads old books? Well, the matter of the truth is, that they are still very much valid. And if for nothing else they remain useful, because we're still using some of this vocabulary and approaches today -  inside Praqma.
 
-In _"The reflective practitioner[^schon]"_ social scientist Donald A. Schön from M.I.T. presents a study of how professionals go about solving problems. The assumption is that professionals know much more, than they can possibly put to words. So how can we learn from them if they can not articulate it or put it to formula?
+In _"The reflective practitioner"_[^schon] social scientist Donald A. Schön from M.I.T. presents a study of how professionals go about solving problems. The assumption is that professionals know much more, than they can possibly put to words. So how can we learn from them if they can not articulate it or put it to formula?
 
-This idea, that there exist _tacit knowledge_, which isn't easy to put into a language and transfer, was originally presented by physicist and polymath Michael Polanyi in _"Personal Knowledge[^polanyi]"_ (1958) and has later inspired - and set direction  - for a lot of the scientists in the cognitive science field. The two brothers Hubert and Stuart Dreyfus presented a model in their book _"Mind over machine[^dreyfus]"_ (1986) with 5 stages of skill acquisition from - novice to expert. On the expert level the Dreyfus brothers go:
+This idea, that there exist _tacit knowledge_, which isn't easy to put into a language and transfer, was originally presented by physicist and polymath Michael Polanyi in _"Personal Knowledge"_[^polanyi] (1958) and has later inspired - and set direction  - for a lot of the scientists in the cognitive science field. The two brothers Hubert and Stuart Dreyfus presented a model in their book _"Mind over machine"_[^dreyfus] (1986) with 5 stages of skill acquisition from - novice to expert. On the expert level the Dreyfus brothers go:
 
 >An expert generally knows what to do based on mature and practiced understanding. When deeply involved in coping with his environment, he does not see problems in some detached way and work at solving them, nor does he worry about the future or devise plans. We usually don't make conscious deliberative decisions when we walk, talk drive or carry on most social activities. An expert's skills has become so much a part of him, that he need be no more aware of it than he is of his own body.
 
 If we accept the premise that there, inside experts, exist knowledge which is more like recognition; they _know_ it so deeply, that it's like an integrated part of their body. Then wouldn't it be cool, if we could have a method, that could either transfer this knowledge to novices or at least support novices to get to that level of recognition to a faster pace?
 
-In context specifically of software development a fellow named Erik Stolterman finished his Ph.D at Umeå university back then in 1991. His publication was titled _"Designarbetets dolda rationalitet[^stolterman]"_ which roughly translate to _"The hidden rationale of design"_. He's on the same track as Schön, Polanyi and the Dreyfus brothers. In his study he's trying to frame; How does designers succeed in what they are doing, when clearly just _following a process_ isn't gonna cut it. His conclusion is that professionals have an inner compass for what is right. It's a measure of quality, that not only relies on _reason_, but even on _aesthetics_ and _ethics_.
+In context specifically of software development a fellow named Erik Stolterman finished his Ph.D at Umeå university back then in 1991. His publication was titled _"Designarbetets dolda rationalitet"_[^stolterman] which roughly translate to _"The hidden rationale of design"_. He's on the same track as Schön, Polanyi and the Dreyfus brothers. In his study he's trying to frame; How does designers succeed in what they are doing, when clearly just _following a process_ isn't gonna cut it. His conclusion is that professionals have an inner compass for what is right. It's a measure of quality, that not only relies on _reason_, but even on _aesthetics_ and _ethics_.
 
 The interpretation is that as experts we need to develop a lingo for what's _good_ and what's _beautiful_.
 
@@ -104,6 +104,9 @@ In the process interns work in the same workspace as our consultants, they sit r
 What we hope to achieve by this process is two things, one of them is obvious; We want to see if the interns _dig it_. If they do, then they are clearly Praqma prospects and we usually offer them jobs.
 
 The other thing we hope for is that, we ourselves, manage to optimize the leaning process in general, so that we will not just be good at Continuous Delivery and DevOps, but that we, as a company, will be able to refine and optimized the process of learning - in general. We too seek to contribute to the ideal within cognitive science - that learning to learn is something that can be taught.
+
+__If you're interested in an intership praqticum at Praqma, then send your application to [job@praqma.com](mailto:jobs@praqma.com). it should contain a cover letter, telling about yourself and what you hope to achieve.__
+{: .pic .medium .center}
 
 ----
 
