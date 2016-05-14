@@ -3,7 +3,7 @@ title: Praqma increases programming quality through test-driven development at V
 tags: [Continuous Delivery, Customer case]
 avatar: /images/stories/visual-reporting-logo.png
 redirect_from:
-  -  /events/visualreporting/
+  -  /events/visualreporting
 published: false
 ---
 
