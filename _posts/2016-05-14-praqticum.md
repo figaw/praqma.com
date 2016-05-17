@@ -1,5 +1,5 @@
 ---
-title:      Praqticum - the leaning approach at Praqma
+title:      Praqticum - the learning approach at Praqma
 subtitle:
 tags:       [Featured, Learning, Praqticum, Agile ]
 author:      Lars Kruse
@@ -21,9 +21,9 @@ In our line of business - being a service bureau within a niche - our company is
 
 Obviously we want to employ people who are already experts and proficient in our line of work. But the paradigm we work in is relatively new and there aren't that many experts, so it can not be our only strategy of recruitment.
 
-Sometimes we need to be experts in technologies and tools stacks that are so brand new, that whoever want's to call oneself an expert will have to _become_ one - through learning.
+Sometimes we need to be experts in technologies and tools stacks that are so brand new, that whoever want's to call them self an expert will have to _become_ one - through learning.
 
-When we started using _Gradle_ there didn't even exist a language description. We're partners, certified trainers and consultants in _Docker_ - a technology that just celebrated 3-years birthday. We develop our first three Open Source Jenkins plugins, back when Jenkins didn't even exist and it was still called _Hudson_.
+We started using _Gradle_ when there didn't even exist a language description. We're partners, certified trainers and consultants in _Docker_ - a technology that just celebrated 3-years birthday. We develop our first three Open Source Jenkins plugins, back when Jenkins didn't even exist and it was still called _Hudson_.
 
 ## A lot of the time, you will have to grow your own experts
 
@@ -33,7 +33,7 @@ It's all about the applied approach to learning and the attitude of the person.
 
 ## Cognitive Science - the science of knowledge
 
-Cognitive science is the interdisciplinary scientific study of the mind and its processes. Is a science field that lends from artificial intelligence (AI), philosophy, psychology. linguistic, neuroscience and anthropology. The field originates from the 1930's and 40's where it emerged as an attempt to support development of Artificial Intelligence. To develop intelligence, you need to understand it. Cognitive Science focuses on how information is represented, processed, and transformed.
+Cognitive science is the interdisciplinary scientific study of the mind and its processes. It's a field that lends from artificial intelligence (AI), philosophy, psychology. linguistic, neuroscience and anthropology. The field originates from the 1930's and 40's where it emerged as an attempt to support development of AI. To develop intelligence, you need to understand it. Cognitive Science focuses on how information is represented, processed, and transformed.
 
 When I wrote my master thesis - almost 20 years ago - the topic was to explore the learning processes as a software designer; Can you pour learning on bottles and drink it? Is it possible to be operational end decisive, despite the potential lack of experience in the field?
 
@@ -41,15 +41,15 @@ When I wrote my master thesis - almost 20 years ago - the topic was to explore t
 
 I'll give you an insight in some of the inspirational sources and theories that helped me back then, to build the vocabulary and some of the ideas on how to put the pedal to the metal in a learning process. Of course the books that inspired back then are ancient today - and who reads old books? Well, the matter of the truth is, that they are still very much valid. And if for nothing else they remain useful, because we're still using some of this vocabulary and approaches today -  inside Praqma.
 
-In _"The reflective practitioner"_[^schon] social scientist Donald A. Schön from M.I.T. presents a study of how professionals go about solving problems. The assumption is that professionals know much more, than they can possibly put to words. So how can we learn from them if they can not articulate it or put it to formula?
+In _"The reflective practitioner[^schon]"_ social scientist Donald A. Schön from M.I.T. presents a study of how professionals go about solving problems. The assumption is that professionals know much more, than they can possibly put to words. So how can we learn from them if they can not articulate it or put it to formula?
 
-This idea, that there exist _tacit knowledge_, which isn't easy to put into a language and transfer, was originally presented by physicist and polymath Michael Polanyi in _"Personal Knowledge"_[^polanyi] (1958) and has later inspired - and set direction  - for a lot of the scientists in the cognitive science field. The two brothers Hubert and Stuart Dreyfus presented a model in their book _"Mind over machine"_[^dreyfus] (1986) with 5 stages of skill acquisition from - novice to expert. On the expert level the Dreyfus brothers go:
+This idea, that there exist _tacit knowledge_, which isn't easy to put into a language and transfer, was originally presented by physicist and polymath Michael Polanyi in _"Personal Knowledge[^polanyi]"_ and has later inspired - and set direction  - for a lot of the scientists in the cognitive science field. The two brothers Hubert and Stuart Dreyfus presented a model in their book _"Mind over machine[^dreyfus]"_  with 5 stages of skill acquisition from - novice to expert. On the expert level the Dreyfus brothers go:
 
 >An expert generally knows what to do based on mature and practiced understanding. When deeply involved in coping with his environment, he does not see problems in some detached way and work at solving them, nor does he worry about the future or devise plans. We usually don't make conscious deliberative decisions when we walk, talk drive or carry on most social activities. An expert's skills has become so much a part of him, that he need be no more aware of it than he is of his own body.
 
-If we accept the premise that there, inside experts, exist knowledge which is more like recognition; they _know_ it so deeply, that it's like an integrated part of their body. Then wouldn't it be cool, if we could have a method, that could either transfer this knowledge to novices or at least support novices to get to that level of recognition to a faster pace?
+If we accept the premise that there, inside experts, exist knowledge which is more like recognition; they _know_ it so deeply, that it's like an integrated part of their body. Then wouldn't it be cool, if we could have a method, that could either transfer this knowledge to novices or at least support novices to get to that level of recognition in a faster pace?
 
-In context specifically of software development a fellow named Erik Stolterman finished his Ph.D at Umeå university back then in 1991. His publication was titled _"Designarbetets dolda rationalitet"_[^stolterman] which roughly translate to _"The hidden rationale of design"_. He's on the same track as Schön, Polanyi and the Dreyfus brothers. In his study he's trying to frame; How does designers succeed in what they are doing, when clearly just _following a process_ isn't gonna cut it. His conclusion is that professionals have an inner compass for what is right. It's a measure of quality, that not only relies on _reason_, but even on _aesthetics_ and _ethics_.
+In context of software development a fellow named Erik Stolterman finished his PhD at Umeå university back in 1991. His publication was titled _"Designarbetets dolda rationalitet"_[^stolterman] which roughly translate to _"The hidden rationale of design"_. He's on the same track as Schön, Polanyi and the Dreyfus brothers. In his study he's trying to frame; How does designers succeed in what they are doing, when clearly just _following a process_ isn't gonna cut it. His conclusion is that professionals have an inner compass for what is right. It's a measure of quality, that not only relies on _reason_, but even on _aesthetics_ and _ethics_.
 
 The interpretation is that as experts we need to develop a lingo for what's _good_ and what's _beautiful_.
 
@@ -103,7 +103,7 @@ In the process interns work in the same workspace as our consultants, they sit r
 
 What we hope to achieve by this process is two things, one of them is obvious; We want to see if the interns _dig it_. If they do, then they are clearly Praqma prospects and we usually offer them jobs.
 
-The other thing we hope for is that, we ourselves, manage to optimize the leaning process in general, so that we will not just be good at Continuous Delivery and DevOps, but that we, as a company, will be able to refine and optimized the process of learning - in general. We too seek to contribute to the ideal within cognitive science - that learning to learn is something that can be taught.
+The other thing we hope for is that, we ourselves, manage to optimize the learning process in general, so that we will not just be good at Continuous Delivery and DevOps, but that we, as a company, will be able to refine and optimized the process of learning - in general. We too seek to contribute to the ideal within cognitive science - that learning to learn is something that can be taught.
 
 __If you're interested in an intership praqticum at Praqma, then send your application to [job@praqma.com](mailto:jobs@praqma.com). it should contain a cover letter, telling about yourself and what you hope to achieve.__
 {: .pic .medium .center}
