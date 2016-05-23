@@ -77,9 +77,16 @@ The _status_ labels are the ones that we use in waffle.io to indicate the promot
 [GHI](https://github.com/stephencelis/ghi) is a ruby gem you can install simply by running:
 
 {% highlight shell %}
-alias ghi='docker run -i -t --rm -v $HOME:/home/ghi antonmry/ghi-docker'
+gem install ghi
 ghi config --auth YOUR_GITHUB_USER
 {% endhighlight %}
+
+Or if you don't have ruby installed, you can simply use docker:
+
+{% highlight shell %}
+alias ghi='docker run -i -t --rm -v $HOME:/home/ghi antonmry/ghi-docker
+{% endhighlight %}
+
 
 It allows you to manipulate all the GitHub issues, labels and milestones. All you have to do, is have your current working directory in a clone of a GitHub repo, and the ghi command you issue will operate on the issues there.
 
