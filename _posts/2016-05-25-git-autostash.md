@@ -29,6 +29,7 @@ Following the training, I did a bit of thinking and reading up on recent changs 
 Since Git version 2.6, `git rebase` now has a feature/option called **autostash**.
 
 From **`git rebase`** docs:
+
 ```
 --autostash
 --no-autostash
