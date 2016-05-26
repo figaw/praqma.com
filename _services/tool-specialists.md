@@ -9,6 +9,10 @@ nav-weight: 60
 
 tools:
   -
+    name: Atlassian
+    logo: /images/services/tools/atlassian-rgb-navy-large.png
+    link: /services/atlassian
+  -
     name: Docker
     logo: /images/services/tools/docker.png
     link:

@@ -24,11 +24,11 @@ page-banners:
                   If you’re a CoDer at heart, please come and join us!
 
 
- - avatar:        /images/front/customers_praqma_banners_293x140.png
-   url:           /stories/#Customer%20case
-   header:        MEET THE PEOPLE WE HELP
-   caption:       Praqma takes pride in working with organizations that are ready for better workflows.
-                  Hear how our customers benefit from the software skills of Praqma
+ - avatar:        /images/services/tools/atlassian_new_grey_back.png
+   url:           /services/atlassian
+   header:        CERTIFIED ATLASSIAN EXPERT
+   caption:       Praqma provides solutions and services that accelerate your benefits of Atlassian products. <br>
+                  Let us help you get started - or get better
 
  - avatar:        /images/front/docker_intro_600x287.jpg
    url:           /training/docker-intro/
