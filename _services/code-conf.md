@@ -22,11 +22,8 @@ We create the events we wish existed and make them available to everyone.
 We have plans for 9 conferences in 2016, sign up to our newsletter to get the latest announcements on these exciting events!
 
 
-
-* [**CoDe:CPH, CoDe:OSL & CoDe:STHLM**](http://www.code-conf.com) - our Continuous Delivery and DevOps conferences
-* [**Day of Docker**](http://www.code-conf.com) - our bring-a-laptop workshop conference concept
-* [**Jenkins User Event Scandinavia**](http://www.code-conf.com) - our annual Jenkins event and code camp
-
+* [**CoDe:CPH, CoDe:OSL & CoDe:STHLM**](http://www.code-conf.com){: target="_blank"} - our Continuous Delivery and DevOps conferences
+* [**Day of Docker**](http://www.code-conf.com){: target="_blank"} - our bring-a-laptop workshop conference concept
 
 ![Kelsey Hightower at Day of Docker Oslo](/images/services/conferences/kelsey-dod.jpg){: .pic .medium .center}
 
@@ -35,20 +32,20 @@ We want to bring the best ideas and the leading figures in our world to our comm
 
 ## Meetup groups
 
-We are helping to organize meetup groups at all of our locations in Scandinavia.  
+We are helping to organize meetup groups at all of our locations in Scandinavia.
 
 Copenhagen:
 
- * [Continuous Delivery Users Copenhagen](http://www.meetup.com/code-u/)
- * [Atlassian Users Copenhagen](http://www.meetup.com/Atlassian-Users-Copenhagen/)
- * [Malmö & Copenhagen DevOps](http://www.meetup.com/Malmo-Cph-DevOps-Meetup/)
+ * [Continuous Delivery Users Copenhagen](http://www.meetup.com/code-u/){: target="_blank"}
+ * [Atlassian Users Copenhagen](http://www.meetup.com/Atlassian-Users-Copenhagen/){: target="_blank"}
+ * [Malmö & Copenhagen DevOps](http://www.meetup.com/Malmo-Cph-DevOps-Meetup/){: target="_blank"}
 
 Oslo:
 
- * [Docker Oslo](http://www.meetup.com/Docker-Oslo/)
- * [DevOps Norway](http://www.meetup.com/DevOps-Norway/)
- * [Oslo Embedded Software](http://www.meetup.com/Oslo-Embedded-Software-Meetup/)
+ * [Docker Oslo](http://www.meetup.com/Docker-Oslo/){: target="_blank"}
+ * [DevOps Norway](http://www.meetup.com/DevOps-Norway/){: target="_blank"}
+ * [Oslo Embedded Software](http://www.meetup.com/Oslo-Embedded-Software-Meetup/){: target="_blank"}
 
 Stockholm:
 
- * [Continuous Delivery Users STHLM](http://www.meetup.com/Malmo-Cph-DevOps-Meetup/)
+ * [Continuous Delivery Users STHLM](http://www.meetup.com/Malmo-Cph-DevOps-Meetup/){: target="_blank"}
