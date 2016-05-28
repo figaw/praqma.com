@@ -12,7 +12,7 @@ permalink: /services/atlassian/
 AS A CERTIFIED ATLASSIAN EXPERT PARTNER we provide solutions and <br/> services that accelerate the benefits and usage of the Atlassian products.
 {: .caption}
 
-We offer consultancy, plugin development, training, support, and migration etc.
+We offer consultancy, plugin development, training, support, and migration etc. and we have many happy Atlassian customers - ask us for references! 
 {: .highlight}
 
 <br/>
@@ -41,7 +41,6 @@ With extensive Atlassian knowledge and expertise, we offer full-service assistan
 <br/>
 
 # Atlassian Services by Praqma:
-<br/>
 
 * ### Continuous Delivery and Agile development with Atlassian tools
 Continuous Delivery and Agile coaching and training
