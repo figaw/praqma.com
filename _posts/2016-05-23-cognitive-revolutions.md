@@ -50,11 +50,14 @@ But what was it that allowed us to leap to the top of the food chain and spread 
 But what are the new specific abilities in gossip theory that supposedly gives us the advantage?
 
 | **New ability** | **Wider consequences**|
+|-
 | The ability to transmit larger quantities of information about the world surrounding *Homo sapiens* | Planning and carrying out complex actions, such as avoiding lions and hunting bison |
 | The ability to transmit larger quantities of information about Sapiens' social relationships | Larger and more cohesive groups, numbering up to 150 individuals |
 | The ability to transmit information about things that do not really exist, such as tribal spirits, nations, limited liability companies and human rights | a. Cooperation between very large numbers of strangers <br/>b. Rapid innovation of social behaviour |
+{:.equal}
 
 From *Sapiens, A Brief History of Humankind (Harari)*, pp 41
+{:.table-caption}
 
 Now for the first time, we could scale our tribes.  We could create codes of behavoiur.  We could orchestrate acts of group hunting and build large tribes.  And with larger groups, we could specialize.  Individual humans were weak, but tribes were stronger than anything around.
 
@@ -120,9 +123,11 @@ In Praqma, we have been early adopters to the Github, EC2, and Slack stack, and 
 Let's reframe Harari's model in terms of the abilities our GECS stack can provide:
 
 | **New ability** | **Wider consequences**|
+|---|
 | The ability to transmit larger quantities of information about the world surrounding **software developers** | Planning and carrying out complex actions, such as avoiding bugs and creating valuable software |
 | The ability to transmit larger quantities of information about **software developer** social relationships | Larger and more cohesive **software organizations** |
 | The ability to transmit information about things that do not really exist, such as **requirements, teams, status and quality** | a. Cooperation between very large numbers of strangers <br/>b. Rapid innovation of **software** |
+{:.equal}
 
 It is no surprise that GitHub and Slack are finding their way into more and more enterprises, that the future is cloud-first, and chatops is the new norm.  These communication technologies are what enables us to glue a social fabric in our culture, and produce much more than we could ever dream of without those tools.
 
