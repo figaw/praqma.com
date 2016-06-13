@@ -6,6 +6,11 @@ caption:  Get dressed for taking on the role as JIRA administrator
 type:     This class has plenty of hands-on exercises to familiarize you with the different functions and tasks relevant for JIRA administrators
 location: Copenhagen, Stockholm, Oslo - or on-site
 avatar:   /images/training/jira_admin_4x3.png
+schedule:
+  -
+    location:     Aarhus
+    date:         2016-03-14
+    eventbriteid: 25992347812
 ---
 
 
