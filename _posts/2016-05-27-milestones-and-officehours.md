@@ -11,13 +11,13 @@ avatar: /images/stories/labels.png
 nav-weight: 5
 ---
 
-**Everyone is often working on multiple projects. So as an individual you'll often have more than one milestone to work on in parallel. Learn how we have organized ourselves with issues and milestones in an Kanban style approach with frequent Office Hour sessions.**
+**Very often deveopers are engaged in multiple projects. So as an individual you'll often have more than one milestone to work on in parallel. Learn how we have organized ourselves with issues and milestones in an Kanban style approach with frequent Office Hour sessions.**
 <!--break-->
 
 # The planning is the process
 Any process, that involves people, is dependent on all people following the process. It's like the choreography of a dance; It looks beautiful and easy when everyone has rehearsed it together for hundreds of hours.
 
-This posts describes the steps of everyday agile planning, when everyone is involved in more then one project, distributed across multiple sites, working different timezones, having different level of experience and even sometimes take vacations.
+This posts describes the steps of everyday agile planning, when everyone is involved in more than one project, distributed across multiple sites, working different timezones, having different level of experience and even sometimes take vacations.
 
 So learn the steps, put those hours in, start rehearsing!
 
