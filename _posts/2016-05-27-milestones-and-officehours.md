@@ -189,7 +189,7 @@ __How everyone preps for an office hour meeting__
 
 __Assignees__ - Quickly skim through the cases. Did you actually deliver some of them but forgot to close? Do it now! Do any of your tasks have green action labels on them? Aargh, you should have attended them already - do it now! If there are tasks in the milestone that are still open and need a meaningful comment, now is a good time.
 
-__Product Owners__ - An hour before the office hour, poke the assignees and remind them that you expect them to be prepared for the meeting, as described above (-_"Come on! is that really necessary?" - _"Yes!" ). If you haven't had time to keep an eye out on new issues without at milestone - do it now!
+__Product Owners__ - An hour before the office hour, poke the assignees and remind them that you expect them to be prepared for the meeting, as described above (- _"Come on! is that really necessary?"_ - "Yes!" ). If you haven't had time to keep an eye out on new issues without at milestone - do it now!
 
 <br/>
 
