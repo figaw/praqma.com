@@ -15,7 +15,7 @@ __Investigating the new git autostash feature and how to use it to allow pulling
 
 While recently teaching an introductory Git training course, I received an interesting question from some users that were currently using Mercurial. Paraphrasing a bit:
 
-    "Why can't I pull when I have a dirty workspace, when Mercurial can do this out of the box?"
+>"Why can't I pull when I have a dirty workspace, when Mercurial can do this out of the box?"
 
 I gave the immediate answer that this is just Git's way of protecting the user from possibly harmful and, more importantly, irreversable changes. Git by default takes a very paranoid approach to any operations that change dirty files in your file system, when Git itself can't get you out of those changes again. _This is normally considered a feature_.
 
