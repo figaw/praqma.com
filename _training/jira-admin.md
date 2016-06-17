@@ -9,7 +9,7 @@ avatar:   /images/training/jira_admin_4x3.png
 schedule:
   -
     location:     Aarhus
-    date:         2016-03-14
+    date:         2016-08-23
     eventbriteid: 25992347812
 ---
 
