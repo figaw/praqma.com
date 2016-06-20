@@ -4,10 +4,10 @@ tags: CoDe Academy Trondheim
 avatar: /images/stories/academy-trd/code-academy-trd-med.png
 published:  true
 ---
-This week we had the first [CoDe Academy](http://www.code-conf.com/academy2016/), hosted at NTNU in Trondheim!  We had 64 students sign up for the event - and given this is the first week of summer vacation you have to admire their dedication!
+This week we had the first [CoDe Academy](http://www.code-conf.com/academy2016/), hosted at NTNU in Trondheim.  We had 64 students sign up for the event - and given this is the first week of summer vacation, you have to admire their dedication!
 <!--break-->
 
-We created code academy to stronger ties with students and faculty in university.  We think the best way to do this is to share valuable learning from industry.  So we took our [best training material](/training) and crafted a course aimed at teaching students the best modern software development practices.
+We created CoDe Academy to stronger ties with students and faculty in the university.  We believe the best way to create such a friendship is to share valuable learnings from the industry.  So we took our [best training material](/training) and crafted a course aimed at teaching students the best modern software development practices.
 
 ## The curriculum
 
@@ -15,29 +15,29 @@ We base the curriculum around our [CoDe Storyline](code-storyline).  We want to 
 ![CoDe Storyline](/images/stories/storyline_by_praqma_for_web.jpg){: .pic .medium .center}
 
 
-We start by digging in to agile thinking. It is strange to think that the biggest problem we have solved in the last 20 years is to answer the question - *how do we know what to work on next*?  Well, there are many ways teams solve this problem - but the common theme in all modern agile planning is to refine tasks that are small enough to create momentum and prioritize them according to value.  That is why **Agile Task Management** is our first port of call.
+We start by digging into agile thinking. It is strange to think that the biggest problem we have solved in the last 20 years is to answer the question - *how do we know what to work on next*?  Well, there are many ways teams solve this problem - but the common theme in all modern agile planning is to refine tasks that are small enough to create momentum and prioritize them according to value.  That is why **Agile Task Management** is our first port of call.
 ![CoDe Storyline](/images/stories/academy-trd/curriculum/curriculum.001.jpeg){: .pic .medium .center}
 
-Now we know what to work on, *how do we do our work*?  That is where **Test-Driven Development** comes in.  We want to make sure we have actually created the software we thought we were making!
+Now that we know what to work on, *how do we do our work*?  That is where **Test-Driven Development** comes in.  We want to make sure we have actually created the software we thought we were making!
 ![CoDe Storyline](/images/stories/academy-trd/curriculum/curriculum.002.jpeg){: .pic .medium .center}
 
 Ok, now we have working code - *how do we share it with others*?  This is where **git and github** come into the picture.  We teach git.  And I mean *really* teach git.  Students learn everything, from first principles to advanced branching strategies.
 ![CoDe Storyline](/images/stories/academy-trd/curriculum/curriculum.003.jpeg){: .pic .medium .center}
 
-Where are my tools?  Now we can share our code - how about we share our environments!?  The next stage in the process is to make sure everyone and everything is is based on a common environment.  We teach students how to define development and runtime environments based on **docker**, so we can develop, build, test and deploy a consistent product - *all based on code*.
+Where are my tools?  Now we can share our code - how about we share our environments!?  The next stage in the process is to make sure everyone and everything is based on a common environment.  We teach students how to define development and runtime environments based on **docker**, so we can develop, build, test and deploy a consistent product - *all based on code*.
 ![CoDe Storyline](/images/stories/academy-trd/curriculum/curriculum.005.jpeg){: .pic .medium .center}
 
 Ok, now we have code, we can share it - but how do we play nicely with others??  That is where continuous delivery and automation fit in the story line.  We show the students how to automate the integration, build, test and deployment of their software using **jenkins** as our automation engine.
 ![CoDe Storyline](/images/stories/academy-trd/curriculum/curriculum.004.jpeg){: .pic .medium .center}
 
-## We never loose!  Teams for the win!
+## We never lose!  Teams for the win!
 
-So now we know what to do - let's put all we've learned into practice!  The final day of CoDe academy is to work in teams to create a complete development environment for a project, and to develop it according to agile practices.
+So now we know what to do - let's put all we've learned into practice!  The final day of CoDe Academy is to work in teams to create a complete development environment for a project, and to develop it according to agile practices.
 ![teamwork](/images/stories/academy-trd/performing.jpg){: .pic .medium .center}
 
-Students take responsibility for planning work and sharing code with github, writing tests, developing and testing with docker, creating a build and test infrastructure in jenkins, and automatically  deploying to production.  What a wonderful week!
+Students take responsibility for planning work and sharing code with github, writing tests, developing and testing with Docker, creating a build and test infrastructure in jenkins, and automatically  deploying to production.  What a wonderful week!
 
-## Thanks to github
+## Thanks to GitHub
 
-And once again - we must give a shout out to github for making this possible.  Without their support as technology sponsors none of this would be possible.  So here's to our octocat friends!
+And once again - we must give a shout out to GitHub for making this possible.  Without their support as technology sponsors, none of this would be possible.  So here's to our Octocat friends!
 ![Octocat](/images/stories/github-4x3.png){: .pic .small .center}
