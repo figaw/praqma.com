@@ -38,9 +38,17 @@ customers:
     logo: /images/customers/bankdata.png
     link: http://bankdata.dk/
   -
+    name: BEC
+    logo: /images/customers/bec.jpg
+    link: http://bec.dk/
+  -
     name: Biolin Scientific
     logo: /images/customers/biolin.png
     link: http://biolinscientific.com/
+  -
+    name: BK Medical
+    logo: /images/customers/bkultrasound.png
+    link: http://bkultrasound.com/
   -
     name: Bording Data
     logo: /images/customers/bording_logo.png
@@ -73,6 +81,10 @@ customers:
     name: Danfoss
     logo: /images/customers/danfoss.png
     link: http://danfoss.dk/
+  -
+    name: Danske Fragtmænd
+    logo: /images/customers/danskefragt.png
+    link: http://fragt.dk/
   -
     name: Dansk Reklame Film
     logo: /images/customers/dansk-reklame-film.png
@@ -138,6 +150,10 @@ customers:
     logo: /images/customers/landrover.png
     link: http://landrover.co.uk/
   -
+    name: Leman
+    logo: /images/customers/leman.png
+    link: http://leman.dk/
+  -
     name: Link Factory
     logo: /images/customers/link-factory.png
     link: http://linkfactory.net/
@@ -153,6 +169,10 @@ customers:
     name: MøllerGruppen
     logo: /images/customers/moller-gruppen.png
     link: http://www.moller.no/
+  -
+    name: Napatech
+    logo: /images/customers/napatech.png
+    link: http://napatech.com/
   -
     name: Nets
     logo: /images/customers/nets.png
@@ -170,6 +190,10 @@ customers:
     logo: /images/customers/pelagicore.png
     link: http://pelagicore.com/
   -
+    name: Philips BioCell
+    logo: /images/customers/philips_logo.jpg
+    link: http://philips.com/a-w/biocell/home.html
+  -
     name: Politi
     logo: /images/customers/politi.png
     link: https://politi.dk
@@ -185,6 +209,10 @@ customers:
     name: Schneider Electric
     logo: /images/customers/schneider-electric.png
     link: http://schneider-electric.com/
+  -
+    name: Seges
+    logo: /images/customers/seges.jpg
+    link: http://seges.dk/
   -
     name: Siemens
     logo: /images/customers/siemens.png
