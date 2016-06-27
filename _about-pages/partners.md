@@ -41,7 +41,9 @@ partners:
     logo: /images/partners/octocat.png
     link: http://github.com/
     description: |
-      **GitHub** GitHub is a web-based Git repository hosting service. It offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Unlike Git, which is strictly a command-line tool, GitHub provides a Web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.[3]
+      **GitHub** GitHub is a web-based Git repository hosting service. It offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features.
+      Unlike Git, which is strictly a command-line tool, GitHub provides a Web-based graphical interface and desktop as well as mobile integration.
+      It also provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
 
       GitHub offers both plans for private repositories and free accounts which are usually used to host open-source software projects.
       Praqma are official partners with GitHub and together we offer training, host meet-ups and support modern software communities.
