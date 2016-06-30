@@ -1,13 +1,15 @@
 ---
 title: Github & Praqma - our Next Generation Software Development Seminar
 tags: GitHub
-avatar: images/stories/githubvip.png
+avatar: images/stories/vipsem.png
 published:  false
 ---
 As [GitHub and Praqma](http://www.praqma.com/stories/github-or-new-best-friend/) recently entered into partnership in Scandinavia we invited software managers to a breakfast seminar on how businesses are transforming by building methodologies and practices that will drive software development into the future.
 <!--break-->
 
 If you were there, you’ll have participated in the latest event celebrating [Praqma’s](http://www.praqma.com/) exciting new partnership with [GitHub](http://www.github.com/)! Representatives from start-ups and companies from both the private and public sector gathered by the waterfront of Copenhagen harbor to explore the latest innovations in software development. If you weren’t there then here’s what you missed:
+
+![CoDe Maturity Assessment Workshop](/images/stories/codeworkshop.png){: .pic .medium .center}
 
 ## Software Development for forward-thinking software executives
 
@@ -19,11 +21,15 @@ GitHub gave a brief intro outlining the key features of the secure GitHub Enterp
 
 After the introductions participants were split into two different teams to take part in the hands-on 30 minute workshops:
 
+!["Tools Dropping" Workshop](/images/stories/whiteboarding.png){: .pic .medium .center}
+
 ##GitHub Enterprise Power of Community. Power of Code. On Premise.
 
 GitHub challenged participants with a workshop on self-assessment. How much collaboration and transparency did they feel they had in their own companies? How open and effective was their internal dialogue? Most importantly, how quickly could they release and ship code in their development cycle?  This exercise proved to be an eye-opener as it became apparent that processes are vastly improved by applying InnerSource methodologies.
 
 >“It was inspiring to meet Github “in person” and meet other people with possible similar issues to yourself.”
+
+![Continuous Delivery Maturity Workshop](/images/stories/2ndws.png){: .pic .medium .center}
 
 ##A Continuous Delivery Roadmap into the future
 
@@ -39,6 +45,8 @@ We also found that each company uses a plethora of tools so we posed the followi
 
 >“We are not alone with our struggles!”
 
+![Continuous Delivery Academy](/images/stories/codeacademy){: .pic .medium .center}
+
 ##Community Engagement
 
 Finally, Github is also an enthusiastic supporter of Praqma’s new [Code Academy](http://www.code-conf.com/academy2016/) initiative. Code Academy was set up to address the acute shortage of next generation IT people by offering free Continuous Delivery & DevOps Boot Camps to students all over Scandinavia. Feedback from students who have already taken part has been very positive and camps have sold out.
@@ -46,3 +54,5 @@ Finally, Github is also an enthusiastic supporter of Praqma’s new [Code Academ
 Through its engagement with Praqma, [GitHub Enterprise](https://enterprise.github.com/home) is committed to the importance of meetups and workshops as a way of promoting more interactive and inspiring networks to support prospering local software communities. We look forward to future events and to those of you who didn’t make it this time - don’t miss the next one!
 
 “Good Show. Thank You!”
+
+![A Joint Github & Praqma Event](/images/stories/logos){: .pic .medium .center}
