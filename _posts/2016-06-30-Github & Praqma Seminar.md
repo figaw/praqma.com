@@ -9,7 +9,7 @@ As [GitHub & Praqma](http://www.praqma.com/stories/github-or-new-best-friend/) r
 
 If you were there, you’ll have participated in the latest event celebrating [Praqma’s](http://www.praqma.com/) exciting new partnership with [GitHub](http://www.github.com/)! Representatives from start-ups and companies from both the private and public sector gathered by the waterfront of Copenhagen harbor to explore the latest innovations in software development. If you weren’t there then here’s what you missed:
 
-![CoDe Maturity Assessment Workshop](/images/stories/codeworkshop.png){: .pic .medium .center}
+[![CoDe Maturity Assessment Workshop](/images/stories/codeworkshop.png){: .pic .medium .center}](http://www.praqma.com/services/assessments/)
 
 ## Software Development for forward-thinking software executives
 
@@ -29,7 +29,7 @@ GitHub challenged participants with a workshop on self-assessment. How much coll
 
 >*“It was inspiring to meet Github “in person” and meet other people with possible similar issues to yourself.”*
 
-![Continuous Delivery Maturity Workshop](/images/stories/2ndws.png){: .pic .medium .center}
+[![Continuous Delivery Maturity Workshop](/images/stories/2ndws.png){: .pic .medium .center}](http://www.praqma.com/services/assessments/)
 
 ## A Continuous Delivery Roadmap into the future
 
@@ -55,4 +55,4 @@ Through its engagement with Praqma, [GitHub Enterprise](https://enterprise.githu
 
 >*“Good Show. Thank You!”*
 
-![A Joint Github & Praqma Event](/images/stories/logos.png){: .pic .medium .center}
+[![A Joint Github & Praqma Event](/images/stories/logos.png){: .pic .medium .center}](http://www.code-conf.com/)
