@@ -45,7 +45,7 @@ We also found that each company uses a plethora of tools so we posed the followi
 
 >*“We are not alone with our struggles!”*
 
-![Continuous Delivery Academy](/images/stories/codeacademy.png){: .pic .medium .center}
+[![Continuous Delivery Academy](/images/stories/codeacademy.png){: .pic .medium .center}](http://www.code-conf.com/academy2016/)
 
 ## Community Engagement
 
