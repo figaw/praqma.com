@@ -3,7 +3,7 @@ title: Github & Praqma - our NextGen Software Development Seminar
 tags: [Featured, GitHub, Strategy, Tools, Continuous Delivery]
 avatar: /images/stories/vipsem.png
 published:  true
----o
+---
 As [GitHub & Praqma](http://www.praqma.com/stories/github-or-new-best-friend/) recently entered into partnership in Scandinavia we invited software managers to a breakfast seminar on how businesses are transforming by building methodologies and practices that will drive software development into the future.
 <!--break-->
 
