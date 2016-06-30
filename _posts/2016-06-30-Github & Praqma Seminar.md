@@ -3,7 +3,7 @@ title: Github & Praqma - our NextGen Software Development Seminar
 tags: [Featured, GitHub, Strategy, Tools, Continuous Delivery]
 avatar: /images/stories/vipsem.png
 published:  true
----
+---o
 As [GitHub & Praqma](http://www.praqma.com/stories/github-or-new-best-friend/) recently entered into partnership in Scandinavia we invited software managers to a breakfast seminar on how businesses are transforming by building methodologies and practices that will drive software development into the future.
 <!--break-->
 
@@ -23,7 +23,7 @@ After the introductions participants were split into two different teams to take
 
 !["Tools Dropping" Workshop](/images/stories/whiteboarding.png){: .pic .medium .center}
 
-##GitHub Enterprise Power of Community. Power of Code. On Premise.
+## GitHub Enterprise Power of Community. Power of Code. On Premise.
 
 GitHub challenged participants with a workshop on self-assessment. How much collaboration and transparency did they feel they had in their own companies? How open and effective was their internal dialogue? Most importantly, how quickly could they release and ship code in their development cycle?  This exercise proved to be an eye-opener as it became apparent that processes are vastly improved by applying InnerSource methodologies.
 
@@ -31,13 +31,13 @@ GitHub challenged participants with a workshop on self-assessment. How much coll
 
 ![Continuous Delivery Maturity Workshop](/images/stories/2ndws.png){: .pic .medium .center}
 
-##A Continuous Delivery Roadmap into the future
+## A Continuous Delivery Roadmap into the future
 
 Luckily, the weather allowed some workshops to take place outdoors next to the waterfront where Praqma demonstrated [The Phlow](http://www.praqma.com/stories/a-pragmatic-workflow/) based on Github and Waffle.io, a workflow so powerful that code integration becomes unbreakable. Once again attendees were encouraged to self-assess and look at both the positive and negative aspects of their current development cycles. In only half an hour the attendees made significant realisations on how to become much more efficient.
 
 >*“The best part was the presentation of Phlow.”*
 
-##Key Outcomes
+## Key Outcomes
 
 So, what were the main themes to emerge from the event? Communication and collaboration were the central concepts. Throughout the morning our participants opened up, engaged in productive dialogue with both strangers and colleagues, and discussed how to take away some of the key principles and apply them in their own workplaces.
 
@@ -47,7 +47,7 @@ We also found that each company uses a plethora of tools so we posed the followi
 
 ![Continuous Delivery Academy](/images/stories/codeacademy.png){: .pic .medium .center}
 
-##Community Engagement
+## Community Engagement
 
 Finally, Github is also an enthusiastic supporter of Praqma’s new [Code Academy](http://www.code-conf.com/academy2016/) initiative. Code Academy was set up to address the acute shortage of next generation IT people by offering free Continuous Delivery & DevOps Boot Camps to students all over Scandinavia. Feedback from students who have already taken part has been very positive and camps have sold out.
 
