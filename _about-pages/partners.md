@@ -10,7 +10,7 @@ partners:
     name: Atlassian
     logo: /images/partners/atlassian.png
     link: http://atlassian.com/
-    description: |
+    description: 
       **Atlassian** is an enterprise software company that develops a suite of products supporting the entire product development process.
 
       As an official Atlassian Expert Partner Praqma offers full-service assistance tailored to our clients' specific needs on the entire Atlassian tool suite.
