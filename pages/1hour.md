@@ -3,7 +3,7 @@ title: Want to learn more?
 subtitle: Talk to us about Continuous Delivery and DevOps
 caption: 1 Hour Free Consultation
 permalink: /1hour/
-layout: default
+layout: none
 ---
 
 <div class="layout-1hour">
