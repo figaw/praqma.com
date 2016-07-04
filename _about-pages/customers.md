@@ -8,7 +8,7 @@ redirect_from:
   - /customers/
   - /cases/
 
-customers:
+customers
   -
     name: Agnitio
     logo: /images/customers/agnitio.png
