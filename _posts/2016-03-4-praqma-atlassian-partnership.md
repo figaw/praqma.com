@@ -1,5 +1,5 @@
 ---
-title:      Praqma's partnership with Atlassian
+title:Praqma's partnership with Atlassian
 subtitle:   A given partnership between toolsuite and consultants
 caption:
 tags:       [Partners, Atlassian]
