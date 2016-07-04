@@ -5,7 +5,7 @@ level:    Software developers, Architects, DevOps and Continuous Delivery practi
 caption:  Use this training to jump-start your Docker journey
 type:     This hands-on course will introduce you to the basics of the Docker platform and take you through creating an automated continuous delivery system.
 location: Copenhagen, Stockholm, Oslo - or on-site
-avatar:   /images/training/intro_to_docker_4x3.png
+avatar:   /images/training/code_with_containers.jpg
 
 schedule:
 
