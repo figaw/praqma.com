@@ -38,6 +38,7 @@ The complete setup is run using docker-compose. The slave containers link to the
 As mentioned above, one of the general ideas is provide Jenkins jobs as a code. All jobs configurations are kept in scripts following a simple naming convention (*.dsl). The Jenkins Job DSL plugin allows you to define a job as code, offering a useful set of functions to configure job components and grants direct access to the config.xml to generate the job. The script is actually Groovy code, so you have the full power of Groovy at your disposal.
 
 #### Very trivial example of the dsl job
+``` groovy
 	job('example') {
 		scm {
 			git {
@@ -50,6 +51,7 @@ As mentioned above, one of the general ideas is provide Jenkins jobs as a code. 
 			gradle('build', '', true)
 		}
 	}
+```
 
 When configured in the Jenkins UI (through adding a “Process Job DSLs” build step to your job), it allows you to execute given code or scripts found in the workspace. We already defined a seed job on our Jenkins master, so we just want to run it on startup. We did this programmatically using a Groovy script that’s run during the Jenkins startup:
 
