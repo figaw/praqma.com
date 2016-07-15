@@ -9,7 +9,7 @@ import geb.Browser
 import org.openqa.selenium.firefox.FirefoxDriver
 
 Browser.drive() {
-    go "http://www.praqma.com"
+    go "http://localhost:4000/"
     assert $(".site-header .phone").text() == "+45 36772 762";
     assert $(".site-header .phone").text() == "WRONG";
 }
