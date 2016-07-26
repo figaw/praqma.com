@@ -49,8 +49,6 @@ From *Sapiens, A Brief History of Humankind (Harari)*, pp 41
 {:.table-caption}
 ```
 
-
-
 Weight
 ---
 
@@ -59,3 +57,8 @@ Heavy things sink to the bottom (c) @JKrag
 Or to the right (c) @illus0r
 
 Default weight of the post is `0`
+
+
+Employees
+---
+Employees are described in `_employees/` directory. Their images are stored in `images/employees/` directory, they should be `.png` and named after correspondent employee. For example, to add the image for `lakruzz.md` name it `lakruzz.png`.
