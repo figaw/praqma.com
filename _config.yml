@@ -7,6 +7,7 @@ description: The Continuous Delivery and DevOps Company
 highlighter: rouge
 slogan: — In Praqma we strive to change the world…
 url: http://praqma.com
+encoding: utf-8
 stories:
   default-tag: Newest
 
@@ -36,6 +37,8 @@ collections:
   about-pages:
     output: true
     permalink: /about/:path/
+  employees:
+    output: true
 
 defaults:
   -
