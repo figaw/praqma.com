@@ -3,7 +3,7 @@
   margin-top: 40px;
   .menu-item{
     @extend .col-xs-30;
-    @extend .col-sm-15;
+    @extend .col-sm-12;
     margin-bottom: 2em;
     text-align: center;
     &:nth-child(2n+1){

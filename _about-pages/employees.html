@@ -4,16 +4,14 @@ caption:    #TODO write
 avatar:     /images/about/customers.png
 css-class:  employees
 nav-weight: 50
+published: false
 ---
 
 <div class="freewall-container">
   {% for e in site.employees %}
     <div class="employee">
       <div class="content">
-        <h2>
-          {{ e.name }}
-        </h2>
-        {{ e.content }}
+        {{ e.content | markdownify }}
       </div>
       <div class="image">
         <img src="/images/employees/{{ e.path | split:"/" | last | split:"." | first }}.png">

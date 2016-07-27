@@ -1,5 +1,7 @@
 ---
-name: Jim Coplien
+---
+
+Jim Coplien
 ---
 
 Bla bla bla

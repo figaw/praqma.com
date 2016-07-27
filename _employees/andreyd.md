@@ -1,5 +1,7 @@
 ---
-name: Andrey Devyatkin
+---
+
+Andrey Devyatkin
 ---
 
 Bla bla bla
