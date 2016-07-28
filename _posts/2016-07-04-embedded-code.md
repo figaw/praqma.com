@@ -1,6 +1,6 @@
 ---
 title: Video - Continuous Delivery for Embedded Software
-tags: [Continuous-Delivery, Tools, Video]
+tags: [Continuous Delivery, Tools, Video]
 avatar: /images/stories/embedded-vimeo.png
 published:  true
 ---

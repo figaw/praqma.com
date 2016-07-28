@@ -1,6 +1,6 @@
 ---
 title: Video - Praqma's Continuous Delivery Maturity Model
-tags: [Continuous-Delivery, Video]
+tags: [Continuous Delivery, Video]
 avatar: /images/stories/delivery_of_things-still.png
 published:  true
 ---
