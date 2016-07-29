@@ -43,8 +43,10 @@
   main{
     @extend .col-md-45;
   }
-  nav.about-menu{ // overriding menu for about-pages
+  .about-menu-wrapper{
     @extend .col-md-15;
+  }
+  nav.about-menu{ // overriding menu for about-pages
     margin-top: -9px;
     margin-bottom: 20px; // for small screen
     .menu-item{
