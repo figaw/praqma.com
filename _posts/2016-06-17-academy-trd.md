@@ -11,7 +11,7 @@ We created CoDe Academy to stronger ties with students and faculty in the univer
 
 ## The curriculum
 
-We base the curriculum around our [CoDe Storyline](code-storyline).  We want to teach the world the best way to develop software, based on everything we have learned as an industry.  That means that we want to work on groomed tasks, test our software automatically, use powerful version control systems, define infrastructure as code, and - *of course* - automate our entire process.
+We base the curriculum around our [CoDe Storyline](/code-storyline).  We want to teach the world the best way to develop software, based on everything we have learned as an industry.  That means that we want to work on groomed tasks, test our software automatically, use powerful version control systems, define infrastructure as code, and - *of course* - automate our entire process.
 ![CoDe Storyline](/images/stories/storyline_by_praqma_for_web.jpg){: .pic .medium .center}
 
 
