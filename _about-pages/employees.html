@@ -10,8 +10,10 @@ published: false
 <div class="freewall-container">
   {% for e in site.employees %}
     <div class="employee">
-      <div class="content">
-        {{ e.content | markdownify }}
+      <div class="content-wrapper">
+        <div class="content">
+          {{ e.content | markdownify }}
+        </div>
       </div>
       <div class="image">
         <img src="/images/employees/{{ e.path | split:"/" | last | split:"." | first }}.png">
@@ -24,7 +26,13 @@ published: false
 <script>
   $(function() {
     var squareUsualSize = 160;
+    var squareExpadnedSize = 400;
+    var employees = $(".freewall-container .employee");
+    if ($(document).width() > 500 ){
+      squareExpadnedSize = 500;
+    }
     var wall = new Freewall(".freewall-container");
+
     wall.reset({
       selector: '.employee',
       animate: true,
@@ -37,7 +45,6 @@ published: false
         wall.refresh();
       }
     });
-    var employees = $(".freewall-container .employee");
     $(".freewall-container .employee").click(function() {
       employees.removeAttr("data-position");
       wall.fixSize({
@@ -48,8 +55,8 @@ published: false
       $(this).attr("data-position", "0-0");
       wall.fixSize({
         block: $(this),
-        width:  600,
-        height: 600
+        width:  squareExpadnedSize,
+        height: squareExpadnedSize
       });
       wall.refresh();
       // Scroll to top after clicking a person it the list
@@ -57,6 +64,7 @@ published: false
       var scrollTo = $(".page-employees h1").offset().top;
       body.stop().animate({scrollTop: scrollTo }, '200', 'swing');
     });
+
     wall.fitWidth();
   });
 </script>
