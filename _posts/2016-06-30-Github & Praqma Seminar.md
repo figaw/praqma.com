@@ -7,7 +7,7 @@ published:  true
 As [GitHub & Praqma](http://www.praqma.com/stories/github-or-new-best-friend/) recently entered into partnership in Scandinavia we invited software managers to a breakfast seminar on how businesses are transforming by building methodologies and practices that will drive software development into the future.
 <!--break-->
 
-If you were there, you’ll have participated in the latest event celebrating [Praqma’s](http://www.praqma.com/) exciting new partnership with [GitHub](http://www.github.com/)! Representatives from start-ups and companies from both the private and public sector gathered by the waterfront of Copenhagen harbor to explore the latest innovations in software development. If you weren’t there then here’s what you missed:
+If you were there, you’ll have participated in the latest event celebrating [Praqma’s](http://www.praqma.com/) exciting new partnership with [GitHub](https://github.com/)! Representatives from start-ups and companies from both the private and public sector gathered by the waterfront of Copenhagen harbor to explore the latest innovations in software development. If you weren’t there then here’s what you missed:
 
 [![CoDe Maturity Assessment Workshop](/images/stories/codeworkshop.png){: .pic .medium .center}](http://www.praqma.com/services/assessments/)
 

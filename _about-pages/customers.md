@@ -124,7 +124,7 @@ customers:
   -
     name: Frequentis
     logo: /images/customers/frequentis.png
-    link: http://www.frequentis.com/
+    link: http://www.frequentis.com/en/at/home/
   -
     name: GrammaTech
     logo: /images/customers/grammatech.png
