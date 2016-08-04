@@ -37,7 +37,7 @@ We have given ourselves the luxury to choose a simple, minimalistic tool-stack t
 * We're using GitHub
 * Our tasks are in [GitHub issues](https://guides.github.com/features/issues/)
 * We have a [waffle.io](http://waffle.io) on top of our GitHub issues
-* We're using [Jenkins](http://www.jenkins-ci.org), the [Git plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin) and the [Pretested Integration Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin)
+* We're using [Jenkins](https://jenkins.io/index.html), the [Git plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin) and the [Pretested Integration Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin)
 * We're using a super simple branching strategy as described in the [automated Josra Flow](http://www.josra.org/blog/An-automated-git-branching-strategy.html).
 * The Pretested Integration Plugin is monitoring `origin/ready/**` branches
 * We're using [`ghi`](https://github.com/stephencelis/ghi)

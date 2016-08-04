@@ -38,7 +38,7 @@ Now we present to you an updated list of handy plugins fixing problems you didn'
 ## Server plugins <a name="server-plugins" />
 
 ### Server monitoring <a name="server-monitoring" />
-*Plugins:* [Disk Usage](https://wiki.jenkins-ci.org/display/JENKINS/Disk+Usage+Plugin+Plugin), [Monitoring](https://wiki.jenkins-ci.org/display/JENKINS/Monitoring)
+*Plugins:* [Disk Usage](https://wiki.jenkins-ci.org/display/JENKINS/Disk+Usage+Plugin), [Monitoring](https://wiki.jenkins-ci.org/display/JENKINS/Monitoring)
 
 Keeping a watchful eye on your server lets you avoid some sticky situations.
 Why not employ some plugins to provide basic monitoring of your master and slaves?
@@ -68,7 +68,7 @@ The reboot can be scheduled from both the Jenkins configuration page and the mai
 ### Green balls <a name="green-balls" />
 *Plugin*: [Green Balls](https://wiki.jenkins-ci.org/display/JENKINS/Green+Balls)
 
-Jenkins uses blue balls to mark successful builds [for a reason.](https://jenkins-ci.org/blog/2012/03/13/why-does-jenkins-have-blue-balls/)
+Jenkins uses blue balls to mark successful builds [for a reason.](https://jenkins.io/blog/2012/03/13/why-does-jenkins-have-blue-balls/)
 However, enough people prefer green balls for this plugin, which changes the ball color, to be one of the most popular plugins out there.
 
 ![Green balls](/images/stories/top-plugins/green-balls.png){: .pic .large .center}

@@ -30,7 +30,7 @@ partners:
   -
     name: Docker
     logo: /images/partners/docker.png
-    link: http://docker.com/
+    link: https://www.docker.com/
     description: |
       **Docker** Docker is the original author and primary sponsor of the Docker open source project.
       Together with the community of maintainers and contributors, Docker aims to deliver tools to help developers build applications with open APIs and help sysadmins better manage these applications.
@@ -50,7 +50,7 @@ partners:
   -
     name: IBM
     logo: /images/partners/ibm.png
-    link: http://ibm.com/
+    link: http://www.ibm.com/
     description: |
       **IBM Rational** is a pioneer, practice leader and world-class platform provider in software and systems development.
 

@@ -28,7 +28,7 @@ customers:
   -
     name: ATP
     logo: /images/customers/atp.png
-    link: http://atp.dk/
+    link: https://www.atp.dk/
   -
     name: Bang Olusfen
     logo: /images/customers/bang-olusfen.png
@@ -36,15 +36,15 @@ customers:
   -
     name: Bankdata
     logo: /images/customers/bankdata.png
-    link: http://bankdata.dk/
+    link: http://www.bankdata.dk
   -
     name: BEC
     logo: /images/customers/bec.jpg
-    link: http://bec.dk/
+    link: http://www.bec.dk/
   -
     name: Biolin Scientific
     logo: /images/customers/biolin.png
-    link: http://biolinscientific.com/
+    link: http://www.biolinscientific.com/
   -
     name: BK Medical
     logo: /images/customers/bkultrasound.png
@@ -52,7 +52,7 @@ customers:
   -
     name: Bording Data
     logo: /images/customers/bording_logo.png
-    link: http://http://bordingdata.com/
+    link: http://bordingdata.com/
   -
     name: Brüel & Kjær
     logo: /images/customers/bruel-kjaer.png
@@ -60,7 +60,7 @@ customers:
   -
     name: Cirque
     logo: /images/customers/cirque.png
-    link: http://cirque.dk/
+    link: https://www.cirque.dk/
   -
     name: Clio Online
     logo: /images/customers/clio-online.png
@@ -72,15 +72,15 @@ customers:
   -
     name: Compart
     logo: /images/customers/compart.png
-    link: https://compart.com
+    link: https://www.compart.com/en/
   -
     name: Cryptera
     logo: /images/customers/cryptera.png
-    link: http://cryptera.com/
+    link: http://www.cryptera.com/
   -
     name: Danfoss
     logo: /images/customers/danfoss.png
-    link: http://danfoss.dk/
+    link: http://www.danfoss.dk/home/
   -
     name: Danske Fragtmænd
     logo: /images/customers/danskefragt.png
@@ -96,7 +96,7 @@ customers:
   -
     name: DFDS
     logo: /images/customers/dfds.png
-    link: http://dfdsseaways.dk/
+    link: http://www.dfdsseaways.dk/
   -
     name: Dooer
     logo: /images/customers/dooer.png
@@ -104,19 +104,19 @@ customers:
   -
     name: DR
     logo: /images/customers/dr.png
-    link: http://dr.dk/
+    link: http://www.dr.dk/
   -
     name: DSV
     logo: /images/customers/dsv.png
-    link: http://dk.dsv.com/
+    link: http://www.dk.dsv.com
   -
     name: FL Smidth
     logo: /images/customers/fl-smidth.png
-    link: http://flsmidth.com/
+    link: http://www.flsmidth.com/
   -
     name: Folkekirkens Nødhjælp
     logo: /images/customers/folkekirkens-nodhjaelp.png
-    link: https://noedhjaelp.dk/
+    link: https://www.noedhjaelp.dk/
   -
     name: Foss
     logo: /images/customers/foss.png
@@ -124,7 +124,7 @@ customers:
   -
     name: Frequentis
     logo: /images/customers/frequentis.png
-    link: http://frequentis.com/
+    link: http://www.frequentis.com/
   -
     name: GrammaTech
     logo: /images/customers/grammatech.png
@@ -136,19 +136,19 @@ customers:
   -
     name: Global Blue
     logo: /images/customers/global-blue.png
-    link: http://globalblue.com/
+    link: http://www.globalblue.com/
   -
     name: Genesys
     logo: /images/customers/genesys.png
-    link: http://genesys.com/
+    link: http://www.genesys.com/
   -
     name: Jaguar
     logo: /images/customers/jaguar.png
-    link: http://jaguar.co.uk/
+    link: http://www.jaguar.co.uk/index.html
   -
     name: LandRover
     logo: /images/customers/landrover.png
-    link: http://landrover.co.uk/
+    link: http://www.landrover.co.uk/index.html
   -
     name: Leman
     logo: /images/customers/leman.png
@@ -160,7 +160,7 @@ customers:
   -
     name: MAN
     logo: /images/customers/man.png
-    link: http://entry.man.eu/
+    link: http://www.corporate.man.eu/en/index.html
   -
     name: Miljø- og Fødevareministeriet
     logo: /images/customers/miljo-og-fodevareministeriet.png
@@ -172,7 +172,7 @@ customers:
   -
     name: Napatech
     logo: /images/customers/napatech.png
-    link: http://napatech.com/
+    link: http://www.napatech.com/
   -
     name: Nets
     logo: /images/customers/nets.png
@@ -180,11 +180,11 @@ customers:
   -
     name: Nordea Bank
     logo: /images/customers/nordea.png
-    link: http://nordea.dk/
+    link: http://www.nordea.dk/
   -
     name: Novo Nordisk
     logo: /images/customers/novo-nordisk.png
-    link: http://novonordisk.com/
+    link: http://www.novonordisk.com/
   -
     name: Pelagicore
     logo: /images/customers/pelagicore.png
@@ -192,7 +192,7 @@ customers:
   -
     name: Philips BioCell
     logo: /images/customers/philips_logo.jpg
-    link: http://philips.com/a-w/biocell/home.html
+    link: http://www.philips.com/a-w/biocell/home.html
   -
     name: Politi
     logo: /images/customers/politi.png
@@ -200,15 +200,15 @@ customers:
   -
     name: PRQA
     logo: /images/customers/prqa.png
-    link: http://programmingresearch.com/
+    link: http://www.programmingresearch.com/
   -
     name: Radiometer
     logo: /images/customers/radiometer.png
-    link: http://radiometer.com/
+    link: http://www.radiometer.com/
   -
     name: Schneider Electric
     logo: /images/customers/schneider-electric.png
-    link: http://schneider-electric.com/
+    link: http://www.schneider-electric.com/ww/en/
   -
     name: Seges
     logo: /images/customers/seges.jpg
@@ -216,11 +216,11 @@ customers:
   -
     name: Siemens
     logo: /images/customers/siemens.png
-    link: http://siemens.com/
+    link: https://www.siemens.com/global/en/home.html
   -
     name: SimCorp
     logo: /images/customers/simcorp.png
-    link: http://simcorp.com/
+    link: http://www.simcorp.com
   -
     name: SKAT
     logo: /images/customers/skat.png
@@ -228,19 +228,19 @@ customers:
   -
     name: Sony Ericsson
     logo: /images/customers/sony-ericsson.png
-    link: http://sonymobile.com/
+    link: http://www.sonymobile.com/
   -
     name: Stripe
     logo: /images/customers/stripe.png
-    link: http://www.stripe.com/
+    link: https://stripe.com/us
   -
-    name: Syntigo
+    name: Syntigo / Eurofiber 
     logo: /images/customers/syntigo.png
-    link: http://www.syntigo.com/
+    link: http://www.eurofiber.be/
   -
     name: Tamigo
     logo: /images/customers/tamigo-logo.png
-    link: https://tamigo.com/
+    link: http://www.tamigo.com/
   -
     name: Telenor
     logo: /images/customers/telenor.jpeg
@@ -248,11 +248,11 @@ customers:
   -
     name: UK2
     logo: /images/customers/uk2.png
-    link: https://uk2.net/
+    link: https://www.uk2.net/
   -
     name: Visma
     logo: /images/customers/visma.png
-    link: http://visma.dk/
+    link: http://www.visma.dk/
   -
     name: Visual Reporting
     logo: /images/customers/visual-reporting.png
@@ -260,15 +260,15 @@ customers:
   -
     name: Volvo
     logo: /images/customers/volvo.png
-    link: http://volvo.com/
+    link: http://www.volvo.com/
   -
     name: Xethru
     logo: /images/customers/xethru.png
-    link: https://xethru.com/
+    link: https://www.xethru.com/
   -
     name: YXLON
     logo: /images/customers/yxlon.png
-    link: http://yxlon.com/
+    link: http://www.yxlon.com/Home
 
 ---
 

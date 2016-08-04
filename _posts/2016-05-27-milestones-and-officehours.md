@@ -143,7 +143,7 @@ In a few projects we even have a third milestone with no date attached:
 
 * __Content update__
 
-It's only used in repositories that represent live web sites and where the content editors are different from the software developers [code-conf.com](http://github.come/praqma/code-conf.com){: target="_blank" } is an example. It has the exact same meaning as the runway; attend immediately.
+It's only used in repositories that represent live web sites and where the content editors are different from the software developers [code-conf.com](http://github.com/praqma/code-conf.com){: target="_blank" } is an example. It has the exact same meaning as the runway; attend immediately.
 
 
 ## Issues with no milestone

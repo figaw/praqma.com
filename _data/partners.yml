@@ -1,17 +1,17 @@
 -
   company: Atlassian
-  url: www.atlassian.com
+  url: http://www.atlassian.com
   logo: /images/partners/atlassian.png
   caption: Atlassian is an enterprise software group of companies that develops products geared towards software developers and project managers. It is best known for its issue tracking application, JIRA, and its closed wiki product, Confluence.
 
 -
   company: IBM
-  url: www.ibm.com
+  url: http://www.ibm.com
   logo: /images/customers/ibm.png
   caption: International Business Machines Corporation (commonly referred to as IBM) is an American multinational technology and consulting corporation.
 
 -
   company: CloudBees
-  url: www.cloudbees.com
+  url: http://www.cloudbees.com
   logo: /images/customers/cloudbees.png
   caption: CloudBees is a provider of continuous delivery solutions powered by Jenkins CI. Initially, CloudBees provided a platform as a service solution to build, run and manage web applications.

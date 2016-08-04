@@ -17,7 +17,7 @@ members:
   -
     name: Cryptera
     logo: /images/customers/cryptera.png
-    link: http://cryptera.com/
+    link: http://www.cryptera.com/
   -
     name: GrammaTech
     logo: /images/customers/grammatech.png
@@ -29,19 +29,19 @@ members:
   -
     name: MAN
     logo: /images/customers/man.png
-    link: http://entry.man.eu/
+    link: http://www.corporate.man.eu/en/index.html
   -
-    name: Novelda
+    name: Novelda - Xethru
     logo: /images/customers/xethru.png
-    link: https://xethru.com/
+    link: https://www.xethru.com/
   -
     name: Volvo
     logo: /images/customers/volvo.png
-    link: http://volvo.com/
+    link: http://www.volvo.com/
   -
     name: YXLON
     logo: /images/customers/yxlon.png
-    link: http://yxlon.com/
+    link: http://www.yxlon.com/Home
 
 ---
 

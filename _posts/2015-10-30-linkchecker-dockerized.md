@@ -5,16 +5,26 @@ avatar: /images/stories/docker-linkchecker.4x3.png
 author: Waqar Ali Zaidi
 ---
 
-The reason for dockerizing LinkChecker is to facilitate Praqma's [Gijeli set-up](/stories/GiJeLi-tool-stack-howto) and produce reports for web projects. 
+The reason for dockerizing LinkChecker is to facilitate Praqma's Gijeli set-up and produce reports for web projects. 
 There are other Docker images of LinkChecker out there, but we find them lacking when it comes to entertaining _stable automated builds._
 Any change applied to the image will trigger a new Jenkins job and the build process will tag each release with a version number.
+
 <!--break-->
+
+### Background
+__GiJeli__ is a word made up as a contraction of `Gi`t, `Je`kyll and `Li`quid
+
+Jekyll is a Ruby gem that renders [Markdown](https://help.github.com/articles/github-flavored-markdown) and [Liquid](https://help.shopify.com/themes/liquid/basics) to static HTML pages.
+  - Jekyll is the stand-alone engine that drives GitHub pages.
+  - By running Jekyll you can effectively have an equivalent to GitHub pages anywhere.
+
+
 
 ### Resources 
 
 - [Docker hub](https://hub.docker.com/r/praqma/linkchecker/)
 - [Context repository](https://github.com/Praqma/linkchecker)
-- [Jenkins job](http://code.praqma.net/ci/view/GiJeLi/job/linkchecker-docker_buld-and-publish/)
+- [Jenkins job](http://code.praqma.net/ci/view/GiJeLi/job/docker-linkchecker-publish/)
 
 
 ### Pulling LinkChecker Docker Image

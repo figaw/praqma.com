@@ -69,12 +69,12 @@ Turns out we think alike.
 The amount of attention we've been given from GitHub as part of our welcome is heart warming: Twelve people on their side are working on issues together with us. Next week we have six Praqma wolves receiving _GitHub Technical Enablement_ training onsite in Denmark, in our own offices, with instructors flying in from US.
 
 ## GitHub as technology sponsor on CoDe Academy
-GitHub also generously sponsors our [CoDe Academy](http://www.code-conf.com/academy2016){: target="_blank"} initiative, where we're going to give 5 days of free Continuous Delivery and DevOps hands-on training to 400 computer science students in Trondheim, Aarhus, Copenhagen and Oslo throughout this summer.
+GitHub also generously sponsors our [CoDe Academy](http://www.code-conf.com/academy2016/){: target="_blank"} initiative, where we're going to give 5 days of free Continuous Delivery and DevOps hands-on training to 400 computer science students in Trondheim, Aarhus, Copenhagen and Oslo throughout this summer.
 
 The CoDe Academy is about ensuring that even in the near future, companies will have enough Continuous Delivery and DevOps talent to pull from when recruiting. Most universities are not teaching these skills yet - It's high noon for this initiative, and it's important that the training is free to attend for students.
 
 With GitHub as technology sponsor on CoDe Academy 2016, we've taken an important step towards fulfilling our dream.
 
-[![CoDe Academy](http://www.code-conf.com/images/pages/academy2016/event-main.jpg)](http://www.code-conf.com/academy2016){: .pic .center .medium}{: target="_blank"}
+[![CoDe Academy](http://www.code-conf.com/images/pages/academy2016/event-main.jpg)](http://www.code-conf.com/academy2016/){: .pic .center .medium}{: target="_blank"}
 
 __GitHub - our new best friends__

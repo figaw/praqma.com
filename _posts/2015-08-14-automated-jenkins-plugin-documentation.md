@@ -20,7 +20,7 @@ Many plugins have a good changelog on the wiki, for example the [Changelog in th
 In my experience, this type of information is important and is actually being read and checked upon upgrading or when a user has problems with a plugin.
 So: Why do we not auto generate the majority of that information based on the git commits that go into the release?
 
-_The thoughts above were part of my motivation for suggesting the "[Automate plugin documentation](https://trello.com/c/WscvjnPB/11-automate-plugin-documentation)" topic at the [Jenkins code camp](http://www.code-conf.com/jues15/codecamp/) that took place during the [Jenkins User Event Scandinavia 2015.](http://www.code-conf.com/jues15/)._
+_The thoughts above were part of my motivation for suggesting the "[Automate plugin documentation](https://trello.com/c/WscvjnPB/11-automate-plugin-documentation)" topic at the "Jenkins code camp" that took place during the "Jenkins User Event Scandinavia 2015".
 
 We're posting this blog to hear your opinion on the matter. Is automated documentation a good idea? Would you use it?
 

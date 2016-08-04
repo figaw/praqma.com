@@ -30,4 +30,4 @@ Here is your chance to hear the story of our [Continuous Delivery Maturity Model
 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/wtOahBUaUNs" frameborder="0" allowfullscreen></iframe>
-<p><a href="https://www.youtube.com/watch?v=wtOahBUaUNs">Continuous Delivery Maturity Model - Lars Kruse</a> from <a href="http://deliveryofthingsworld.com/en/">Delivery of Things World 2016 </a> on <a href="https://youtube.com">YouTube</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=wtOahBUaUNs">Continuous Delivery Maturity Model - Lars Kruse</a> from <a href="http://deliveryofthingsworld.com/en/">Delivery of Things World 2016 </a> on <a href="https://www.youtube.com/">YouTube</a>.</p>

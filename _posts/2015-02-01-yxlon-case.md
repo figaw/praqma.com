@@ -69,4 +69,4 @@ YXLON is a highly specialized international company in strong growth, with more 
 YXLON's Danish branch employs 40 people globally, hereof 35 in based Taastrup. 
 YXLON develops, manufactures, and sells X-ray equipment for industrial use where there is a requirement for non-destructive testing. 
 The products include both standard and specialized X-ray equipment, proprietary computer software and hardware, as well as customer-specific X-ray systems. 
-YXLON's products are used in all industries with needs for inspection of, for example, hidden joints, welds, casted components and foreign material in e.g. food. [Read more about YXLON](www.yxlon-portables.com).
+YXLON's products are used in all industries with needs for inspection of, for example, hidden joints, welds, casted components and foreign material in e.g. food. [Read more about YXLON](http://www.yxlon-portables.com/Home).
