@@ -15,8 +15,7 @@ published: false
           {{ e.content | markdownify }}
         </div>
       </div>
-      <div class="image">
-        <img src="/images/employees/{{ e.path | split:"/" | last | split:"." | first }}.png">
+      <div class="image" style="background-image: url(/images/employees/{{ e.path | split:'/' | last | split:"." | first }}.png);">
       </div>
     </div>
   {% endfor %}
