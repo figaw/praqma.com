@@ -5,7 +5,7 @@ redirect_from:
   - /foo/
   - /services/health/
 avatar:     /images/services/assessments.png
-nav-weight: 30
+nav-weight: 10
 ---
 
 ## Discover your path to improvement with a Continuous Delivery Assessment

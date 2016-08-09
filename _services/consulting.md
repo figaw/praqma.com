@@ -2,7 +2,7 @@
 title:      Consulting
 caption:    Consulting, guidance and best practices
 avatar:     /images/services/consulting.png
-nav-weight: 10
+nav-weight: 20
 ---
 
 ## Tailored Continuous Delivery and DevOps Consulting

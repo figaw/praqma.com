@@ -2,7 +2,7 @@
 title:      Support Plans
 caption:    The Praqma Support Plan
 avatar:     /images/services/car.png
-nav-weight: 90
+nav-weight: 30
 ---
 
 ## The Praqma Support Plan gives you a direct line to our experts when you need us
