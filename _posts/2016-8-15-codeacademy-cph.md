@@ -1,6 +1,6 @@
 ---
-title: CoDe Academy Copenhagen 2106
-tags: [Continuous Delivery]
+title: CoDe Academy Copenhagen 2016
+tags: [Continuous Delivery, Academy, Agile]
 avatar: /images/stories/long-lego-table.jpg
 published:  true
 ---
@@ -69,6 +69,7 @@ And how did the future CoDer's like it? Well, one student cracked a smile and sa
 
 ![Content student](/images/stories/happy-academy.jpg){: .pic .medium .center}
 
-Wanna join?: Hurry up and get the last [seats in Aarhus next week here](http://www.code-conf.com/academy2016/aar/)
+## Wanna join?
+Hurry up and get the last [seats in Aarhus next week here](http://www.code-conf.com/academy2016/aar/)
 
--or see you next year, as a student or maybe a lucky sponsor
+-or see you next year, as a student or a sponsor!
