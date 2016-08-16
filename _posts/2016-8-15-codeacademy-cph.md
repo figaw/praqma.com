@@ -1,7 +1,7 @@
 ---
 title: CoDe Academy Copenhagen 2106
 tags: [Continuous Delivery]
-avatar: /images/stories/group-code-academy.jpg
+avatar: /images/stories/long-lego-table.jpg
 published:  true
 ---
 
@@ -65,6 +65,10 @@ So, the students were scolded when they understandably forgot to update kanban b
 
 All participants seem to go through every stage of a typical work process: initial enthusiasm, confusion, frustration, breakthrough, and then the last exciting sprint towards the finish as the different teams see their work becoming part of the final project.
 
-And how did the future CoDe’s like it? Well, one student cracked a smile and said simply, “I loved it!”
+And how did the future CoDer's like it? Well, one student cracked a smile and said simply, “I loved it!”
 
 ![Content student](/images/stories/happy-academy.jpg){: .pic .medium .center}
+
+Wanna join?: Hurry up and get the last [seats in Aarhus next week here](http://www.code-conf.com/academy2016/aar/)
+
+-or see you next year, as a student or maybe a lucky sponsor
