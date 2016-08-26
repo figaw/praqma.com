@@ -100,7 +100,7 @@ ghi label "Size 4 - too big"            -c 100B6B
 ghi label "Status - duplicate"          -c 111111
 ghi label "Status - workable"           -c EDEDED
 ghi label "Status - in progress"        -c EDEDED
-ghi label "Status - up Next"            -c EEEEEE
+ghi label "Status - up next"            -c EEEEEE
 {% endhighlight %}
 
 If it really is a brand new repo, or at least one where issues haven't been used before, you probably want to start with removing all the default labels to get a fresh start:
