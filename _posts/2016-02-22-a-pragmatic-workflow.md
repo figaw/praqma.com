@@ -106,7 +106,7 @@ ghi label "Status - up Next"            -c EEEEEE
 If it really is a brand new repo, or at least one where issues haven't been used before, you probably want to start with removing all the default labels to get a fresh start:
 
 {% highlight shell %}
-ghi label -l | sed "s/\'/\\\'/g" | xargs -I %lb sh -c 'ghi label -D "%lb"'
+ghi label -l | xargs -I %lb -n1 sh -c 'ghi label -D "%lb"'
 {% endhighlight  %}
 
 ## Jenkins will do the integration
